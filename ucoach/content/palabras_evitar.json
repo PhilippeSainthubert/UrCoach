@@ -1,0 +1,98 @@
+[
+  {
+    "patron": "datos( de salud)? (nunca |no )?salen de tu (máquina|ordenador|equipo|dispositivo)|nunca salen de tu (máquina|ordenador|equipo|dispositivo)",
+    "ejemplo": "Tus datos de salud nunca salen de tu máquina",
+    "motivo": "Falso: pasan por el proveedor de IA (y por Telegram si se activa). Sería engañoso según la FTC y la normativa de consumo.",
+    "alternativa": "Ucoach guarda tus datos en tu ordenador. Cuando tu IA los consulta, los procesa tu proveedor de IA según sus condiciones."
+  },
+  {
+    "patron": "100\\s*%\\s*privad[oa]s?|\\bprivad[oa]s?\\b",
+    "ejemplo": "\"Privado\" o \"100 % privado\" sin matiz",
+    "motivo": "Igual que lo anterior: los datos pasan por el proveedor de IA.",
+    "alternativa": "Local por defecto. Sin servidores de Ucoach."
+  },
+  {
+    "patron": "\\ban[oó]nim[oa]s?\\b",
+    "ejemplo": "\"Anónimo\" (en Equipos)",
+    "motivo": "No lo es con 2 a 5 personas.",
+    "alternativa": "Tu equipo solo ve lo que tú decides compartir."
+  },
+  {
+    "patron": "\\bdiagn[oó]stic\\w*|\\bdetect\\w*|\\btrat(a|an|amos|ar|ará|aremos)\\b(?!\\s+de\\b)|\\bcur(a|an|amos|ar|ará)\\b|\\bprevien\\w*|\\bprevenir\\b|\\bprevenci[oó]n\\b",
+    "ejemplo": "\"Diagnostica\", \"detecta\", \"trata\", \"cura\", \"previene [enfermedad]\"",
+    "motivo": "Finalidad sanitaria (MDR y FDA).",
+    "alternativa": "\"Te ayuda a organizar\", \"propone\", \"sugiere hábitos\""
+  },
+  {
+    "patron": "\\binsomn\\w*",
+    "ejemplo": "\"Insomnio\" como algo que Ucoach mide o trata",
+    "motivo": "Trastorno clínico.",
+    "alternativa": "Si te cuesta dormir de forma habitual, consulta a un profesional. Solo como derivación."
+  },
+  {
+    "patron": "\\bburn-?out\\b|\\bs[ií]ndrome de(l)? (estar )?quemad[oa]\\b",
+    "ejemplo": "\"Combate o previene el burnout\", \"detecta el burnout\"",
+    "motivo": "Finalidad sanitaria y, en el trabajo, art. 5.1.f de la Ley de IA.",
+    "alternativa": "\"Ritmo sostenible\", \"proteger tu energía\", \"días de recuperación\""
+  },
+  {
+    "patron": "\\b(detect\\w*|mid\\w*|medimos|lee\\w*)\\s+(tu\\s+|el\\s+)?estr[eé]s|estr[eé]s\\s+con\\s+(la\\s+|tu\\s+)?(vfc|variabilidad|frecuencia)",
+    "ejemplo": "\"Detectamos tu estrés con la VFC\"",
+    "motivo": "Posible reconocimiento de emociones o monitorización fisiológica.",
+    "alternativa": "Tu VFC de hoy está por debajo de tu media; puede ser buen día para algo suave."
+  },
+  {
+    "patron": "\\b(reduc|disminu|baj|alivi|combat|quit|elimin)\\w*\\s+(la\\s+|tu\\s+)?(ansiedad|depresi[oó]n)|\\bdepresi[oó]n(es)?\\b|\\bdepresiv[oa]s?\\b",
+    "ejemplo": "\"Reduce la ansiedad o la depresión\"",
+    "motivo": "Condiciones clínicas.",
+    "alternativa": "\"Ideas para relajarte\", \"pausas para desconectar\""
+  },
+  {
+    "patron": "\\banormal(es)?\\b|\\b(vfc|fc|frecuencia card[ií]aca|variabilidad)\\b[^.]{0,30}\\bpeligros[oa]s?\\b",
+    "ejemplo": "\"Tu VFC o FC es anormal o peligrosa\"",
+    "motivo": "Umbral diagnóstico (la FDA lo prohíbe explícitamente).",
+    "alternativa": "Fuera de tu rango habitual. Si lo notas a menudo o te encuentras mal, consulta a un profesional."
+  },
+  {
+    "patron": "deuda de sueño peligros[oa]|sueño peligros[oa]|riesgo de (enfermedad|enfermar|infarto|ictus|diabetes)",
+    "ejemplo": "\"Deuda de sueño peligrosa\", \"riesgo de enfermedad\"",
+    "motivo": "Pronóstico clínico.",
+    "alternativa": "Has dormido menos de lo que te sienta bien; hoy, plan más ligero."
+  },
+  {
+    "patron": "cl[ií]nicamente (probad|demostrad|testad)\\w*|cient[ií]ficamente (probad|demostrad)\\w*|basad[oa]s? en la ciencia|la ciencia (lo )?(demuestra|ha demostrado)",
+    "ejemplo": "\"Clínicamente probado\", \"basado en la ciencia\" sin fuentes",
+    "motivo": "Exige pruebas (consumo, RD 1907/1996, sección 5 de la FTC).",
+    "alternativa": "Basado en recomendaciones de consenso (OMS...). Ver fuentes."
+  },
+  {
+    "patron": "(?<!no )\\b(sustituye|reemplaza)\\w*\\s+(a\\s+)?(tu\\s+|el\\s+|la\\s+|un\\s+|una\\s+)?(m[eé]dic[oa]|nutricionista|dietista|coach|psic[oó]log[oa]|fisioterapeuta)",
+    "ejemplo": "\"Sustituye a tu médico, nutricionista o coach\"",
+    "motivo": "RD 1907/1996.",
+    "alternativa": "No sustituye el consejo profesional."
+  },
+  {
+    "patron": "\\bpotenci\\w*\\s+(tu\\s+|el\\s+|su\\s+)?rendimiento|\\bpotenciar\\b|energ[ií]a garantizada|resultados garantizados|rendimiento garantizado",
+    "ejemplo": "\"Potencia tu rendimiento físico y mental\", \"más energía garantizada\"",
+    "motivo": "RD 1907/1996, art. 4: prohíbe atribuir a un método con pretendida finalidad sanitaria la capacidad de potenciar el rendimiento físico o psíquico.",
+    "alternativa": "\"Organiza tu día para llegar con energía a lo importante\", \"planifica en función de cómo has dormido\""
+  },
+  {
+    "patron": "\\bterapia(s)?\\b|\\btratamiento(s)?\\b|\\bpaciente(s)?\\b|\\bs[ií]ntoma(s)?\\b(?!-)",
+    "ejemplo": "\"Terapia\", \"tratamiento\", \"paciente\", \"síntomas\"",
+    "motivo": "Lenguaje clínico.",
+    "alternativa": "\"Hábito\", \"pauta\", \"usuario\", \"cómo te sientes\""
+  },
+  {
+    "patron": "historia(l)? cl[ií]nic[oa]|\\binteroperable\\b",
+    "ejemplo": "\"Interoperable con tu historia clínica\"",
+    "motivo": "Activaría la etiqueta del EHDS.",
+    "alternativa": "No decirlo."
+  },
+  {
+    "patron": "\\bsoy\\s+(tu\\s+|un\\s+)?coach\\b(?!\\s+de\\s+ia)|\\bcoach\\s+humano\\b|\\btu\\s+coach\\s+personal\\b",
+    "ejemplo": "\"Coach\" humano implícito",
+    "motivo": "Art. 50 de la Ley de IA si hay chat propio.",
+    "alternativa": "\"Coach de IA\" o \"asistente\""
+  }
+]

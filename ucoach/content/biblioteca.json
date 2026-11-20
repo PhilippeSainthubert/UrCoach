@@ -1,0 +1,938 @@
+[
+  {
+    "id": "ikigai",
+    "titulo": "Ikigai",
+    "autor": "Héctor García y Francesc Miralles",
+    "area": "proposito",
+    "idea": "Una razón para levantarse cada mañana, en el cruce de lo que amas, lo que se te da bien, lo que el mundo necesita y por lo que te pagarían; los longevos de Okinawa viven con propósito, comunidad y actividad constante.",
+    "accion": "Escribe tu ikigai en 4 frases y revísalo en cada revisión semanal.",
+    "aviso": "Los datos de longevidad de Okinawa están en discusión. El diagrama de los cuatro círculos es una adaptación occidental."
+  },
+  {
+    "id": "el-hombre-en-busca-de-sentido",
+    "titulo": "El hombre en busca de sentido",
+    "autor": "Viktor Frankl",
+    "area": "proposito",
+    "idea": "Quien tiene un porqué puede soportar casi cualquier cómo; siempre conservamos la libertad de elegir nuestra actitud.",
+    "accion": "Ante un mal día, pregúntate: ¿qué sentido puedo darle a esto?",
+    "aviso": null
+  },
+  {
+    "id": "start-with-why",
+    "titulo": "Start with Why (Empieza con el porqué)",
+    "autor": "Simon Sinek",
+    "area": "proposito",
+    "idea": "Las personas y empresas que inspiran comunican primero por qué hacen lo que hacen.",
+    "accion": "Define el porqué de tu empresa en una frase y úsalo para filtrar proyectos.",
+    "aviso": "La explicación neurológica es una simplificación; la idea de comunicar el propósito es útil."
+  },
+  {
+    "id": "designing-your-life",
+    "titulo": "Designing Your Life",
+    "autor": "Bill Burnett y Dave Evans",
+    "area": "proposito",
+    "idea": "Aplicar el design thinking a la vida: prototipar varios futuros posibles en lugar de buscar el único correcto.",
+    "accion": "Esboza tres versiones de tu vida a cinco años y haz un pequeño prototipo de una.",
+    "aviso": null
+  },
+  {
+    "id": "four-thousand-weeks",
+    "titulo": "Four Thousand Weeks",
+    "autor": "Oliver Burkeman",
+    "area": "proposito",
+    "idea": "Tenemos unas cuatro mil semanas; nunca lo haremos todo, así que la clave es elegir qué dejar sin hacer.",
+    "accion": "Cada semana, nombra conscientemente lo que decides no hacer.",
+    "aviso": null
+  },
+  {
+    "id": "the-second-mountain",
+    "titulo": "The Second Mountain",
+    "autor": "David Brooks",
+    "area": "proposito",
+    "idea": "Tras la montaña del éxito personal llega la del compromiso con otros: vocación, familia, comunidad y fe o filosofía.",
+    "accion": "Revisa a qué compromisos dedicas tiempo real en tu calendario.",
+    "aviso": null
+  },
+  {
+    "id": "the-courage-to-be-disliked",
+    "titulo": "The Courage to Be Disliked",
+    "autor": "Ichiro Kishimi y Fumitake Koga",
+    "area": "proposito",
+    "idea": "Desde la psicología de Adler: separar tus tareas de las de los demás y vivir sin depender de la aprobación ajena.",
+    "accion": "Ante una decisión, pregúntate de quién es realmente esa tarea.",
+    "aviso": null
+  },
+  {
+    "id": "meditaciones",
+    "titulo": "Meditaciones",
+    "autor": "Marco Aurelio",
+    "area": "proposito",
+    "idea": "Diario estoico: centrarse en lo que depende de uno, aceptar lo demás y actuar con virtud.",
+    "accion": "Cierre del día: ¿qué dependía de mí hoy y qué hice con ello?",
+    "aviso": null
+  },
+  {
+    "id": "you-coach-you",
+    "titulo": "You Coach You",
+    "autor": "Helen Tupper y Sarah Ellis",
+    "area": "autocoaching",
+    "idea": "Ser tu propio coach: hacerte mejores preguntas, cuestionar tus suposiciones y convertir los retos de carrera en acciones.",
+    "accion": "En el brief, en lugar de una lista de tareas, hazte una pregunta poderosa para el día.",
+    "aviso": null
+  },
+  {
+    "id": "the-coaching-habit",
+    "titulo": "The Coaching Habit",
+    "autor": "Michael Bungay Stanier",
+    "area": "autocoaching",
+    "idea": "Siete preguntas para coachear a otros y a uno mismo, empezando por «¿qué es lo que más te preocupa?» y siguiendo con «¿y qué más?».",
+    "accion": "Usa «¿cuál es el verdadero reto aquí para mí?» antes de reuniones difíciles.",
+    "aviso": null
+  },
+  {
+    "id": "coaching-for-performance",
+    "titulo": "Coaching for Performance",
+    "autor": "John Whitmore",
+    "area": "autocoaching",
+    "idea": "Modelo GROW: Objetivo, Realidad, Opciones y Voluntad para pasar de la intención a la acción.",
+    "accion": "Estructura la revisión semanal con GROW.",
+    "aviso": null
+  },
+  {
+    "id": "the-inner-game-of-tennis",
+    "titulo": "The Inner Game of Tennis",
+    "autor": "W. Timothy Gallwey",
+    "area": "autocoaching",
+    "idea": "El rendimiento es el potencial menos la interferencia; el mayor rival es el crítico interior.",
+    "accion": "Identifica tu interferencia del día (miedo, duda, ruido) y nómbrala.",
+    "aviso": null
+  },
+  {
+    "id": "mindset",
+    "titulo": "Mindset",
+    "autor": "Carol Dweck",
+    "area": "autocoaching",
+    "idea": "Una mentalidad de crecimiento frente a una fija cambia cómo afrontamos los errores y el esfuerzo.",
+    "accion": "Reformula los fallos de la semana como «todavía no».",
+    "aviso": "Los metaanálisis encuentran efectos medios muy pequeños de las intervenciones de mentalidad de crecimiento (Sisk 2018; Macnamara y Burgoyne 2023: d≈0,05, que deja de ser significativo tras corregir el sesgo de publicación). Podrían ayudar algo a grupos de riesgo; el debate sigue abierto."
+  },
+  {
+    "id": "so-good-they-cant-ignore-you",
+    "titulo": "So Good They Can't Ignore You",
+    "autor": "Cal Newport",
+    "area": "autocoaching",
+    "idea": "La pasión suele llegar tras desarrollar una habilidad rara y valiosa, no antes.",
+    "accion": "Elige una habilidad clave y reserva práctica deliberada semanal.",
+    "aviso": null
+  },
+  {
+    "id": "range",
+    "titulo": "Range",
+    "autor": "David Epstein",
+    "area": "autocoaching",
+    "idea": "En entornos complejos, la amplitud de experiencias y el muestreo previo suelen superar a la especialización temprana.",
+    "accion": "Reserva tiempo trimestral para explorar algo fuera de tu sector.",
+    "aviso": null
+  },
+  {
+    "id": "triggers",
+    "titulo": "Triggers",
+    "autor": "Marshall Goldsmith",
+    "area": "autocoaching",
+    "idea": "El entorno nos dispara; las preguntas diarias activas («¿hice todo lo posible por…?») sostienen el cambio.",
+    "accion": "Convierte tus check-ins en preguntas de «¿hice todo lo posible por…?».",
+    "aviso": null
+  },
+  {
+    "id": "what-got-you-here-wont-get-you-there",
+    "titulo": "What Got You Here Won't Get You There",
+    "autor": "Marshall Goldsmith",
+    "area": "autocoaching",
+    "idea": "Los hábitos que te trajeron al éxito pueden frenarte en el siguiente nivel, sobre todo los interpersonales.",
+    "accion": "Pide a 3 personas un comportamiento a mejorar.",
+    "aviso": null
+  },
+  {
+    "id": "atomic-habits",
+    "titulo": "Atomic Habits",
+    "autor": "James Clear",
+    "area": "habitos",
+    "idea": "Pequeñas mejoras compuestas; hacer el hábito obvio, atractivo, fácil y satisfactorio; identidad antes que metas.",
+    "accion": "Engancha cada hábito a una rutina existente y no falles dos días seguidos.",
+    "aviso": "La regla del 1 % es una metáfora. Formar un hábito tarda una mediana de unos 2 meses (Lally 2010; Singh 2024)."
+  },
+  {
+    "id": "tiny-habits",
+    "titulo": "Tiny Habits",
+    "autor": "BJ Fogg",
+    "area": "habitos",
+    "idea": "La conducta surge cuando coinciden motivación, capacidad y un detonante; empieza ridículamente pequeño y celebra.",
+    "accion": "Reduce el hábito más flojo a su versión de 30 segundos.",
+    "aviso": null
+  },
+  {
+    "id": "the-power-of-habit",
+    "titulo": "The Power of Habit",
+    "autor": "Charles Duhigg",
+    "area": "habitos",
+    "idea": "El bucle señal, rutina y recompensa; para cambiar un hábito, mantén la señal y la recompensa y sustituye la rutina.",
+    "accion": "Identifica la señal de tu peor hábito de trabajo.",
+    "aviso": null
+  },
+  {
+    "id": "good-habits-bad-habits",
+    "titulo": "Good Habits, Bad Habits",
+    "autor": "Wendy Wood",
+    "area": "habitos",
+    "idea": "Gran parte de lo que hacemos es automático; diseñar el contexto y reducir la fricción funciona mejor que la fuerza de voluntad.",
+    "accion": "Cambia una cosa de tu entorno para facilitar un hábito (ropa de deporte a la vista, móvil fuera del dormitorio).",
+    "aviso": null
+  },
+  {
+    "id": "the-7-habits-of-highly-effective-people",
+    "titulo": "The 7 Habits of Highly Effective People",
+    "autor": "Stephen R. Covey",
+    "area": "habitos",
+    "idea": "Proactividad, empezar con un fin en mente y primero lo primero (lo importante y no urgente).",
+    "accion": "Cada domingo, coloca primero tus «piedras grandes» en el calendario.",
+    "aviso": null
+  },
+  {
+    "id": "the-miracle-morning",
+    "titulo": "The Miracle Morning",
+    "autor": "Hal Elrod",
+    "area": "habitos",
+    "idea": "Una rutina matinal fija con silencio, afirmaciones, visualización, ejercicio, lectura y escritura.",
+    "accion": "Diseña una rutina matinal de 20 min compatible con tu cronotipo.",
+    "aviso": "Levantarse muy temprano no conviene a todos los cronotipos ni a costa del sueño."
+  },
+  {
+    "id": "willpower",
+    "titulo": "Willpower",
+    "autor": "Roy F. Baumeister y John Tierney",
+    "area": "habitos",
+    "idea": "La autorregulación se apoya en rutinas y en reducir decisiones.",
+    "accion": "Automatiza decisiones repetidas (comida, ropa, horarios).",
+    "aviso": "La teoría del «agotamiento del ego» ha fallado en grandes réplicas: Hagger 2016 (23 laboratorios, d=0,04) y Vohs 2021 (36 laboratorios, d=0,06)."
+  },
+  {
+    "id": "deep-work",
+    "titulo": "Deep Work",
+    "autor": "Cal Newport",
+    "area": "foco",
+    "idea": "El trabajo profundo, sin distracciones, es raro y valioso; hay que programarlo y protegerlo.",
+    "accion": "Bloque de foco diario en tu pico (lo hace `planificar_dia`).",
+    "aviso": null
+  },
+  {
+    "id": "slow-productivity",
+    "titulo": "Slow Productivity",
+    "autor": "Cal Newport",
+    "area": "foco",
+    "idea": "Hacer menos cosas, trabajar a un ritmo natural y obsesionarse con la calidad.",
+    "accion": "Limita los proyectos activos a 3.",
+    "aviso": null
+  },
+  {
+    "id": "digital-minimalism",
+    "titulo": "Digital Minimalism",
+    "autor": "Cal Newport",
+    "area": "foco",
+    "idea": "Usar la tecnología con intención: depuración digital de 30 días y reintroducir solo lo que aporta valor.",
+    "accion": "Saca del móvil las 3 apps que más te roban foco.",
+    "aviso": null
+  },
+  {
+    "id": "getting-things-done",
+    "titulo": "Getting Things Done",
+    "autor": "David Allen",
+    "area": "foco",
+    "idea": "Sacar todo de la cabeza a un sistema fiable: capturar, aclarar, organizar, revisar y hacer.",
+    "accion": "Vacía la cabeza en la revisión semanal.",
+    "aviso": null
+  },
+  {
+    "id": "essentialism",
+    "titulo": "Essentialism",
+    "autor": "Greg McKeown",
+    "area": "foco",
+    "idea": "Menos, pero mejor: discernir lo vital y decir no al resto con elegancia.",
+    "accion": "Declina por defecto las reuniones sin objetivo claro.",
+    "aviso": null
+  },
+  {
+    "id": "effortless",
+    "titulo": "Effortless",
+    "autor": "Greg McKeown",
+    "area": "foco",
+    "idea": "Hacer que lo importante sea fácil: simplificar pasos, descansar y no glorificar el esfuerzo.",
+    "accion": "Pregúntate: ¿cómo sería esto si fuera fácil?",
+    "aviso": null
+  },
+  {
+    "id": "make-time",
+    "titulo": "Make Time",
+    "autor": "Jake Knapp y John Zeratsky",
+    "area": "foco",
+    "idea": "Elegir un «destacado» al día, protegerlo de las distracciones y recargar energía.",
+    "accion": "El brief de mañana te pide un único destacado.",
+    "aviso": null
+  },
+  {
+    "id": "indistractable",
+    "titulo": "Indistractable",
+    "autor": "Nir Eyal",
+    "area": "foco",
+    "idea": "La distracción nace de detonantes internos; gestionarlos, crear tiempo para la tracción y poner pactos previos.",
+    "accion": "Ante el impulso de mirar el móvil, espera 10 minutos.",
+    "aviso": null
+  },
+  {
+    "id": "the-one-thing",
+    "titulo": "The ONE Thing",
+    "autor": "Gary Keller y Jay Papasan",
+    "area": "foco",
+    "idea": "¿Cuál es la única cosa que, si la haces, hace todo lo demás más fácil o innecesario?",
+    "accion": "Formula la pregunta en el brief diario.",
+    "aviso": null
+  },
+  {
+    "id": "eat-that-frog",
+    "titulo": "Eat That Frog!",
+    "autor": "Brian Tracy",
+    "area": "foco",
+    "idea": "Haz primero la tarea más difícil e importante.",
+    "accion": "Pon la «rana» en tu bloque de foco.",
+    "aviso": null
+  },
+  {
+    "id": "stolen-focus",
+    "titulo": "Stolen Focus",
+    "autor": "Johann Hari",
+    "area": "foco",
+    "idea": "La crisis de atención tiene causas sistémicas: tecnología, falta de sueño, alimentación y estrés.",
+    "accion": "Revisa qué factores del entorno puedes cambiar tú.",
+    "aviso": "Algunas conclusiones del libro son discutidas. El propio autor admite que no hay datos a largo plazo de que la atención haya empeorado. La tesis central y algunos capítulos (alimentación, TDAH) se apoyan en anécdotas."
+  },
+  {
+    "id": "hyperfocus",
+    "titulo": "Hyperfocus",
+    "autor": "Chris Bailey",
+    "area": "foco",
+    "idea": "Alternar el foco intenso con la mente dispersa, que ayuda a la creatividad y la planificación.",
+    "accion": "Haz paseos sin auriculares para pensar.",
+    "aviso": null
+  },
+  {
+    "id": "flow",
+    "titulo": "Flow",
+    "autor": "Mihaly Csikszentmihalyi",
+    "area": "foco",
+    "idea": "El estado de flujo aparece cuando el reto se ajusta a la habilidad, con metas claras y feedback inmediato.",
+    "accion": "Define una meta clara y medible para cada bloque de foco.",
+    "aviso": null
+  },
+  {
+    "id": "building-a-second-brain",
+    "titulo": "Building a Second Brain",
+    "autor": "Tiago Forte",
+    "area": "foco",
+    "idea": "Un sistema externo de notas (método CODE y PARA) para liberar la mente y crear.",
+    "accion": "Guarda las ideas de lo que lees con una acción asociada.",
+    "aviso": null
+  },
+  {
+    "id": "feel-good-productivity",
+    "titulo": "Feel-Good Productivity",
+    "autor": "Ali Abdaal",
+    "area": "foco",
+    "idea": "Sentirse bien genera productividad: juego, poder y personas como fuentes de energía.",
+    "accion": "Añade un elemento de juego a la tarea que más te cuesta.",
+    "aviso": null
+  },
+  {
+    "id": "it-doesnt-have-to-be-crazy-at-work",
+    "titulo": "It Doesn't Have to Be Crazy at Work",
+    "autor": "Jason Fried y David Heinemeier Hansson",
+    "area": "emprendimiento",
+    "idea": "Una empresa tranquila es una elección: menos reuniones, jornadas razonables y sin cultura del agotamiento.",
+    "accion": "Establece una hora de fin de trabajo y respétala (la usa `nudge`).",
+    "aviso": null
+  },
+  {
+    "id": "rework",
+    "titulo": "Rework",
+    "autor": "Jason Fried y David Heinemeier Hansson",
+    "area": "emprendimiento",
+    "idea": "Empezar pequeño, lanzar pronto y desconfiar de la planificación excesiva y de crecer por crecer.",
+    "accion": "Corta a la mitad el alcance del próximo lanzamiento.",
+    "aviso": null
+  },
+  {
+    "id": "the-lean-startup",
+    "titulo": "The Lean Startup",
+    "autor": "Eric Ries",
+    "area": "emprendimiento",
+    "idea": "Construir, medir y aprender; producto mínimo viable y aprendizaje validado.",
+    "accion": "Define el experimento de esta semana y su métrica.",
+    "aviso": null
+  },
+  {
+    "id": "zero-to-one",
+    "titulo": "Zero to One",
+    "autor": "Peter Thiel",
+    "area": "emprendimiento",
+    "idea": "Crear algo nuevo vale más que copiar; buscar secretos y monopolios pequeños.",
+    "accion": "Responde: ¿qué verdad importante crees que pocos comparten?",
+    "aviso": null
+  },
+  {
+    "id": "the-hard-thing-about-hard-things",
+    "titulo": "The Hard Thing About Hard Things",
+    "autor": "Ben Horowitz",
+    "area": "emprendimiento",
+    "idea": "No hay receta para los momentos duros del CEO; hay que afrontar la lucha y las decisiones difíciles.",
+    "accion": "Ante una crisis, prioriza y comunica la verdad pronto.",
+    "aviso": null
+  },
+  {
+    "id": "the-e-myth-revisited",
+    "titulo": "The E-Myth Revisited",
+    "autor": "Michael E. Gerber",
+    "area": "emprendimiento",
+    "idea": "Trabajar en el negocio, no solo dentro de él; sistematizar como si fuera a franquiciarse.",
+    "accion": "Documenta un proceso repetitivo a la semana.",
+    "aviso": null
+  },
+  {
+    "id": "high-output-management",
+    "titulo": "High Output Management",
+    "autor": "Andrew S. Grove",
+    "area": "emprendimiento",
+    "idea": "El output de un manager es el de su equipo; reuniones 1:1, apalancamiento e indicadores.",
+    "accion": "Revisa tus 1:1 y su propósito.",
+    "aviso": null
+  },
+  {
+    "id": "the-mom-test",
+    "titulo": "The Mom Test",
+    "autor": "Rob Fitzpatrick",
+    "area": "emprendimiento",
+    "idea": "Hablar con clientes preguntando por su vida y su comportamiento pasado, no por tu idea.",
+    "accion": "Prepara las reuniones con clientes con preguntas sobre hechos pasados.",
+    "aviso": null
+  },
+  {
+    "id": "never-split-the-difference",
+    "titulo": "Never Split the Difference",
+    "autor": "Chris Voss",
+    "area": "emprendimiento",
+    "idea": "Negociar con empatía táctica: etiquetar emociones, preguntas calibradas y el poder del «no».",
+    "accion": "Usa `preparar_momento_clave` antes de cada negociación.",
+    "aviso": null
+  },
+  {
+    "id": "radical-candor",
+    "titulo": "Radical Candor",
+    "autor": "Kim Scott",
+    "area": "emprendimiento",
+    "idea": "Preocuparse personalmente y a la vez desafiar directamente.",
+    "accion": "Da un feedback directo y cuidado esta semana.",
+    "aviso": null
+  },
+  {
+    "id": "extreme-ownership",
+    "titulo": "Extreme Ownership",
+    "autor": "Jocko Willink y Leif Babin",
+    "area": "emprendimiento",
+    "idea": "El líder asume la responsabilidad total de los resultados del equipo.",
+    "accion": "Tras un fallo, pregunta primero qué podías haber hecho tú.",
+    "aviso": null
+  },
+  {
+    "id": "the-4-hour-workweek",
+    "titulo": "The 4-Hour Workweek",
+    "autor": "Tim Ferriss",
+    "area": "emprendimiento",
+    "idea": "Eliminar, automatizar y delegar para recuperar tiempo y libertad.",
+    "accion": "Elimina o delega una tarea recurrente al mes.",
+    "aviso": null
+  },
+  {
+    "id": "the-almanack-of-naval-ravikant",
+    "titulo": "The Almanack of Naval Ravikant",
+    "autor": "Eric Jorgenson",
+    "area": "emprendimiento",
+    "idea": "Riqueza mediante conocimiento específico y apalancamiento; felicidad como habilidad que se entrena.",
+    "accion": "Identifica tu conocimiento específico.",
+    "aviso": null
+  },
+  {
+    "id": "the-power-of-full-engagement",
+    "titulo": "The Power of Full Engagement",
+    "autor": "Jim Loehr y Tony Schwartz",
+    "area": "energia",
+    "idea": "Gestionar la energía (física, emocional, mental y espiritual), no el tiempo; alternar esfuerzo y recuperación.",
+    "accion": "Ritual de recuperación tras cada bloque intenso.",
+    "aviso": "Los «ciclos de 90 minutos» en vigilia no están demostrados; alternar esfuerzo y recuperación sí es buena práctica."
+  },
+  {
+    "id": "when",
+    "titulo": "When",
+    "autor": "Daniel H. Pink",
+    "area": "energia",
+    "idea": "El día tiene pico, bajón y recuperación; el momento importa, y las pausas restauran.",
+    "accion": "Tareas analíticas en el pico y creativas en la recuperación.",
+    "aviso": "Algunos estudios citados, como el de los jueces y las pausas, están discutidos."
+  },
+  {
+    "id": "the-power-of-when",
+    "titulo": "The Power of When",
+    "autor": "Michael Breus",
+    "area": "energia",
+    "idea": "Los cronotipos determinan el mejor momento para cada actividad.",
+    "accion": "Configura tu cronotipo en el perfil.",
+    "aviso": "La clasificación en cuatro animales es divulgativa. El cuestionario de los animales no está validado; Ucoach usa tres cronotipos y tus propios datos."
+  },
+  {
+    "id": "internal-time",
+    "titulo": "Internal Time",
+    "autor": "Till Roenneberg",
+    "area": "energia",
+    "idea": "La ciencia de los cronotipos y el jet lag social entre el reloj biológico y el social.",
+    "accion": "Reduce la diferencia de horario entre semana y fin de semana.",
+    "aviso": null
+  },
+  {
+    "id": "peak-performance",
+    "titulo": "Peak Performance",
+    "autor": "Brad Stulberg y Steve Magness",
+    "area": "energia",
+    "idea": "Estrés más descanso igual a crecimiento, en el deporte y en el trabajo.",
+    "accion": "Planifica la recuperación igual que el esfuerzo.",
+    "aviso": null
+  },
+  {
+    "id": "rest",
+    "titulo": "Rest",
+    "autor": "Alex Soojung-Kim Pang",
+    "area": "energia",
+    "idea": "El descanso deliberado (paseos, siestas, aficiones exigentes) potencia el trabajo creativo.",
+    "accion": "Reserva 4 horas de trabajo intenso al día y descanso deliberado.",
+    "aviso": null
+  },
+  {
+    "id": "burnout",
+    "titulo": "Burnout",
+    "autor": "Emily Nagoski y Amelia Nagoski",
+    "area": "energia",
+    "idea": "Completar el ciclo del estrés en el cuerpo: movimiento, respiración, risa, afecto y llorar.",
+    "accion": "Tras un día duro, 20 min de movimiento para cerrar el ciclo.",
+    "aviso": "«Completar el ciclo del estrés» es un marco útil, no un modelo científico validado; ante el agotamiento persistente, consulta con un profesional."
+  },
+  {
+    "id": "why-we-sleep",
+    "titulo": "Why We Sleep",
+    "autor": "Matthew Walker",
+    "area": "sueno",
+    "idea": "El sueño sostiene la memoria, el ánimo, el sistema inmune y el rendimiento.",
+    "accion": "Protege 7 a 9 horas (lo hace el bloque de desconexión).",
+    "aviso": "Algunas afirmaciones y cifras han sido criticadas (Guzey, 2019, documentó errores factuales); Ucoach usa solo las pautas de consenso."
+  },
+  {
+    "id": "the-sleep-revolution",
+    "titulo": "The Sleep Revolution",
+    "autor": "Arianna Huffington",
+    "area": "sueno",
+    "idea": "La cultura del agotamiento sacrifica el sueño; dormir es una ventaja competitiva.",
+    "accion": "Saca los dispositivos del dormitorio.",
+    "aviso": null
+  },
+  {
+    "id": "say-good-night-to-insomnia",
+    "titulo": "Say Good Night to Insomnia",
+    "autor": "Gregg D. Jacobs",
+    "area": "sueno",
+    "idea": "Técnicas de terapia cognitivo-conductual para el insomnio: horarios regulares, control de estímulos y gestión de pensamientos.",
+    "accion": "Si llevas más de 20 min despierto en la cama, levántate y haz algo tranquilo.",
+    "aviso": "Si te cuesta dormir de forma habitual, consulta con un profesional. La TCC-I, que el libro explica, es la primera opción según la AASM (2021) y la guía europea (2023); es un libro bien alineado con la evidencia."
+  },
+  {
+    "id": "the-circadian-code",
+    "titulo": "The Circadian Code",
+    "autor": "Satchin Panda",
+    "area": "sueno",
+    "idea": "Luz, horario de comidas y sueño sincronizan los relojes del cuerpo; ventana de alimentación regular.",
+    "accion": "Cena a una hora regular, 2 a 3 h antes de acostarte.",
+    "aviso": "En personas, el ayuno con horario restringido no supera a la restricción calórica. La pauta de cenar pronto y con regularidad es la parte más sólida."
+  },
+  {
+    "id": "sleep-smarter",
+    "titulo": "Sleep Smarter",
+    "autor": "Shawn Stevenson",
+    "area": "sueno",
+    "idea": "Recopilación práctica de hábitos de higiene del sueño.",
+    "accion": "Elige un cambio del dormitorio esta semana.",
+    "aviso": "Libro divulgativo; contrasta los consejos más específicos."
+  },
+  {
+    "id": "outlive",
+    "titulo": "Outlive",
+    "autor": "Peter Attia",
+    "area": "deporte",
+    "idea": "El ejercicio es la palanca principal de longevidad: base aeróbica, VO2 máx., fuerza y estabilidad.",
+    "accion": "Combina zona 2, fuerza e intervalos cada semana.",
+    "aviso": "Lo de ejercicio y fuerza es sólido; lo de fármacos de longevidad y monitorización continua de glucosa en personas sanas, especulativo."
+  },
+  {
+    "id": "spark",
+    "titulo": "Spark",
+    "autor": "John J. Ratey",
+    "area": "deporte",
+    "idea": "El ejercicio aeróbico mejora el aprendizaje, el ánimo y la atención.",
+    "accion": "Mueve el cuerpo antes de una tarea mental exigente.",
+    "aviso": "El ejercicio es bueno para el ánimo y la salud. Sus efectos sobre la cognición en adultos sanos son menores de lo que plantea el libro."
+  },
+  {
+    "id": "the-joy-of-movement",
+    "titulo": "The Joy of Movement",
+    "autor": "Kelly McGonigal",
+    "area": "deporte",
+    "idea": "El movimiento conecta, da esperanza y bienestar, más allá de la forma física.",
+    "accion": "Busca un deporte en grupo.",
+    "aviso": null
+  },
+  {
+    "id": "built-to-move",
+    "titulo": "Built to Move",
+    "autor": "Kelly Starrett y Juliet Starrett",
+    "area": "deporte",
+    "idea": "Diez hábitos físicos básicos: caminar, sentarse en el suelo, movilidad, sueño y respiración.",
+    "accion": "7.000-8.000 pasos al día, subiendo poco a poco desde tu media actual, y movilidad de 10 min.",
+    "aviso": null
+  },
+  {
+    "id": "born-to-run",
+    "titulo": "Born to Run",
+    "autor": "Christopher McDougall",
+    "area": "deporte",
+    "idea": "El ser humano está hecho para correr; correr con alegría y técnica.",
+    "accion": "Corre suave por diversión una vez por semana.",
+    "aviso": "Narrativo; sus tesis sobre el calzado son discutidas."
+  },
+  {
+    "id": "80-20-running",
+    "titulo": "80/20 Running",
+    "autor": "Matt Fitzgerald",
+    "area": "deporte",
+    "idea": "Un 80 % del entrenamiento a intensidad baja y un 20 % alta.",
+    "accion": "Haz la mayoría de las sesiones suaves (como en los días de deuda de sueño).",
+    "aviso": null
+  },
+  {
+    "id": "starting-strength",
+    "titulo": "Starting Strength",
+    "autor": "Mark Rippetoe",
+    "area": "deporte",
+    "idea": "Fuerza con barra y progresión lineal en los movimientos básicos.",
+    "accion": "Dos sesiones de fuerza semanales con progresión.",
+    "aviso": "Aprende la técnica con un profesional."
+  },
+  {
+    "id": "lifespan",
+    "titulo": "Lifespan",
+    "autor": "David A. Sinclair",
+    "area": "deporte",
+    "idea": "Una visión del envejecimiento como proceso que podría frenarse; hábitos como el ayuno y el ejercicio.",
+    "accion": "Solo como inspiración.",
+    "aviso": "Muchas tesis y suplementos que propone están muy discutidos. La relación entre resveratrol y sirtuinas no se ha confirmado, y no hay ensayos en humanos que muestren que el NMN o el NAD+ alarguen la vida."
+  },
+  {
+    "id": "in-defense-of-food",
+    "titulo": "In Defense of Food",
+    "autor": "Michael Pollan",
+    "area": "alimentacion",
+    "idea": "Come comida, no demasiada, sobre todo plantas.",
+    "accion": "Mayoría de comida real en cada comida.",
+    "aviso": null
+  },
+  {
+    "id": "food-rules",
+    "titulo": "Food Rules",
+    "autor": "Michael Pollan",
+    "area": "alimentacion",
+    "idea": "Reglas sencillas para comer bien sin obsesión.",
+    "accion": "Elige 3 reglas y aplícalas.",
+    "aviso": null
+  },
+  {
+    "id": "mi-dieta-cojea",
+    "titulo": "Mi dieta cojea",
+    "autor": "Aitor Sánchez",
+    "area": "alimentacion",
+    "idea": "Desmonta mitos de la nutrición y defiende una alimentación basada en evidencia y en comida real.",
+    "accion": "Revisa tus mitos sobre la alimentación.",
+    "aviso": null
+  },
+  {
+    "id": "come-comida-real",
+    "titulo": "Come comida real",
+    "autor": "Carlos Ríos",
+    "area": "alimentacion",
+    "idea": "Priorizar alimentos reales y mínimamente procesados frente a los ultraprocesados.",
+    "accion": "Reduce los ultraprocesados en el trabajo.",
+    "aviso": null
+  },
+  {
+    "id": "glucose-revolution",
+    "titulo": "Glucose Revolution",
+    "autor": "Jessie Inchauspé",
+    "area": "alimentacion",
+    "idea": "Suavizar los picos de glucosa: verduras primero, moverse tras comer y no desayunar solo dulce.",
+    "accion": "Paseo de 10 min tras la comida.",
+    "aviso": "Para personas sanas, el impacto de los picos es objeto de debate."
+  },
+  {
+    "id": "spoon-fed",
+    "titulo": "Spoon-Fed",
+    "autor": "Tim Spector",
+    "area": "alimentacion",
+    "idea": "Muchos mitos nutricionales caen; la respuesta a la comida es individual y la diversidad de plantas importa.",
+    "accion": "Apunta a unas 30 plantas distintas por semana.",
+    "aviso": "Las 30 plantas son una regla práctica basada en una asociación con la microbiota, no un umbral probado."
+  },
+  {
+    "id": "how-not-to-die",
+    "titulo": "How Not to Die",
+    "autor": "Michael Greger",
+    "area": "alimentacion",
+    "idea": "Patrones de alimentación basados en plantas para prevenir enfermedades crónicas.",
+    "accion": "Añade legumbres a diario.",
+    "aviso": "Perspectiva claramente vegetariana. Algunas afirmaciones extrapolan estudios observacionales o de laboratorio más allá de lo que demuestran; contrasta con un profesional."
+  },
+  {
+    "id": "thinking-fast-and-slow",
+    "titulo": "Thinking, Fast and Slow",
+    "autor": "Daniel Kahneman",
+    "area": "mente",
+    "idea": "Sistema 1, intuitivo, y sistema 2, deliberado; sesgos que afectan a las decisiones.",
+    "accion": "Antes de una decisión grande, escribe qué sesgo podría estar actuando.",
+    "aviso": "Algunos estudios citados no se han replicado, sobre todo los del capítulo de priming, como reconoció el propio Kahneman."
+  },
+  {
+    "id": "the-obstacle-is-the-way",
+    "titulo": "The Obstacle Is the Way",
+    "autor": "Ryan Holiday",
+    "area": "mente",
+    "idea": "Estoicismo práctico: percepción, acción y voluntad para convertir obstáculos en camino.",
+    "accion": "Ante un problema, escribe qué oportunidad contiene.",
+    "aviso": null
+  },
+  {
+    "id": "ego-is-the-enemy",
+    "titulo": "Ego Is the Enemy",
+    "autor": "Ryan Holiday",
+    "area": "mente",
+    "idea": "El ego sabotea la aspiración, el éxito y el fracaso.",
+    "accion": "Tras un logro, vuelve a ser estudiante.",
+    "aviso": null
+  },
+  {
+    "id": "stillness-is-the-key",
+    "titulo": "Stillness Is the Key",
+    "autor": "Ryan Holiday",
+    "area": "mente",
+    "idea": "La quietud mental, emocional y física como base de la claridad.",
+    "accion": "10 min sin estímulos al día.",
+    "aviso": null
+  },
+  {
+    "id": "wherever-you-go-there-you-are",
+    "titulo": "Wherever You Go, There You Are",
+    "autor": "Jon Kabat-Zinn",
+    "area": "mente",
+    "idea": "Mindfulness como atención plena al momento presente, sin juicio.",
+    "accion": "3 respiraciones conscientes antes de cada reunión.",
+    "aviso": null
+  },
+  {
+    "id": "10-happier",
+    "titulo": "10% Happier",
+    "autor": "Dan Harris",
+    "area": "mente",
+    "idea": "La meditación, explicada para escépticos: no lo resuelve todo, pero mejora un poco.",
+    "accion": "Medita 5 min y súmalo como hábito.",
+    "aviso": null
+  },
+  {
+    "id": "the-upside-of-stress",
+    "titulo": "The Upside of Stress",
+    "autor": "Kelly McGonigal",
+    "area": "mente",
+    "idea": "Cómo interpretas el estrés cambia su efecto; verlo como energía para rendir.",
+    "accion": "Antes del pitch, piensa: «esta activación me prepara».",
+    "aviso": "Reinterpretar el estrés puede ayudar algo (efecto pequeño); el dato sobre mortalidad que cita es observacional."
+  },
+  {
+    "id": "breath",
+    "titulo": "Breath",
+    "autor": "James Nestor",
+    "area": "mente",
+    "idea": "Respirar por la nariz y lento influye en la calma y la salud.",
+    "accion": "Respiración lenta de 5 min en el bajón de la tarde.",
+    "aviso": "Algunas afirmaciones van más allá de la evidencia. Taparse la boca para dormir no tiene apoyo y conlleva riesgo de asfixia (revisión sistemática de PLOS ONE, 2025)."
+  },
+  {
+    "id": "why-zebras-dont-get-ulcers",
+    "titulo": "Why Zebras Don't Get Ulcers",
+    "autor": "Robert M. Sapolsky",
+    "area": "mente",
+    "idea": "El estrés crónico, a diferencia del agudo, desgasta el cuerpo.",
+    "accion": "Identifica tus estresores crónicos en la revisión.",
+    "aviso": null
+  },
+  {
+    "id": "the-happiness-hypothesis",
+    "titulo": "The Happiness Hypothesis",
+    "autor": "Jonathan Haidt",
+    "area": "mente",
+    "idea": "La sabiduría antigua contrastada con la psicología: el elefante y el jinete, y el bienestar en las relaciones.",
+    "accion": "Diseña el entorno para tu «elefante».",
+    "aviso": null
+  },
+  {
+    "id": "grit",
+    "titulo": "Grit",
+    "autor": "Angela Duckworth",
+    "area": "mente",
+    "idea": "Pasión y perseverancia sostenidas hacia metas a largo plazo.",
+    "accion": "Define tu meta de nivel superior.",
+    "aviso": "Su poder predictivo frente a la responsabilidad es debatido: Credé 2017 (88 muestras, unas 67.000 personas) encuentra una correlación con el rendimiento de r≈0,18 y gran solapamiento con la responsabilidad."
+  },
+  {
+    "id": "daring-greatly",
+    "titulo": "Daring Greatly",
+    "autor": "Brené Brown",
+    "area": "mente",
+    "idea": "La vulnerabilidad como fuente de coraje, conexión e innovación.",
+    "accion": "Comparte una duda real con tu equipo o socio.",
+    "aviso": null
+  },
+  {
+    "id": "deskbound",
+    "titulo": "Deskbound",
+    "autor": "Kelly Starrett",
+    "area": "postura",
+    "idea": "El sedentarismo daña; moverse a menudo, buena mecánica y movilidad diaria para quien trabaja sentado.",
+    "accion": "Micropausas de 2-3 min de pie o caminando cada 30 min más o menos, y una pausa de 5-10 min cada 60-90 min, dentro del plan del día.",
+    "aviso": "Moverse a menudo es lo importante; no hay una postura «correcta» demostrada."
+  },
+  {
+    "id": "move-your-dna",
+    "titulo": "Move Your DNA",
+    "autor": "Katy Bowman",
+    "area": "postura",
+    "idea": "Variar posturas y cargas a lo largo del día: la «nutrición» del movimiento.",
+    "accion": "Alterna sentarte, estar de pie y sentarte en el suelo.",
+    "aviso": null
+  },
+  {
+    "id": "how-to-read-a-book",
+    "titulo": "How to Read a Book",
+    "autor": "Mortimer J. Adler y Charles Van Doren",
+    "area": "aprendizaje",
+    "idea": "Niveles de lectura (elemental, inspeccional, analítica y sintópica) para leer activamente.",
+    "accion": "Haz una lectura inspeccional de 15 min antes de comprometerte con un libro.",
+    "aviso": null
+  },
+  {
+    "id": "make-it-stick",
+    "titulo": "Make It Stick",
+    "autor": "Peter C. Brown, Henry L. Roediger III y Mark A. McDaniel",
+    "area": "aprendizaje",
+    "idea": "Recuperar de memoria, espaciar e intercalar fijan el aprendizaje mejor que releer.",
+    "accion": "Tras leer, escribe de memoria las 3 ideas clave.",
+    "aviso": null
+  },
+  {
+    "id": "ultralearning",
+    "titulo": "Ultralearning",
+    "autor": "Scott H. Young",
+    "area": "aprendizaje",
+    "idea": "Aprendizaje intensivo y autodirigido: metaaprendizaje, práctica directa y feedback.",
+    "accion": "Diseña un proyecto de aprendizaje de un mes.",
+    "aviso": null
+  },
+  {
+    "id": "peak",
+    "titulo": "Peak",
+    "autor": "Anders Ericsson y Robert Pool",
+    "area": "aprendizaje",
+    "idea": "La práctica deliberada, con metas concretas, feedback y fuera de la zona de confort, crea maestría.",
+    "accion": "Practica deliberadamente tu habilidad clave.",
+    "aviso": "La práctica deliberada importa, pero explica menos de lo que sugiere el libro, sobre todo en el trabajo profesional."
+  },
+  {
+    "id": "how-to-take-smart-notes",
+    "titulo": "How to Take Smart Notes",
+    "autor": "Sönke Ahrens",
+    "area": "aprendizaje",
+    "idea": "El método Zettelkasten: notas atómicas y enlazadas que generan ideas propias.",
+    "accion": "Una nota con tus palabras por cada capítulo.",
+    "aviso": null
+  },
+  {
+    "id": "the-good-life",
+    "titulo": "The Good Life",
+    "autor": "Robert Waldinger y Marc Schulz",
+    "area": "relaciones",
+    "idea": "El estudio de Harvard de más de 80 años: la calidad de las relaciones es el mejor predictor de salud y felicidad.",
+    "accion": "Agenda una cita con alguien importante cada semana.",
+    "aviso": null
+  },
+  {
+    "id": "how-to-win-friends-and-influence-people",
+    "titulo": "How to Win Friends and Influence People",
+    "autor": "Dale Carnegie",
+    "area": "relaciones",
+    "idea": "Interés genuino por los demás, escuchar y hacer sentir importante a la otra persona.",
+    "accion": "En la próxima reunión, haz más preguntas de las que respondes.",
+    "aviso": null
+  },
+  {
+    "id": "nonviolent-communication",
+    "titulo": "Nonviolent Communication",
+    "autor": "Marshall B. Rosenberg",
+    "area": "relaciones",
+    "idea": "Observación, sentimiento, necesidad y petición para comunicar sin atacar.",
+    "accion": "Prepara las conversaciones difíciles con ese esquema.",
+    "aviso": null
+  },
+  {
+    "id": "the-psychology-of-money",
+    "titulo": "The Psychology of Money",
+    "autor": "Morgan Housel",
+    "area": "dinero",
+    "idea": "El comportamiento importa más que el conocimiento; el ahorro da libertad y control del tiempo.",
+    "accion": "Define qué es «suficiente» para ti.",
+    "aviso": null
+  },
+  {
+    "id": "die-with-zero",
+    "titulo": "Die With Zero",
+    "autor": "Bill Perkins",
+    "area": "dinero",
+    "idea": "Invertir en experiencias en el momento vital adecuado, no solo acumular.",
+    "accion": "Planifica una experiencia importante este año.",
+    "aviso": null
+  },
+  {
+    "id": "beyond-training",
+    "titulo": "Beyond Training: Mastering Endurance, Health & Life",
+    "autor": "Ben Greenfield",
+    "area": "deporte",
+    "idea": "Se puede preparar un triatlón con unas 10-12 horas de entrenamiento a la semana, con la mayor parte de la carga a intensidad suave, cuidando la recuperación y el resto de la vida.",
+    "accion": "Si entrenas para una prueba de resistencia, que la mayoría de tus sesiones sean suaves y protege la recuperación como parte del plan.",
+    "aviso": "Mezcla pautas de entrenamiento con buena base con biohacking y suplementos de evidencia desigual. El autor cofundó una marca de suplementos (KION) y ha sostenido posturas contrarias al consenso médico. Ucoach usa solo las pautas de entrenamiento y recuperación de consenso. Cualquier suplemento o práctica que proponga se consulta antes en el catálogo de prácticas por nivel."
+  }
+]

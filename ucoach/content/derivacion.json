@@ -1,0 +1,125 @@
+[
+  {
+    "tipo": "ideacion-suicida",
+    "senal": "Ideas de suicidio, de hacerse daño o de no querer vivir, dichas por el usuario de forma directa o indirecta.",
+    "texto": "Siento mucho que estés pasando por esto, y gracias por contármelo. No tienes que llevarlo a solas. Llama ahora al 024: es gratuito, confidencial y te atienden a cualquier hora, todos los días del año. Si estás en peligro inmediato, llama al 112. Aquí paro el coaching: lo primero eres tú.",
+    "recursos": [
+      {
+        "nombre": "Línea 024 de atención a la conducta suicida",
+        "contacto": "024"
+      },
+      {
+        "nombre": "Emergencias",
+        "contacto": "112"
+      }
+    ],
+    "detiene_coaching": true,
+    "modo": null
+  },
+  {
+    "tipo": "animo-bajo-persistente",
+    "senal": "Desesperanza, tristeza o falta de interés casi a diario durante 2 semanas o más (umbral interno, no se muestra).",
+    "texto": "Me cuentas que llevas tiempo con el ánimo bajo, y eso merece un cuidado de verdad. Te recomiendo hablarlo con tu médico de familia o con un psicólogo. Mientras tanto, bajamos el ritmo: sin metas nuevas, solo una cosa pequeña para cuidarte cada día. Si en algún momento piensas en hacerte daño, llama al 024.",
+    "recursos": [
+      {
+        "nombre": "Línea 024 de atención a la conducta suicida",
+        "contacto": "024"
+      }
+    ],
+    "detiene_coaching": false,
+    "modo": "sostener"
+  },
+  {
+    "tipo": "agotamiento-persistente",
+    "senal": "Agotamiento persistente con cinismo y caída de eficacia durante semanas, o malestar físico asociado.",
+    "texto": "Llevas semanas muy al límite, y eso pide parar un poco, no exigirte más. Te recomiendo hablarlo con un profesional sanitario, tu médico de familia o un psicólogo. Mientras tanto, pasamos a modo sostener: sin metas nuevas y con una sola acción de recuperación cada día.",
+    "recursos": [],
+    "detiene_coaching": false,
+    "modo": "sostener"
+  },
+  {
+    "tipo": "panico-o-consumo",
+    "senal": "Ataques de pánico, o consumo problemático de alcohol u otras sustancias.",
+    "texto": "Gracias por contármelo. Lo que describes merece hablarlo con un profesional sanitario, tu médico de familia o un psicólogo, que puede ayudarte de verdad. Si quieres, mientras tanto seguimos solo con cosas ligeras.",
+    "recursos": [],
+    "detiene_coaching": false,
+    "modo": null
+  },
+  {
+    "tipo": "dificultad-habitual-para-dormir",
+    "senal": "Dificultad para dormirse o para mantener el sueño 3 noches o más por semana durante 3 meses o más (umbral interno, no se muestra).",
+    "texto": "Llevas tiempo durmiendo mal muchas noches, y eso merece algo más que consejos generales. Te propongo hablarlo con tu médico. Un profesional puede ofrecerte la TCC-I, en consulta o con un programa digital validado, que es lo que mejor funciona en estos casos; no es algo que Ucoach aplique. Mientras tanto, dejo de darte pautas de higiene del sueño.",
+    "recursos": [],
+    "detiene_coaching": false,
+    "modo": null
+  },
+  {
+    "tipo": "sospecha-apnea",
+    "senal": "Ronquidos fuertes, pausas respiratorias que alguien ha visto, somnolencia diurna, tensión alta o IMC alto (STOP-Bang opcional como referencia interna, nunca como medida que se muestra).",
+    "texto": "Roncar fuerte, que alguien note que dejas de respirar unos segundos mientras duermes o tener mucho sueño durante el día merece una consulta con tu médico. Es algo que puede valorar y ayudarte a resolver, y conviene mirarlo antes de seguir ajustando hábitos.",
+    "recursos": [],
+    "detiene_coaching": false,
+    "modo": null
+  },
+  {
+    "tipo": "somnolencia-al-conducir",
+    "senal": "Somnolencia al volante, o conducir tras dormir menos de 5 h o con mucha somnolencia.",
+    "texto": "Si te entra sueño al volante, no conduzcas así: para en un lugar seguro. Con tan poco sueño, mejor no conducir hoy, o echar antes una siesta corta y esperar 15-30 minutos antes de ponerte al volante. Y si te pasa a menudo, coméntalo con tu médico.",
+    "recursos": [],
+    "detiene_coaching": false,
+    "modo": null
+  },
+  {
+    "tipo": "sintomas-al-hacer-ejercicio",
+    "senal": "Dolor torácico, mareo o falta de aire desproporcionada al hacer ejercicio.",
+    "texto": "Dolor en el pecho, mareo o que te falte el aire más de lo normal al hacer ejercicio es motivo para parar y que te vea un médico antes de volver a entrenar. Si te pasa ahora mismo y no se va, llama al 112.",
+    "recursos": [
+      {
+        "nombre": "Emergencias",
+        "contacto": "112"
+      }
+    ],
+    "detiene_coaching": false,
+    "modo": null
+  },
+  {
+    "tipo": "fatiga-persistente",
+    "senal": "Fatiga persistente pese a dormir bien, o pérdida de peso sin explicación.",
+    "texto": "Llevas tiempo con cansancio aunque duermes bien, o has perdido peso sin buscarlo. Eso no se arregla con un plan de hábitos: merece que lo vea tu médico.",
+    "recursos": [],
+    "detiene_coaching": false,
+    "modo": null
+  },
+  {
+    "tipo": "sueno-largo-con-cansancio",
+    "senal": "Media semanal de sueño por encima de 9-10 h de forma habitual y cansancio.",
+    "texto": "Duermes mucho y aun así sigues con cansancio. Coméntalo con tu médico, que puede ver si hay algo detrás.",
+    "recursos": [],
+    "detiene_coaching": false,
+    "modo": null
+  },
+  {
+    "tipo": "dolor-espalda-persistente",
+    "senal": "Dolor de espalda o de cuello que no mejora en 4-6 semanas.",
+    "texto": "Si el dolor de espalda o de cuello no mejora en 4-6 semanas, merece la pena que te vea un fisioterapeuta colegiado: puede ajustar el ejercicio a ti y combinarlo con técnicas manuales si hace falta.",
+    "recursos": [],
+    "detiene_coaching": false,
+    "modo": null
+  },
+  {
+    "tipo": "senales-alarma-espalda",
+    "senal": "Pérdida de fuerza, hormigueo que baja por un brazo o una pierna, alteraciones de esfínteres, fiebre, pérdida de peso sin explicación, dolor nocturno que no cede o traumatismo, junto con dolor de espalda o de cuello.",
+    "texto": "Con lo que me cuentas, lo indicado es que te vea un médico pronto, antes de seguir con ejercicios. Pérdida de fuerza, hormigueo que baja por el brazo o la pierna, cambios al orinar o al hacer de vientre, fiebre, un golpe o un dolor nocturno que no cede son motivos para consultar sin esperar.",
+    "recursos": [],
+    "detiene_coaching": false,
+    "modo": null
+  },
+  {
+    "tipo": "temas-legales-financieros",
+    "senal": "Conflictos legales, laborales graves o financieros.",
+    "texto": "Esto merece la mirada de alguien experto: un abogado, un gestor o un asesor financiero, según el caso. Puedo ayudarte a preparar esa conversación, pero no a ocupar su lugar.",
+    "recursos": [],
+    "detiene_coaching": false,
+    "modo": null
+  }
+]

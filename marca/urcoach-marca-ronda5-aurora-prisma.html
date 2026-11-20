@@ -1,0 +1,663 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>UrCoach · Ronda 5 · Aurora y Prisma, 10 variaciones</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,800;14..32,900&amp;display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700;800;900&amp;display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700;800;900&amp;family=JetBrains+Mono:wght@500&amp;display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&amp;display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700&amp;display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Figtree:wght@500;600;700;800;900&amp;display=swap">
+<style>
+:root{color-scheme:light}
+body{margin:0;background:#e9e9e6;color:#18181b;font-family:Inter,system-ui,-apple-system,sans-serif}
+header{position:sticky;top:0;z-index:5;background:rgba(233,233,230,.95);backdrop-filter:blur(6px);padding:12px 16px;border-bottom:1px solid #d4d4d0}
+header p{margin:0 0 8px;font-weight:600}
+nav{display:flex;gap:8px;overflow-x:auto;padding-bottom:2px}
+nav a{white-space:nowrap;font-size:13px;color:#18181b;text-decoration:none;background:#fff;border:1px solid #d4d4d0;border-radius:999px;padding:6px 12px}
+main{max-width:1240px;margin:0 auto;padding:16px}
+section{margin:0 0 40px;scroll-margin-top:96px}
+h2{font-size:16px;margin:0 0 10px}
+.frame{width:100%;overflow:hidden;border-radius:10px;box-shadow:0 1px 3px rgba(0,0,0,.12);background:#fff;position:relative}
+.board{transform-origin:0 0;position:absolute;top:0;left:0}
+@keyframes p1float{0%{transform:translateY(0) rotate(-8deg)}50%{transform:translateY(-14px) rotate(-4deg)}100%{transform:translateY(0) rotate(-8deg)}}
+@keyframes p1drift{0%{transform:translate(0,0)}50%{transform:translate(-30px,20px)}100%{transform:translate(0,0)}}
+.p1-ring{animation:p1float 7s ease-in-out infinite}
+.p1-blob{animation:p1drift 14s ease-in-out infinite}
+@keyframes p4float{0%{transform:translateY(0)}50%{transform:translateY(-12px)}100%{transform:translateY(0)}}
+.p4-stack{animation:p4float 8s ease-in-out infinite}
+@keyframes v1float{0%{transform:translateY(0) rotate(-10deg)}50%{transform:translateY(-14px) rotate(-6deg)}100%{transform:translateY(0) rotate(-10deg)}}
+@keyframes v1cards{0%{transform:translateY(0)}50%{transform:translateY(-8px)}100%{transform:translateY(0)}}
+@keyframes v1drift{0%{transform:translate(0,0)}50%{transform:translate(-26px,18px)}100%{transform:translate(0,0)}}
+.v1-ring{animation:v1float 7s ease-in-out infinite}
+.v1-cards{animation:v1cards 6s ease-in-out infinite}
+.v1-blob{animation:v1drift 14s ease-in-out infinite}
+@keyframes v2sheen{0%{background-position:0% 50%}100%{background-position:200% 50%}}
+@keyframes v2tilt{0%{transform:rotateY(-24deg) rotateX(16deg) rotateZ(-8deg)}50%{transform:rotateY(-14deg) rotateX(10deg) rotateZ(-5deg)}100%{transform:rotateY(-24deg) rotateX(16deg) rotateZ(-8deg)}}
+.v2-card{animation:v2tilt 9s ease-in-out infinite}
+.v2-sheen{animation:v2sheen 6s linear infinite}
+@keyframes v3holo{0%{background-position:0% 50%}50%{background-position:100% 50%}100%{background-position:0% 50%}}
+.v3-holo{animation:v3holo 10s ease-in-out infinite}
+@keyframes v3spin{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
+.v3-ring{animation:v3spin 30s linear infinite}
+@keyframes v4a{0%{transform:rotate(-12deg) translate(0,0)}50%{transform:rotate(-9deg) translate(10px,-12px)}100%{transform:rotate(-12deg) translate(0,0)}}
+@keyframes v4b{0%{transform:rotate(8deg) translate(0,0)}50%{transform:rotate(11deg) translate(-12px,8px)}100%{transform:rotate(8deg) translate(0,0)}}
+.v4-a{animation:v4a 10s ease-in-out infinite}
+.v4-b{animation:v4b 12s ease-in-out infinite}
+@keyframes v5flow{0%{stroke-dashoffset:0}100%{stroke-dashoffset:-2400}}
+.v5-flow{animation:v5flow 18s linear infinite}
+@keyframes v6float{0%{transform:translateY(0)}50%{transform:translateY(-10px)}100%{transform:translateY(0)}}
+.v6-f1{animation:v6float 6s ease-in-out infinite}
+.v6-f2{animation:v6float 7s ease-in-out 1s infinite}
+@keyframes v7swirl{0%{transform:rotate(0deg) scale(1.25)}100%{transform:rotate(360deg) scale(1.25)}}
+@keyframes v7halo{0%{transform:rotate(-14deg)}50%{transform:rotate(-8deg)}100%{transform:rotate(-14deg)}}
+.v7-swirl{animation:v7swirl 22s linear infinite}
+.v7-halo{animation:v7halo 9s ease-in-out infinite}
+@keyframes v8breathe{0%{transform:scale(1)}50%{transform:scale(1.04)}100%{transform:scale(1)}}
+.v8-ring{animation:v8breathe 8s ease-in-out infinite}
+@keyframes v9spin{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
+.v9-ring{animation:v9spin 24s linear infinite}
+footer{text-align:center;font-size:12px;color:#52525b;padding:0 16px 32px}
+</style></head>
+<body>
+<header><p>UrCoach · Ronda 5 · Aurora y Prisma, 10 variaciones</p><nav><a href="#P1-Aurora">P1 · Aurora</a><a href="#P4-Prisma">P4 · Prisma</a><a href="#V01-Fusion">V01 · Fusión</a><a href="#V02-Tarjeta">V02 · La tarjeta</a><a href="#V03-Holografico">V03 · Holográfico</a><a href="#V04-Cristal">V04 · Cristal de color</a><a href="#V05-Cinta">V05 · Cinta de luz</a><a href="#V06-App">V06 · App protagonista</a><a href="#V07-Orbe">V07 · Orbe de energía</a><a href="#V08-Pastel">V08 · Pastel</a><a href="#V09-Bloques-color">V09 · Bloques de color</a><a href="#V10-Sistema">V10 · Sistema de marca</a></nav></header>
+<main>
+<section id="P1-Aurora"><h2>P1 · Aurora</h2>
+<div class="frame" style="aspect-ratio:1440/900" data-w="1440"><div class="board" style="width:1440px;height:900px">
+
+<div style="width: 1440px; height: 900px; box-sizing: border-box; position: relative; overflow: hidden; background: #fbfaf8; color: #16151a; font-family: Inter, system-ui, sans-serif">
+  <div class="p1-blob" style="position: absolute; width: 900px; height: 900px; left: 700px; top: -300px; border-radius: 50%; background: radial-gradient(circle at 50% 50%, #ffc9b5 0%, rgba(255,201,181,0.55) 35%, rgba(255,201,181,0) 68%)"></div>
+  <div class="p1-blob" style="position: absolute; width: 800px; height: 800px; left: 980px; top: 260px; border-radius: 50%; background: radial-gradient(circle at 50% 50%, #cbbcff 0%, rgba(203,188,255,0.5) 35%, rgba(203,188,255,0) 68%)"></div>
+  <div style="position: absolute; width: 700px; height: 700px; left: -200px; top: 420px; border-radius: 50%; background: radial-gradient(circle at 50% 50%, #c7e3ff 0%, rgba(199,227,255,0.5) 35%, rgba(199,227,255,0) 68%)"></div>
+
+  <div style="position: relative; display: flex; justify-content: space-between; align-items: center; padding: 28px 64px">
+    <div style="display: flex; align-items: center; gap: 10px">
+      <div style="width: 30px; height: 30px; border-radius: 50%; background: conic-gradient(from 200deg, #ff9f87, #b79cff, #7cc4ff, #ffd28a, #ff9f87); -webkit-mask: radial-gradient(circle, transparent 47%, #000 49%); mask: radial-gradient(circle, transparent 47%, #000 49%)"></div>
+      <span style="font-size: 22px; letter-spacing: -0.03em"><span style="font-weight: 900">Ur</span><span style="font-weight: 500">Coach</span></span>
+    </div>
+    <div style="display: flex; gap: 30px; align-items: center; font-size: 15px; font-weight: 500">
+      <a href="#metodo" style="text-decoration: none">Método</a><a href="#evidencia" style="text-decoration: none">Evidencia</a><a href="#privacidad" style="text-decoration: none">Privacidad</a>
+      <a href="#cohorte" style="text-decoration: none; background: #16151a; color: #ffffff; padding: 12px 20px; border-radius: 999px; font-weight: 600">Únete a la cohorte</a>
+    </div>
+  </div>
+
+  <div style="position: relative; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 20px; padding: 40px 64px 0; align-items: center">
+    <div style="display: flex; flex-direction: column; gap: 26px">
+      <span style="align-self: flex-start; font-size: 14px; font-weight: 600; background: rgba(255,255,255,0.75); border: 1px solid rgba(22,21,26,0.08); padding: 8px 14px; border-radius: 999px">Tu coach de rendimiento sostenible, dentro de tu IA</span>
+      <h1 style="margin: 0; font-size: 104px; font-weight: 900; letter-spacing: -0.055em; line-height: 0.94">Tu mejor día,<br>cada día.</h1>
+      <p style="margin: 0; font-size: 21px; line-height: 1.5; color: #3d3c44; max-width: 560px">UrCoach cruza tu agenda con tu sueño y tu energía, y te propone cómo jugar el día. Cada pauta, con su nivel de evidencia.</p>
+      <div style="display: flex; gap: 12px; align-items: center">
+        <a href="#cohorte" style="text-decoration: none; background: #16151a; color: #ffffff; padding: 18px 28px; border-radius: 999px; font-size: 17px; font-weight: 600">Empieza el 19 de enero</a>
+        <a href="#como" style="text-decoration: none; background: rgba(255,255,255,0.8); border: 1px solid rgba(22,21,26,0.1); padding: 17px 26px; border-radius: 999px; font-size: 17px; font-weight: 600">Cómo funciona</a>
+      </div>
+      <p style="margin: 0; font-size: 13.5px; color: #55545c">Sin servidores de UrCoach: tus datos viven en tu ordenador. No es un producto sanitario.</p>
+    </div>
+
+    <div style="position: relative; height: 640px">
+      <div style="position: absolute; left: 70px; top: 520px; width: 420px; height: 60px; border-radius: 50%; background: radial-gradient(closest-side, rgba(60,40,90,0.22), rgba(60,40,90,0))"></div>
+      <div class="p1-ring" style="position: absolute; left: 60px; top: 40px; width: 440px; height: 440px">
+        <div style="position: absolute; inset: 0; border-radius: 50%; background: conic-gradient(from 200deg, #ff9f87, #ffd28a, #b79cff, #7cc4ff, #c9f0e4, #ff9f87); -webkit-mask: radial-gradient(circle, transparent 52%, #000 53.5%); mask: radial-gradient(circle, transparent 52%, #000 53.5%); box-shadow: 0 40px 80px rgba(90,60,140,0.18)"></div>
+        <div style="position: absolute; inset: 0; border-radius: 50%; background: radial-gradient(circle at 30% 22%, rgba(255,255,255,0.9) 0%, rgba(255,255,255,0) 30%), radial-gradient(circle at 72% 82%, rgba(60,30,110,0.25) 0%, rgba(60,30,110,0) 38%); -webkit-mask: radial-gradient(circle, transparent 52%, #000 53.5%); mask: radial-gradient(circle, transparent 52%, #000 53.5%)"></div>
+        <div style="position: absolute; left: 215px; top: 110px; width: 130px; height: 130px; border-radius: 50%; background: radial-gradient(circle at 32% 28%, #ffffff 0%, #ffd9c9 18%, #ff8f73 55%, #d9583c 100%); box-shadow: 0 24px 40px rgba(217,88,60,0.35)"></div>
+      </div>
+      <div style="position: absolute; left: 330px; top: 380px; width: 290px; background: rgba(255,255,255,0.82); border: 1px solid rgba(255,255,255,0.9); border-radius: 26px; padding: 20px; box-shadow: 0 30px 60px rgba(40,30,70,0.16); display: flex; flex-direction: column; gap: 10px">
+        <div style="display: flex; justify-content: space-between; align-items: center"><span style="font-size: 18px; font-weight: 800">Jueves 19</span><span style="font-size: 12px; font-weight: 600; background: #ffe7df; color: #8a2f18; padding: 5px 10px; border-radius: 999px">Energía baja</span></div>
+        <span style="font-size: 15px; font-weight: 600">Cerrar el term sheet</span>
+        <div style="display: flex; flex-direction: column; gap: 6px; font-size: 14px; color: #3d3c44">
+          <div style="display: flex; justify-content: space-between"><span>Foco, 60 min</span><span style="font-weight: 600">12:30</span></div>
+          <div style="display: flex; justify-content: space-between"><span>Último café</span><span style="font-weight: 600">14:00</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div style="position: absolute; left: 64px; bottom: 34px; display: flex; gap: 22px; align-items: center; font-size: 13px; color: #55545c">
+    <div style="width: 52px; height: 52px; border-radius: 14px; background: #ffffff; box-shadow: 0 8px 20px rgba(40,30,70,0.12); display: flex; align-items: center; justify-content: center">
+      <div style="width: 30px; height: 30px; border-radius: 50%; background: conic-gradient(from 200deg, #ff9f87, #ffd28a, #b79cff, #7cc4ff, #ff9f87); -webkit-mask: radial-gradient(circle, transparent 45%, #000 47%); mask: radial-gradient(circle, transparent 45%, #000 47%)"></div>
+    </div>
+    <span>Icono de la app</span>
+    <span style="width: 1px; height: 24px; background: rgba(22,21,26,0.15)"></span>
+    <span>Inter Display 900 / 500 · Coral #FF8F73 · Lila #B79CFF · Cielo #7CC4FF · Hueso #FBFAF8</span>
+  </div>
+</div>
+</div></div></section><section id="P4-Prisma"><h2>P4 · Prisma</h2>
+<div class="frame" style="aspect-ratio:1440/900" data-w="1440"><div class="board" style="width:1440px;height:900px">
+
+<div style="width: 1440px; height: 900px; box-sizing: border-box; position: relative; overflow: hidden; background: #ffffff; color: #0a0b14; font-family: Figtree, system-ui, sans-serif">
+  <div style="position: absolute; left: 640px; top: 40px; width: 900px; height: 900px; border-radius: 50%; background: radial-gradient(circle, rgba(124,92,255,0.16) 0%, rgba(124,92,255,0) 60%)"></div>
+
+  <div style="position: relative; display: flex; justify-content: space-between; align-items: center; padding: 26px 64px">
+    <div style="display: flex; align-items: center; gap: 10px">
+      <div style="width: 32px; height: 32px; border-radius: 10px; background: linear-gradient(135deg, #6d28d9, #2563eb); display: flex; align-items: center; justify-content: center">
+        <svg width="20" height="20" viewBox="0 0 72 72" aria-hidden="true"><circle cx="36" cy="36" r="26" fill="none" stroke="#ffffff" stroke-width="9"></circle><circle cx="41" cy="31" r="12" fill="#ffffff"></circle></svg>
+      </div>
+      <span style="font-size: 22px; letter-spacing: -0.03em"><span style="font-weight: 900">Ur</span><span style="font-weight: 600">Coach</span></span>
+    </div>
+    <div style="display: flex; gap: 28px; align-items: center; font-size: 15px; font-weight: 600">
+      <a href="#metodo" style="text-decoration: none">Método</a><a href="#evidencia" style="text-decoration: none">Evidencia</a><a href="#coaches" style="text-decoration: none">Para coaches</a>
+      <a href="#cohorte" style="text-decoration: none; background: #0a0b14; color: #ffffff; padding: 12px 20px; border-radius: 12px">Empezar</a>
+    </div>
+  </div>
+
+  <div style="position: relative; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.05fr); padding: 50px 64px 0; gap: 20px">
+    <div style="display: flex; flex-direction: column; gap: 26px; padding-top: 30px">
+      <h1 style="margin: 0; font-size: 96px; font-weight: 900; letter-spacing: -0.05em; line-height: 0.95">Invierte tu energía donde rinde.</h1>
+      <p style="margin: 0; font-size: 20px; line-height: 1.5; color: #3b3d4f; max-width: 540px">Tu agenda, tu sueño y tus hábitos en un solo plan diario. UrCoach te dice dónde poner tu mejor hora y dónde ahorrarla.</p>
+      <div style="display: flex; gap: 12px">
+        <a href="#cohorte" style="text-decoration: none; background: linear-gradient(135deg, #6d28d9, #2563eb); color: #ffffff; padding: 18px 28px; border-radius: 14px; font-size: 17px; font-weight: 700; box-shadow: 0 14px 30px rgba(79,70,229,0.35)">Únete a la cohorte de enero</a>
+        <a href="#metodo" style="text-decoration: none; background: #f2f2f7; padding: 18px 26px; border-radius: 14px; font-size: 17px; font-weight: 700">Ver el método</a>
+      </div>
+      <div style="display: flex; gap: 28px; margin-top: 10px">
+        <div style="display: flex; flex-direction: column"><span style="font-size: 30px; font-weight: 900">1-3</span><span style="font-size: 13.5px; color: #55576b">avisos al día, no más</span></div>
+        <div style="display: flex; flex-direction: column"><span style="font-size: 30px; font-weight: 900">A-D</span><span style="font-size: 13.5px; color: #55576b">evidencia de cada pauta</span></div>
+        <div style="display: flex; flex-direction: column"><span style="font-size: 30px; font-weight: 900">0</span><span style="font-size: 13.5px; color: #55576b">servidores de UrCoach</span></div>
+      </div>
+    </div>
+
+    <div style="position: relative; height: 620px; perspective: 1600px">
+      <div class="p4-stack" style="position: absolute; inset: 0; transform-style: preserve-3d">
+        <div style="position: absolute; left: 150px; top: 330px; width: 400px; height: 240px; border-radius: 28px; background: linear-gradient(135deg, #0d9488 0%, #0f766e 55%, #115e59 100%); transform: rotateY(-20deg) rotateX(14deg) rotateZ(-6deg); box-shadow: 0 40px 70px rgba(15,118,110,0.35); padding: 26px; box-sizing: border-box; color: #ffffff; display: flex; flex-direction: column; justify-content: space-between">
+          <div style="display: flex; justify-content: space-between; font-size: 14px; font-weight: 600; opacity: 0.9"><span>Hábito focal</span><span>Semana 3 de 8-10</span></div>
+          <span style="font-size: 44px; font-weight: 900; letter-spacing: -0.03em">5 de 7</span>
+          <span style="font-size: 15px; font-weight: 600">Luz exterior al despertar</span>
+        </div>
+        <div style="position: absolute; left: 80px; top: 170px; width: 400px; height: 240px; border-radius: 28px; background: linear-gradient(135deg, #e11d48 0%, #db2777 50%, #c2410c 100%); transform: rotateY(-20deg) rotateX(14deg) rotateZ(-6deg); box-shadow: 0 40px 70px rgba(225,29,72,0.35); padding: 26px; box-sizing: border-box; color: #ffffff; display: flex; flex-direction: column; justify-content: space-between">
+          <div style="display: flex; justify-content: space-between; font-size: 14px; font-weight: 600; opacity: 0.95"><span>Foco protegido</span><span>Esta semana</span></div>
+          <span style="font-size: 44px; font-weight: 900; letter-spacing: -0.03em">4 h 30</span>
+          <span style="font-size: 15px; font-weight: 600">3 de 5 destacados cumplidos</span>
+        </div>
+        <div style="position: absolute; left: 10px; top: 10px; width: 400px; height: 240px; border-radius: 28px; background: linear-gradient(135deg, #7c3aed 0%, #4f46e5 50%, #2563eb 100%); transform: rotateY(-20deg) rotateX(14deg) rotateZ(-6deg); box-shadow: 0 40px 70px rgba(79,70,229,0.4); padding: 26px; box-sizing: border-box; color: #ffffff; display: flex; flex-direction: column; justify-content: space-between">
+          <div style="display: flex; justify-content: space-between; align-items: center">
+            <span style="font-size: 14px; font-weight: 600; opacity: 0.95">Hoy · jueves 19</span>
+            <svg width="34" height="34" viewBox="0 0 72 72" aria-hidden="true"><circle cx="36" cy="36" r="26" fill="none" stroke="#ffffff" stroke-width="7"></circle><circle cx="33" cy="45" r="12" fill="#ffffff"></circle></svg>
+          </div>
+          <span style="font-size: 44px; font-weight: 900; letter-spacing: -0.03em">Foco 12:30</span>
+          <span style="font-size: 15px; font-weight: 600">Energía baja · último café a las 14:00</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div style="position: absolute; left: 64px; bottom: 28px; display: flex; gap: 22px; font-size: 12.5px; color: #55576b">
+    <span>Violeta #7C3AED → Azul #2563EB</span><span>Coral #E11D48</span><span>Menta #0D9488</span><span>Figtree 900 / 600</span><span>No es un producto sanitario</span>
+  </div>
+</div>
+</div></div></section><section id="V01-Fusion"><h2>V01 · Fusión</h2>
+<div class="frame" style="aspect-ratio:1440/900" data-w="1440"><div class="board" style="width:1440px;height:900px">
+
+<div style="width: 1440px; height: 900px; box-sizing: border-box; position: relative; overflow: hidden; background: #fbfaf8; color: #15131c; font-family: Figtree, system-ui, sans-serif">
+  <div class="v1-blob" style="position: absolute; width: 900px; height: 900px; left: 720px; top: -320px; border-radius: 50%; background: radial-gradient(circle, #ffc6b4 0%, rgba(255,198,180,0.5) 35%, rgba(255,198,180,0) 68%)"></div>
+  <div class="v1-blob" style="position: absolute; width: 820px; height: 820px; left: 960px; top: 300px; border-radius: 50%; background: radial-gradient(circle, #c8b6ff 0%, rgba(200,182,255,0.5) 35%, rgba(200,182,255,0) 68%)"></div>
+  <div style="position: absolute; width: 700px; height: 700px; left: -220px; top: 440px; border-radius: 50%; background: radial-gradient(circle, #c4e2ff 0%, rgba(196,226,255,0.5) 35%, rgba(196,226,255,0) 68%)"></div>
+
+  <div style="position: relative; display: flex; justify-content: space-between; align-items: center; padding: 28px 64px">
+    <div style="display: flex; align-items: center; gap: 10px">
+      <div style="width: 30px; height: 30px; border-radius: 50%; background: conic-gradient(from 200deg, #ff9f87, #ffd28a, #b79cff, #7cc4ff, #ff9f87); -webkit-mask: radial-gradient(circle, transparent 46%, #000 48%); mask: radial-gradient(circle, transparent 46%, #000 48%)"></div>
+      <span style="font-size: 22px; letter-spacing: -0.03em"><span style="font-weight: 900">Ur</span><span style="font-weight: 600">Coach</span></span>
+    </div>
+    <div style="display: flex; gap: 28px; align-items: center; font-size: 15px; font-weight: 600">
+      <a href="#metodo" style="text-decoration: none">Método</a><a href="#evidencia" style="text-decoration: none">Evidencia</a><a href="#coaches" style="text-decoration: none">Para coaches</a>
+      <a href="#cohorte" style="text-decoration: none; background: #15131c; color: #ffffff; padding: 12px 20px; border-radius: 999px">Empezar</a>
+    </div>
+  </div>
+
+  <div style="position: relative; display: grid; grid-template-columns: minmax(0, 0.95fr) minmax(0, 1.05fr); padding: 40px 64px 0; align-items: center">
+    <div style="display: flex; flex-direction: column; gap: 24px">
+      <h1 style="margin: 0; font-size: 100px; font-weight: 900; letter-spacing: -0.055em; line-height: 0.93">Tu energía,<br>en su mejor<br>hora.</h1>
+      <p style="margin: 0; font-size: 20px; line-height: 1.5; color: #3d3a48; max-width: 520px">UrCoach cruza tu agenda con tu sueño y tu energía y te propone el día. Dentro de la IA que ya usas, con la evidencia de cada pauta.</p>
+      <div style="display: flex; gap: 12px">
+        <a href="#cohorte" style="text-decoration: none; background: #15131c; color: #ffffff; padding: 18px 28px; border-radius: 999px; font-size: 17px; font-weight: 700">Empieza el 19 de enero</a>
+        <a href="#metodo" style="text-decoration: none; background: rgba(255,255,255,0.8); border: 1px solid rgba(21,19,28,0.1); padding: 17px 26px; border-radius: 999px; font-size: 17px; font-weight: 700">Cómo funciona</a>
+      </div>
+    </div>
+
+    <div style="position: relative; height: 640px; perspective: 1600px">
+      <div class="v1-ring" style="position: absolute; left: 150px; top: 0; width: 420px; height: 420px">
+        <div style="position: absolute; inset: 0; border-radius: 50%; background: conic-gradient(from 200deg, #ff9f87, #ffd28a, #b79cff, #7cc4ff, #c9f0e4, #ff9f87); -webkit-mask: radial-gradient(circle, transparent 54%, #000 55.5%); mask: radial-gradient(circle, transparent 54%, #000 55.5%)"></div>
+        <div style="position: absolute; inset: 0; border-radius: 50%; background: radial-gradient(circle at 30% 22%, rgba(255,255,255,0.9) 0%, rgba(255,255,255,0) 30%), radial-gradient(circle at 72% 82%, rgba(60,30,110,0.22) 0%, rgba(60,30,110,0) 38%); -webkit-mask: radial-gradient(circle, transparent 54%, #000 55.5%); mask: radial-gradient(circle, transparent 54%, #000 55.5%)"></div>
+      </div>
+      <div class="v1-cards" style="position: absolute; inset: 0; transform-style: preserve-3d">
+        <div style="position: absolute; left: 210px; top: 300px; width: 380px; height: 228px; border-radius: 26px; background: linear-gradient(135deg, #e11d48 0%, #db2777 50%, #c2410c 100%); transform: rotateY(-18deg) rotateX(12deg) rotateZ(-5deg); box-shadow: 0 40px 70px rgba(225,29,72,0.3); padding: 24px; box-sizing: border-box; color: #ffffff; display: flex; flex-direction: column; justify-content: space-between">
+          <div style="display: flex; justify-content: space-between; font-size: 14px; font-weight: 600"><span>Foco protegido</span><span>Esta semana</span></div>
+          <span style="font-size: 44px; font-weight: 900; letter-spacing: -0.03em">4 h 30</span>
+          <span style="font-size: 15px; font-weight: 600">3 de 5 destacados</span>
+        </div>
+        <div style="position: absolute; left: 60px; top: 170px; width: 380px; height: 228px; border-radius: 26px; background: linear-gradient(135deg, #7c3aed 0%, #4f46e5 50%, #2563eb 100%); transform: rotateY(-18deg) rotateX(12deg) rotateZ(-5deg); box-shadow: 0 40px 70px rgba(79,70,229,0.35); padding: 24px; box-sizing: border-box; color: #ffffff; display: flex; flex-direction: column; justify-content: space-between">
+          <div style="display: flex; justify-content: space-between; align-items: center"><span style="font-size: 14px; font-weight: 600">Hoy · jueves 19</span><span style="font-size: 12.5px; font-weight: 700; background: rgba(255,255,255,0.2); padding: 4px 10px; border-radius: 999px">Energía baja</span></div>
+          <span style="font-size: 44px; font-weight: 900; letter-spacing: -0.03em">Foco 12:30</span>
+          <span style="font-size: 15px; font-weight: 600">Último café a las 14:00</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div style="position: absolute; left: 64px; bottom: 26px; font-size: 12.5px; color: #55525f">Anillo iridiscente (Aurora) + tarjetas 3D (Prisma) · Figtree 900 / 600 · No es un producto sanitario</div>
+</div>
+</div></div></section><section id="V02-Tarjeta"><h2>V02 · La tarjeta</h2>
+<div class="frame" style="aspect-ratio:1440/900" data-w="1440"><div class="board" style="width:1440px;height:900px">
+
+<div style="width: 1440px; height: 900px; box-sizing: border-box; position: relative; overflow: hidden; background: radial-gradient(70% 80% at 75% 45%, #efe9ff 0%, #f7f4ff 40%, #ffffff 75%); color: #121018; font-family: Figtree, system-ui, sans-serif">
+  <div style="display: flex; justify-content: space-between; align-items: center; padding: 28px 64px">
+    <div style="display: flex; align-items: center; gap: 10px">
+      <div style="width: 30px; height: 30px; border-radius: 50%; background: conic-gradient(from 200deg, #ff9f87, #ffd28a, #b79cff, #7cc4ff, #ff9f87); -webkit-mask: radial-gradient(circle, transparent 46%, #000 48%); mask: radial-gradient(circle, transparent 46%, #000 48%)"></div>
+      <span style="font-size: 22px; letter-spacing: -0.03em"><span style="font-weight: 900">Ur</span><span style="font-weight: 600">Coach</span></span>
+    </div>
+    <a href="#cohorte" style="text-decoration: none; background: #121018; color: #ffffff; padding: 12px 20px; border-radius: 999px; font-size: 15px; font-weight: 700">Pedir acceso</a>
+  </div>
+
+  <div style="display: grid; grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr); padding: 60px 64px 0; align-items: center">
+    <div style="display: flex; flex-direction: column; gap: 24px">
+      <span style="align-self: flex-start; font-size: 14px; font-weight: 700; color: #5b21b6; background: #ede9fe; padding: 8px 14px; border-radius: 999px">Edición fundadores · cohorte de enero</span>
+      <h1 style="margin: 0; font-size: 96px; font-weight: 900; letter-spacing: -0.055em; line-height: 0.94">Tu día,<br>en una<br>tarjeta.</h1>
+      <p style="margin: 0; font-size: 20px; line-height: 1.5; color: #3d3a48; max-width: 480px">Cada mañana, una tarjeta con lo único que importa hoy, cuándo hacerlo y cómo llegas. Tan simple como sacar la cartera.</p>
+      <a href="#cohorte" style="align-self: flex-start; text-decoration: none; background: #121018; color: #ffffff; padding: 18px 28px; border-radius: 999px; font-size: 17px; font-weight: 700">Reservar mi plaza</a>
+    </div>
+
+    <div style="position: relative; height: 600px; perspective: 1800px; display: flex; align-items: center; justify-content: center">
+      <div style="position: absolute; top: 470px; width: 520px; height: 70px; border-radius: 50%; background: radial-gradient(closest-side, rgba(70,40,140,0.25), rgba(70,40,140,0))"></div>
+      <div class="v2-card" style="position: relative; width: 580px; height: 366px; border-radius: 30px; transform-style: preserve-3d; box-shadow: 0 50px 90px rgba(70,40,140,0.32); overflow: hidden; background: linear-gradient(135deg, #2b2440 0%, #3d2f6b 40%, #24345e 100%)">
+        <div class="v2-sheen" style="position: absolute; inset: 0; background: linear-gradient(110deg, rgba(255,159,135,0) 20%, rgba(255,159,135,0.45) 32%, rgba(255,210,138,0.45) 40%, rgba(183,156,255,0.5) 48%, rgba(124,196,255,0.45) 56%, rgba(124,196,255,0) 68%); background-size: 200% 100%; mix-blend-mode: screen"></div>
+        <div style="position: absolute; inset: 0; padding: 30px 34px; display: flex; flex-direction: column; justify-content: space-between; color: #ffffff">
+          <div style="display: flex; justify-content: space-between; align-items: flex-start">
+            <span style="font-size: 26px; letter-spacing: -0.03em"><span style="font-weight: 900">Ur</span><span style="font-weight: 500">Coach</span></span>
+            <div style="width: 74px; height: 74px; border-radius: 50%; background: conic-gradient(from 200deg, #ff9f87, #ffd28a, #b79cff, #7cc4ff, #c9f0e4, #ff9f87); -webkit-mask: radial-gradient(circle, transparent 50%, #000 52%); mask: radial-gradient(circle, transparent 50%, #000 52%)"></div>
+          </div>
+          <div style="display: flex; flex-direction: column; gap: 6px">
+            <span style="font-family: 'JetBrains Mono', monospace; font-size: 15px; letter-spacing: 0.18em; opacity: 0.85">JUEVES 19 · ENERGÍA BAJA</span>
+            <span style="font-size: 52px; font-weight: 900; letter-spacing: -0.03em">Foco 12:30</span>
+          </div>
+          <div style="display: flex; justify-content: space-between; align-items: flex-end">
+            <span style="font-family: 'JetBrains Mono', monospace; font-size: 14px; letter-spacing: 0.16em; opacity: 0.85">CERRAR EL TERM SHEET</span>
+            <span style="font-family: 'JetBrains Mono', monospace; font-size: 14px; letter-spacing: 0.16em; opacity: 0.85">CAFÉ HASTA 14:00</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div style="position: absolute; left: 64px; bottom: 26px; font-size: 12.5px; color: #55525f">Tarjeta de grafito con brillo iridiscente · Figtree 900 · JetBrains Mono para los datos · No es un producto sanitario</div>
+</div>
+</div></div></section><section id="V03-Holografico"><h2>V03 · Holográfico</h2>
+<div class="frame" style="aspect-ratio:1440/900" data-w="1440"><div class="board" style="width:1440px;height:900px">
+
+<div style="width: 1440px; height: 900px; box-sizing: border-box; position: relative; overflow: hidden; background: #fcfbfd; color: #17151d; font-family: Inter, system-ui, sans-serif; display: flex; flex-direction: column; align-items: center">
+  <div class="v3-holo" style="position: absolute; inset: 0; background: linear-gradient(120deg, rgba(255,201,181,0.35), rgba(255,236,179,0.3), rgba(201,240,228,0.35), rgba(196,226,255,0.4), rgba(214,196,255,0.4), rgba(255,201,181,0.35)); background-size: 300% 300%"></div>
+
+  <div style="position: relative; width: 100%; box-sizing: border-box; display: flex; justify-content: space-between; align-items: center; padding: 28px 64px">
+    <span style="font-size: 15px; font-weight: 600; color: #4b4858">Coach de rendimiento sostenible</span>
+    <div style="display: flex; gap: 28px; align-items: center; font-size: 15px; font-weight: 600">
+      <a href="#metodo" style="text-decoration: none">Método</a><a href="#evidencia" style="text-decoration: none">Evidencia</a>
+      <a href="#cohorte" style="text-decoration: none; background: #17151d; color: #ffffff; padding: 12px 20px; border-radius: 999px">Empezar</a>
+    </div>
+  </div>
+
+  <div style="position: relative; margin-top: 30px; width: 300px; height: 300px">
+    <div class="v3-ring" style="position: absolute; inset: 0; border-radius: 50%; background: conic-gradient(from 0deg, #ff9f87, #ffd28a, #c9f0e4, #7cc4ff, #b79cff, #ff9f87); -webkit-mask: radial-gradient(circle, transparent 54%, #000 55.5%); mask: radial-gradient(circle, transparent 54%, #000 55.5%); box-shadow: 0 30px 60px rgba(120,90,180,0.18)"></div>
+    <div style="position: absolute; inset: 0; border-radius: 50%; background: radial-gradient(circle at 30% 20%, rgba(255,255,255,0.95) 0%, rgba(255,255,255,0) 30%); -webkit-mask: radial-gradient(circle, transparent 54%, #000 55.5%); mask: radial-gradient(circle, transparent 54%, #000 55.5%)"></div>
+    <div style="position: absolute; left: 160px; top: 76px; width: 88px; height: 88px; border-radius: 50%; background: radial-gradient(circle at 32% 28%, #ffffff 0%, #ffe3d8 18%, #ff9f87 55%, #e0674c 100%); box-shadow: 0 18px 30px rgba(224,103,76,0.35)"></div>
+  </div>
+
+  <h1 class="v3-holo" style="position: relative; margin: 10px 0 0; font-size: 200px; font-weight: 900; letter-spacing: -0.06em; line-height: 1; background: linear-gradient(100deg, #ff8a6b, #ffbf5c, #7ad6b8, #5aa9ff, #9a7bff, #ff6fa8, #ff8a6b); background-size: 300% 100%; -webkit-background-clip: text; background-clip: text; color: transparent">UrCoach</h1>
+  <p style="position: relative; margin: 4px 0 0; font-size: 26px; font-weight: 600; letter-spacing: -0.01em">Rendimiento con brillo propio.</p>
+  <p style="position: relative; margin: 10px 0 0; font-size: 18px; color: #3d3a48; max-width: 640px; text-align: center; line-height: 1.5">Tu agenda, tu sueño y tu energía en un plan diario, dentro de la IA que ya usas.</p>
+
+  <div style="position: relative; display: flex; gap: 14px; margin-top: 28px">
+    <a href="#cohorte" style="text-decoration: none; background: #17151d; color: #ffffff; padding: 17px 28px; border-radius: 999px; font-size: 16px; font-weight: 700">Únete a la cohorte de enero</a>
+    <a href="#metodo" style="text-decoration: none; background: rgba(255,255,255,0.85); border: 1px solid rgba(23,21,29,0.1); padding: 16px 26px; border-radius: 999px; font-size: 16px; font-weight: 700">Ver el método</a>
+  </div>
+
+  <div style="position: absolute; left: 64px; bottom: 26px; font-size: 12.5px; color: #55525f">Lámina holográfica: coral, ámbar, menta, cielo, lila · Inter 900 · No es un producto sanitario</div>
+</div>
+</div></div></section><section id="V04-Cristal"><h2>V04 · Cristal de color</h2>
+<div class="frame" style="aspect-ratio:1440/900" data-w="1440"><div class="board" style="width:1440px;height:900px">
+
+<div style="width: 1440px; height: 900px; box-sizing: border-box; position: relative; overflow: hidden; background: #fbfbfa; color: #121117; font-family: Manrope, system-ui, sans-serif">
+  <div style="display: flex; justify-content: space-between; align-items: center; padding: 28px 64px">
+    <div style="display: flex; align-items: center; gap: 10px">
+      <svg width="28" height="28" viewBox="0 0 72 72" aria-hidden="true"><circle cx="36" cy="36" r="27" fill="none" stroke="#121117" stroke-width="7"></circle><circle cx="40" cy="31" r="13" fill="#ff7a59"></circle></svg>
+      <span style="font-size: 22px; letter-spacing: -0.03em"><span style="font-weight: 800">Ur</span><span style="font-weight: 500">Coach</span></span>
+    </div>
+    <div style="display: flex; gap: 28px; align-items: center; font-size: 15px; font-weight: 600">
+      <a href="#metodo" style="text-decoration: none">Método</a><a href="#evidencia" style="text-decoration: none">Evidencia</a>
+      <a href="#cohorte" style="text-decoration: none; background: #121117; color: #ffffff; padding: 12px 20px; border-radius: 12px">Empezar</a>
+    </div>
+  </div>
+
+  <div style="display: grid; grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr); padding: 50px 64px 0; align-items: center">
+    <div style="display: flex; flex-direction: column; gap: 24px">
+      <h1 style="margin: 0; font-size: 92px; font-weight: 800; letter-spacing: -0.05em; line-height: 0.95">Cada capa<br>de tu día,<br>a la vista.</h1>
+      <p style="margin: 0; font-size: 20px; line-height: 1.5; color: #3d3a48; max-width: 480px">Agenda, sueño y energía se superponen. Donde se cruzan, UrCoach encuentra tu mejor hora.</p>
+      <a href="#cohorte" style="align-self: flex-start; text-decoration: none; background: #121117; color: #ffffff; padding: 18px 28px; border-radius: 14px; font-size: 17px; font-weight: 700">Únete a la cohorte de enero</a>
+    </div>
+
+    <div style="position: relative; height: 640px">
+      <div class="v4-a" style="position: absolute; left: 40px; top: 60px; width: 380px; height: 380px; border-radius: 44px; background: #ff8a6b; opacity: 0.78; mix-blend-mode: multiply; box-shadow: 0 30px 60px rgba(255,120,90,0.25); padding: 30px; box-sizing: border-box; color: #3a1208; display: flex; flex-direction: column; justify-content: flex-end">
+        <span style="font-size: 14px; font-weight: 700">Agenda</span><span style="font-size: 28px; font-weight: 800">4 reuniones</span>
+      </div>
+      <div class="v4-b" style="position: absolute; left: 260px; top: 20px; width: 380px; height: 380px; border-radius: 44px; background: #a78bfa; opacity: 0.78; mix-blend-mode: multiply; box-shadow: 0 30px 60px rgba(140,110,240,0.25); padding: 30px; box-sizing: border-box; color: #1d1145; display: flex; flex-direction: column; justify-content: flex-end; align-items: flex-end">
+        <span style="font-size: 14px; font-weight: 700">Sueño</span><span style="font-size: 28px; font-weight: 800">3 noches cortas</span>
+      </div>
+      <div class="v4-a" style="position: absolute; left: 170px; top: 250px; width: 380px; height: 340px; border-radius: 44px; background: #5ab4ff; opacity: 0.78; mix-blend-mode: multiply; box-shadow: 0 30px 60px rgba(70,160,255,0.25); padding: 30px; box-sizing: border-box; color: #062a4d; display: flex; flex-direction: column; justify-content: flex-end">
+        <span style="font-size: 14px; font-weight: 700">Energía</span><span style="font-size: 28px; font-weight: 800">Pico a las 12:30</span>
+      </div>
+      <div style="position: absolute; left: 300px; top: 190px; width: 130px; height: 130px; border-radius: 50%; background: #ffffff; box-shadow: 0 20px 40px rgba(18,17,23,0.25); display: flex; align-items: center; justify-content: center">
+        <svg width="82" height="82" viewBox="0 0 72 72" role="img" aria-label="Tu mejor hora: el cruce de las tres capas"><circle cx="36" cy="36" r="27" fill="none" stroke="#121117" stroke-width="6"></circle><circle cx="40" cy="31" r="13" fill="#ff7a59"></circle></svg>
+      </div>
+      <div style="position: absolute; left: 446px; top: 228px; background: #121117; color: #ffffff; border-radius: 12px; padding: 10px 14px; font-size: 14px; font-weight: 700">Tu mejor hora: foco a las 12:30</div>
+    </div>
+  </div>
+
+  <div style="position: absolute; left: 64px; bottom: 26px; font-size: 12.5px; color: #55525f">Cristal coral #FF8A6B · lila #A78BFA · cielo #5AB4FF (multiplicados) · Manrope 800 · No es un producto sanitario</div>
+</div>
+</div></div></section><section id="V05-Cinta"><h2>V05 · Cinta de luz</h2>
+<div class="frame" style="aspect-ratio:1440/900" data-w="1440"><div class="board" style="width:1440px;height:900px">
+
+<div style="width: 1440px; height: 900px; box-sizing: border-box; position: relative; overflow: hidden; background: #fcfbf9; color: #131219; font-family: Inter, system-ui, sans-serif">
+  <svg width="1440" height="900" viewBox="0 0 1440 900" style="position: absolute; left: 0; top: 0" aria-hidden="true">
+    <defs>
+      <linearGradient id="v5g" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0" stop-color="#7cc4ff"></stop>
+        <stop offset="0.3" stop-color="#b79cff"></stop>
+        <stop offset="0.6" stop-color="#ff8f73"></stop>
+        <stop offset="1" stop-color="#ffd28a"></stop>
+      </linearGradient>
+      <filter id="v5blur" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="22"></feGaussianBlur></filter>
+    </defs>
+    <path d="M -60 760 C 260 760, 420 300, 760 360 S 1200 700, 1520 180" fill="none" stroke="url(#v5g)" stroke-width="150" stroke-linecap="round" filter="url(#v5blur)" opacity="0.55"></path>
+    <path d="M -60 760 C 260 760, 420 300, 760 360 S 1200 700, 1520 180" fill="none" stroke="url(#v5g)" stroke-width="70" stroke-linecap="round" opacity="0.9"></path>
+    <path class="v5-flow" d="M -60 760 C 260 760, 420 300, 760 360 S 1200 700, 1520 180" fill="none" stroke="#ffffff" stroke-width="3" stroke-dasharray="2 22" stroke-linecap="round" opacity="0.9"></path>
+  </svg>
+
+  <div style="position: absolute; left: 1010px; top: 330px; width: 300px; height: 300px">
+    <div style="position: absolute; inset: 0; border-radius: 50%; background: conic-gradient(from 200deg, #ff9f87, #ffd28a, #b79cff, #7cc4ff, #c9f0e4, #ff9f87); -webkit-mask: radial-gradient(circle, transparent 54%, #000 55.5%); mask: radial-gradient(circle, transparent 54%, #000 55.5%); box-shadow: 0 30px 60px rgba(90,60,140,0.2)"></div>
+    <div style="position: absolute; inset: 0; border-radius: 50%; background: radial-gradient(circle at 30% 20%, rgba(255,255,255,0.95) 0%, rgba(255,255,255,0) 30%); -webkit-mask: radial-gradient(circle, transparent 54%, #000 55.5%); mask: radial-gradient(circle, transparent 54%, #000 55.5%)"></div>
+    <div style="position: absolute; left: 160px; top: 70px; width: 86px; height: 86px; border-radius: 50%; background: radial-gradient(circle at 32% 28%, #ffffff 0%, #ffe3d8 18%, #ff9f87 55%, #e0674c 100%); box-shadow: 0 16px 28px rgba(224,103,76,0.35)"></div>
+  </div>
+
+  <div style="position: relative; display: flex; justify-content: space-between; align-items: center; padding: 28px 64px">
+    <div style="display: flex; align-items: center; gap: 10px">
+      <div style="width: 30px; height: 30px; border-radius: 50%; background: conic-gradient(from 200deg, #ff9f87, #ffd28a, #b79cff, #7cc4ff, #ff9f87); -webkit-mask: radial-gradient(circle, transparent 46%, #000 48%); mask: radial-gradient(circle, transparent 46%, #000 48%)"></div>
+      <span style="font-size: 22px; letter-spacing: -0.03em"><span style="font-weight: 900">Ur</span><span style="font-weight: 500">Coach</span></span>
+    </div>
+    <a href="#cohorte" style="text-decoration: none; background: #131219; color: #ffffff; padding: 12px 20px; border-radius: 999px; font-size: 15px; font-weight: 600">Únete a la cohorte</a>
+  </div>
+
+  <div style="position: relative; padding: 60px 64px 0; display: flex; flex-direction: column; gap: 22px; max-width: 760px">
+    <h1 style="margin: 0; font-size: 104px; font-weight: 900; letter-spacing: -0.055em; line-height: 0.93">Tu día tiene<br>una trayectoria.</h1>
+    <p style="margin: 0; font-size: 20px; line-height: 1.5; color: #3d3a48; max-width: 520px; background: rgba(252,251,249,0.7)">UrCoach la dibuja con tu agenda, tu sueño y tu energía, y te avisa solo cuando toca corregirla.</p>
+    <div style="display: flex; gap: 12px">
+      <a href="#cohorte" style="text-decoration: none; background: #131219; color: #ffffff; padding: 18px 28px; border-radius: 999px; font-size: 17px; font-weight: 700">Empieza el 19 de enero</a>
+      <a href="#metodo" style="text-decoration: none; background: #ffffff; border: 1px solid rgba(19,18,25,0.12); padding: 17px 26px; border-radius: 999px; font-size: 17px; font-weight: 700">Ver el método</a>
+    </div>
+  </div>
+
+  <div style="position: absolute; left: 64px; bottom: 26px; font-size: 12.5px; color: #3d3a48">Cinta de luz: cielo, lila, coral, ámbar · Inter 900 / 500 · No es un producto sanitario</div>
+</div>
+</div></div></section><section id="V06-App"><h2>V06 · App protagonista</h2>
+<div class="frame" style="aspect-ratio:1440/900" data-w="1440"><div class="board" style="width:1440px;height:900px">
+
+<div style="width: 1440px; height: 900px; box-sizing: border-box; position: relative; overflow: hidden; background: #f7f6fb; color: #121018; font-family: Figtree, system-ui, sans-serif">
+  <div style="position: absolute; left: 780px; top: 60px; width: 760px; height: 760px; border-radius: 50%; background: radial-gradient(circle, rgba(183,156,255,0.45) 0%, rgba(255,159,135,0.25) 40%, rgba(247,246,251,0) 70%)"></div>
+
+  <div style="position: relative; display: flex; justify-content: space-between; align-items: center; padding: 28px 64px">
+    <div style="display: flex; align-items: center; gap: 10px">
+      <div style="width: 30px; height: 30px; border-radius: 50%; background: conic-gradient(from 200deg, #ff9f87, #ffd28a, #b79cff, #7cc4ff, #ff9f87); -webkit-mask: radial-gradient(circle, transparent 46%, #000 48%); mask: radial-gradient(circle, transparent 46%, #000 48%)"></div>
+      <span style="font-size: 22px; letter-spacing: -0.03em"><span style="font-weight: 900">Ur</span><span style="font-weight: 600">Coach</span></span>
+    </div>
+    <a href="#cohorte" style="text-decoration: none; background: #121018; color: #ffffff; padding: 12px 20px; border-radius: 999px; font-size: 15px; font-weight: 700">Lista de espera</a>
+  </div>
+
+  <div style="position: relative; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); padding: 30px 64px 0; align-items: center">
+    <div style="display: flex; flex-direction: column; gap: 24px">
+      <h1 style="margin: 0; font-size: 92px; font-weight: 900; letter-spacing: -0.055em; line-height: 0.94">Tu coach,<br>en el bolsillo<br>y en tu IA.</h1>
+      <p style="margin: 0; font-size: 20px; line-height: 1.5; color: #3d3a48; max-width: 500px">El plan del día, el cierre y la semana, con la misma voz en el móvil y dentro de Claude.</p>
+      <div style="display: flex; gap: 12px">
+        <a href="#cohorte" style="text-decoration: none; background: #121018; color: #ffffff; padding: 18px 28px; border-radius: 14px; font-size: 17px; font-weight: 700">Apúntate a la lista</a>
+        <a href="#claude" style="text-decoration: none; background: #ffffff; border: 1px solid #e3e0ec; padding: 17px 26px; border-radius: 14px; font-size: 17px; font-weight: 700">Úsalo ya en Claude</a>
+      </div>
+    </div>
+
+    <div style="position: relative; height: 720px">
+      <div style="position: absolute; left: 150px; top: 0; width: 330px; height: 690px; border-radius: 54px; background: #121018; padding: 12px; box-sizing: border-box; box-shadow: 0 50px 100px rgba(60,40,120,0.35)">
+        <div style="width: 100%; height: 100%; border-radius: 44px; overflow: hidden; background: #f7f6fb; display: flex; flex-direction: column">
+          <div style="height: 270px; background: radial-gradient(80% 90% at 80% 10%, #ffc6b4 0%, rgba(255,198,180,0) 60%), radial-gradient(80% 80% at 10% 90%, #c4e2ff 0%, rgba(196,226,255,0) 60%), #e9e2ff; padding: 30px 22px 0; box-sizing: border-box; display: flex; flex-direction: column; gap: 8px">
+            <span style="font-size: 14px; font-weight: 600; color: #3d3a48">Jueves 19</span>
+            <span style="font-size: 32px; font-weight: 900; letter-spacing: -0.03em; line-height: 1.05">Foco a las<br>12:30</span>
+            <span style="align-self: flex-start; font-size: 12px; font-weight: 700; background: rgba(255,255,255,0.75); padding: 5px 10px; border-radius: 999px">Energía baja</span>
+          </div>
+          <div style="padding: 16px; display: flex; flex-direction: column; gap: 12px; margin-top: -40px">
+            <div style="border-radius: 22px; background: linear-gradient(135deg, #7c3aed, #4f46e5 55%, #2563eb); color: #ffffff; padding: 18px; display: flex; flex-direction: column; gap: 6px; box-shadow: 0 16px 30px rgba(79,70,229,0.3)">
+              <span style="font-size: 12.5px; font-weight: 600; opacity: 0.9">Lo que importa hoy</span>
+              <span style="font-size: 19px; font-weight: 800">Cerrar el term sheet</span>
+            </div>
+            <div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px">
+              <div style="border-radius: 20px; background: linear-gradient(135deg, #e11d48, #c2410c); color: #ffffff; padding: 14px; display: flex; flex-direction: column; gap: 2px"><span style="font-size: 11.5px; font-weight: 600">Último café</span><span style="font-size: 22px; font-weight: 900">14:00</span></div>
+              <div style="border-radius: 20px; background: linear-gradient(135deg, #0d9488, #115e59); color: #ffffff; padding: 14px; display: flex; flex-direction: column; gap: 2px"><span style="font-size: 11.5px; font-weight: 600">Hábito</span><span style="font-size: 22px; font-weight: 900">5 de 7</span></div>
+            </div>
+            <div style="border-radius: 20px; background: #ffffff; padding: 14px 16px; display: flex; justify-content: space-between; align-items: center"><span style="font-size: 14px; font-weight: 700">Crear los bloques</span><span style="font-size: 13px; font-weight: 700; color: #4f46e5">Sí</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="v6-f1" style="position: absolute; left: 0; top: 150px; width: 250px; background: rgba(255,255,255,0.92); border-radius: 20px; padding: 14px 16px; box-shadow: 0 20px 40px rgba(60,40,120,0.18); display: flex; flex-direction: column; gap: 4px">
+        <span style="font-size: 12px; font-weight: 700; color: #6b6878">UrCoach · 07:20</span><span style="font-size: 14px; line-height: 1.4">Buenos días. Sal 10-20 minutos a la luz exterior.</span>
+      </div>
+      <div class="v6-f2" style="position: absolute; left: 400px; top: 470px; width: 250px; background: rgba(255,255,255,0.92); border-radius: 20px; padding: 14px 16px; box-shadow: 0 20px 40px rgba(60,40,120,0.18); display: flex; flex-direction: column; gap: 4px">
+        <span style="font-size: 12px; font-weight: 700; color: #6b6878">UrCoach · 22:00</span><span style="font-size: 14px; line-height: 1.4">Empieza la desconexión: luz tenue y 20 minutos de lectura.</span>
+      </div>
+    </div>
+  </div>
+
+  <div style="position: absolute; left: 64px; bottom: 24px; font-size: 12.5px; color: #55525f">Concepto de app móvil (fase 3 del plan; hoy UrCoach funciona dentro de Claude) · Figtree 900 · No es un producto sanitario</div>
+</div>
+</div></div></section><section id="V07-Orbe"><h2>V07 · Orbe de energía</h2>
+<div class="frame" style="aspect-ratio:1440/900" data-w="1440"><div class="board" style="width:1440px;height:900px">
+
+<div style="width: 1440px; height: 900px; box-sizing: border-box; position: relative; overflow: hidden; background: #faf9fc; color: #121117; font-family: Inter, system-ui, sans-serif">
+  <div style="position: relative; display: flex; justify-content: space-between; align-items: center; padding: 28px 64px">
+    <div style="display: flex; align-items: center; gap: 10px">
+      <div style="width: 30px; height: 30px; border-radius: 50%; background: radial-gradient(circle at 35% 30%, #ffffff 0%, #ffc6b4 25%, #b79cff 60%, #6b8cff 100%)"></div>
+      <span style="font-size: 22px; letter-spacing: -0.03em"><span style="font-weight: 900">Ur</span><span style="font-weight: 500">Coach</span></span>
+    </div>
+    <a href="#cohorte" style="text-decoration: none; background: #121117; color: #ffffff; padding: 12px 20px; border-radius: 999px; font-size: 15px; font-weight: 600">Únete a la cohorte</a>
+  </div>
+
+  <div style="position: relative; display: grid; grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr); padding: 40px 64px 0; align-items: center">
+    <div style="display: flex; flex-direction: column; gap: 24px">
+      <h1 style="margin: 0; font-size: 104px; font-weight: 900; letter-spacing: -0.055em; line-height: 0.93">Energía<br>que se ve.</h1>
+      <p style="margin: 0; font-size: 20px; line-height: 1.5; color: #3d3a48; max-width: 480px">Tu energía de hoy, hecha forma: cálida cuando hay margen, más calmada cuando toca cuidarte. UrCoach ajusta el día a lo que ves.</p>
+      <div style="display: flex; gap: 10px; align-items: center">
+        <div style="width: 26px; height: 26px; border-radius: 50%; background: radial-gradient(circle at 35% 30%, #ffffff 0%, #ffd28a 30%, #ff8f73 100%)"></div><span style="font-size: 14px; color: #3d3a48">alta</span>
+        <div style="width: 26px; height: 26px; border-radius: 50%; margin-left: 10px; background: radial-gradient(circle at 35% 30%, #ffffff 0%, #ffc6b4 25%, #b79cff 100%)"></div><span style="font-size: 14px; color: #3d3a48">media</span>
+        <div style="width: 26px; height: 26px; border-radius: 50%; margin-left: 10px; background: radial-gradient(circle at 35% 30%, #ffffff 0%, #c4e2ff 30%, #6b8cff 100%)"></div><span style="font-size: 14px; color: #3d3a48">baja</span>
+      </div>
+      <a href="#cohorte" style="align-self: flex-start; text-decoration: none; background: #121117; color: #ffffff; padding: 18px 28px; border-radius: 999px; font-size: 17px; font-weight: 700">Empieza el 19 de enero</a>
+    </div>
+
+    <div style="position: relative; height: 660px; display: flex; align-items: center; justify-content: center">
+      <div style="position: absolute; top: 560px; width: 420px; height: 60px; border-radius: 50%; background: radial-gradient(closest-side, rgba(80,60,160,0.22), rgba(80,60,160,0))"></div>
+      <div style="position: relative; width: 460px; height: 460px; border-radius: 50%; overflow: hidden; box-shadow: 0 50px 90px rgba(90,70,180,0.3), inset 0 0 60px rgba(255,255,255,0.4)">
+        <div class="v7-swirl" style="position: absolute; inset: 0; border-radius: 50%; background: conic-gradient(from 0deg, #ff8f73, #ffd28a, #b79cff, #6b8cff, #9ee6d2, #ff8f73); filter: blur(28px)"></div>
+        <div style="position: absolute; inset: 0; border-radius: 50%; background: radial-gradient(circle at 34% 26%, rgba(255,255,255,0.95) 0%, rgba(255,255,255,0.35) 18%, rgba(255,255,255,0) 40%), radial-gradient(circle at 70% 80%, rgba(40,20,90,0.25) 0%, rgba(40,20,90,0) 45%)"></div>
+      </div>
+      <div class="v7-halo" style="position: absolute; width: 660px; height: 190px; border-radius: 50%; border: 3px solid rgba(18,17,23,0.85); box-sizing: border-box"></div>
+      <div style="position: absolute; left: 70px; top: 300px; width: 30px; height: 30px; border-radius: 50%; background: radial-gradient(circle at 35% 30%, #ffffff 0%, #ff9f87 50%, #e0674c 100%); box-shadow: 0 8px 16px rgba(224,103,76,0.4)"></div>
+      <div style="position: absolute; right: 30px; top: 120px; background: rgba(255,255,255,0.88); border-radius: 18px; padding: 12px 16px; box-shadow: 0 16px 34px rgba(60,40,120,0.16); display: flex; flex-direction: column; gap: 2px">
+        <span style="font-size: 12px; font-weight: 600; color: #6b6878">Hoy</span><span style="font-size: 18px; font-weight: 800">Energía media</span>
+      </div>
+    </div>
+  </div>
+
+  <div style="position: absolute; left: 64px; bottom: 26px; font-size: 12.5px; color: #55525f">Orbe con aurora interior y halo · Inter 900 · No es un producto sanitario</div>
+</div>
+</div></div></section><section id="V08-Pastel"><h2>V08 · Pastel</h2>
+<div class="frame" style="aspect-ratio:1440/900" data-w="1440"><div class="board" style="width:1440px;height:900px">
+
+<div style="width: 1440px; height: 900px; box-sizing: border-box; position: relative; overflow: hidden; background: radial-gradient(60% 70% at 90% 10%, #ffe9e1 0%, rgba(255,233,225,0) 60%), radial-gradient(60% 70% at 5% 95%, #e6f1ff 0%, rgba(230,241,255,0) 60%), radial-gradient(50% 60% at 55% 60%, #f1ebff 0%, rgba(241,235,255,0) 60%), #fdfcfb; color: #1f1d26; font-family: Inter, system-ui, sans-serif">
+  <div style="display: flex; justify-content: space-between; align-items: center; padding: 30px 72px">
+    <div style="display: flex; align-items: center; gap: 10px">
+      <div style="width: 28px; height: 28px; border-radius: 50%; background: conic-gradient(from 200deg, #ffc2b2, #ffe2b0, #d8c9ff, #bfdfff, #ffc2b2); -webkit-mask: radial-gradient(circle, transparent 46%, #000 48%); mask: radial-gradient(circle, transparent 46%, #000 48%)"></div>
+      <span style="font-size: 21px; letter-spacing: -0.02em"><span style="font-weight: 700">Ur</span><span style="font-weight: 400">Coach</span></span>
+    </div>
+    <div style="display: flex; gap: 30px; align-items: center; font-size: 15px">
+      <a href="#metodo" style="text-decoration: none">Método</a><a href="#evidencia" style="text-decoration: none">Evidencia</a>
+      <a href="#cohorte" style="text-decoration: none; background: #1f1d26; color: #ffffff; padding: 12px 22px; border-radius: 999px; font-weight: 600">Empezar</a>
+    </div>
+  </div>
+
+  <div style="display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 0.9fr); padding: 60px 72px 0; align-items: center; gap: 40px">
+    <div style="display: flex; flex-direction: column; gap: 26px">
+      <h1 style="margin: 0; font-size: 88px; font-weight: 600; letter-spacing: -0.045em; line-height: 1">Rendimiento,<br>con calma.</h1>
+      <p style="margin: 0; font-size: 21px; line-height: 1.55; color: #4a4756; max-width: 520px">Un coach que te pregunta antes de aconsejar, que se calla durante tu foco y que no te castiga por un mal día.</p>
+      <div style="display: flex; gap: 12px">
+        <a href="#cohorte" style="text-decoration: none; background: #1f1d26; color: #ffffff; padding: 17px 28px; border-radius: 999px; font-size: 16px; font-weight: 600">Empieza el 19 de enero</a>
+        <a href="#metodo" style="text-decoration: none; background: rgba(255,255,255,0.85); padding: 17px 26px; border-radius: 999px; font-size: 16px; font-weight: 600">Así funciona</a>
+      </div>
+    </div>
+    <div style="display: flex; justify-content: center">
+      <div class="v8-ring" style="position: relative; width: 380px; height: 380px">
+        <div style="position: absolute; inset: 0; border-radius: 50%; background: conic-gradient(from 200deg, #ffc2b2, #ffe2b0, #d8c9ff, #bfdfff, #cdeee3, #ffc2b2); -webkit-mask: radial-gradient(circle, transparent 56%, #000 57.5%); mask: radial-gradient(circle, transparent 56%, #000 57.5%)"></div>
+        <div style="position: absolute; left: 196px; top: 100px; width: 100px; height: 100px; border-radius: 50%; background: radial-gradient(circle at 35% 30%, #ffffff 0%, #ffd6ca 40%, #ffb29e 100%)"></div>
+      </div>
+    </div>
+  </div>
+
+  <div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; padding: 40px 72px 0">
+    <div style="background: rgba(255,255,255,0.8); border-radius: 26px; padding: 22px 24px; display: flex; flex-direction: column; gap: 6px; box-shadow: 0 14px 30px rgba(120,100,160,0.08)">
+      <span style="font-size: 13px; color: #6b6878">Hoy, a las 12:30</span><span style="font-size: 20px; font-weight: 600">Foco, 60 minutos</span>
+      <div style="height: 6px; border-radius: 999px; background: linear-gradient(90deg, #d8c9ff, #bfdfff); margin-top: 8px"></div>
+    </div>
+    <div style="background: rgba(255,255,255,0.8); border-radius: 26px; padding: 22px 24px; display: flex; flex-direction: column; gap: 6px; box-shadow: 0 14px 30px rgba(120,100,160,0.08)">
+      <span style="font-size: 13px; color: #6b6878">Esta semana</span><span style="font-size: 20px; font-weight: 600">5 de 7 mañanas con luz</span>
+      <div style="height: 6px; border-radius: 999px; background: linear-gradient(90deg, #ffe2b0, #ffc2b2); margin-top: 8px"></div>
+    </div>
+    <div style="background: rgba(255,255,255,0.8); border-radius: 26px; padding: 22px 24px; display: flex; flex-direction: column; gap: 6px; box-shadow: 0 14px 30px rgba(120,100,160,0.08)">
+      <span style="font-size: 13px; color: #6b6878">Esta noche, 22:00</span><span style="font-size: 20px; font-weight: 600">Desconexión y lectura</span>
+      <div style="height: 6px; border-radius: 999px; background: linear-gradient(90deg, #cdeee3, #bfdfff); margin-top: 8px"></div>
+    </div>
+  </div>
+
+  <div style="position: absolute; left: 72px; bottom: 26px; font-size: 12.5px; color: #55525f">Pasteles mates: melocotón, mantequilla, lila, cielo, menta · Inter 600 / 400 · No es un producto sanitario</div>
+</div>
+</div></div></section><section id="V09-Bloques-color"><h2>V09 · Bloques de color</h2>
+<div class="frame" style="aspect-ratio:1440/900" data-w="1440"><div class="board" style="width:1440px;height:900px">
+
+<div style="width: 1440px; height: 900px; box-sizing: border-box; background: #f4f3f7; color: #0f0e14; font-family: Figtree, system-ui, sans-serif; padding: 24px; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); grid-template-rows: 70px repeat(2, minmax(0, 1fr)); gap: 16px">
+  <div style="grid-column: span 4; display: flex; justify-content: space-between; align-items: center; padding: 0 16px">
+    <div style="display: flex; align-items: center; gap: 10px">
+      <div style="width: 30px; height: 30px; border-radius: 50%; background: conic-gradient(from 200deg, #ff9f87, #ffd28a, #b79cff, #7cc4ff, #ff9f87); -webkit-mask: radial-gradient(circle, transparent 46%, #000 48%); mask: radial-gradient(circle, transparent 46%, #000 48%)"></div>
+      <span style="font-size: 22px; letter-spacing: -0.03em"><span style="font-weight: 900">Ur</span><span style="font-weight: 600">Coach</span></span>
+    </div>
+    <a href="#cohorte" style="text-decoration: none; background: #0f0e14; color: #ffffff; padding: 12px 22px; border-radius: 999px; font-size: 15px; font-weight: 700">Únete a la cohorte</a>
+  </div>
+
+  <div style="grid-column: span 2; grid-row: span 2; border-radius: 34px; background: linear-gradient(140deg, #7c3aed 0%, #4f46e5 45%, #2563eb 100%); color: #ffffff; padding: 44px; display: flex; flex-direction: column; justify-content: space-between; position: relative; overflow: hidden">
+    <div style="position: absolute; right: -80px; bottom: -80px; width: 380px; height: 380px; border-radius: 50%; background: radial-gradient(circle, rgba(255,159,135,0.65) 0%, rgba(255,159,135,0) 65%)"></div>
+    <span style="position: relative; font-size: 16px; font-weight: 700; opacity: 0.9">Tu coach de rendimiento sostenible</span>
+    <h1 style="position: relative; margin: 0; font-size: 104px; font-weight: 900; letter-spacing: -0.055em; line-height: 0.92">Juega tu<br>mejor día.</h1>
+    <div style="position: relative; display: flex; gap: 12px">
+      <a href="#cohorte" style="text-decoration: none; background: #ffffff; color: #0f0e14; padding: 17px 26px; border-radius: 999px; font-size: 16px; font-weight: 800">Empieza el 19 de enero</a>
+      <a href="#metodo" style="text-decoration: none; background: rgba(255,255,255,0.18); color: #ffffff; padding: 17px 26px; border-radius: 999px; font-size: 16px; font-weight: 800">Ver el método</a>
+    </div>
+  </div>
+
+  <div style="border-radius: 34px; background: linear-gradient(140deg, #e11d48 0%, #db2777 55%, #c2410c 100%); color: #ffffff; padding: 30px; display: flex; flex-direction: column; justify-content: space-between">
+    <span style="font-size: 15px; font-weight: 700">Foco de hoy</span>
+    <span style="font-size: 88px; font-weight: 900; letter-spacing: -0.05em; line-height: 0.9">12:30</span>
+    <span style="font-size: 15px; font-weight: 600">60 minutos en tu mejor franja</span>
+  </div>
+  <div style="border-radius: 34px; background: #ffffff; padding: 30px; display: flex; flex-direction: column; justify-content: space-between; align-items: flex-start">
+    <div class="v9-ring" style="width: 150px; height: 150px; border-radius: 50%; background: conic-gradient(from 200deg, #ff9f87, #ffd28a, #b79cff, #7cc4ff, #c9f0e4, #ff9f87); -webkit-mask: radial-gradient(circle, transparent 52%, #000 54%); mask: radial-gradient(circle, transparent 52%, #000 54%)"></div>
+    <span style="font-size: 22px; font-weight: 800; letter-spacing: -0.02em">Dentro de la IA que ya usas</span>
+  </div>
+  <div style="border-radius: 34px; background: linear-gradient(140deg, #0d9488 0%, #0f766e 60%, #115e59 100%); color: #ffffff; padding: 30px; display: flex; flex-direction: column; justify-content: space-between">
+    <span style="font-size: 15px; font-weight: 700">Hábito focal</span>
+    <span style="font-size: 88px; font-weight: 900; letter-spacing: -0.05em; line-height: 0.9">5/7</span>
+    <span style="font-size: 15px; font-weight: 600">mañanas con luz, sin rachas que se rompen</span>
+  </div>
+  <div style="border-radius: 34px; background: linear-gradient(140deg, #f59e0b 0%, #f97316 100%); color: #1f1405; padding: 30px; display: flex; flex-direction: column; justify-content: space-between">
+    <span style="font-size: 15px; font-weight: 800">Avisos al día</span>
+    <span style="font-size: 88px; font-weight: 900; letter-spacing: -0.05em; line-height: 0.9">1-3</span>
+    <span style="font-size: 15px; font-weight: 700">y ninguno durante tu foco</span>
+  </div>
+</div>
+</div></div></section><section id="V10-Sistema"><h2>V10 · Sistema de marca</h2>
+<div class="frame" style="aspect-ratio:1440/900" data-w="1440"><div class="board" style="width:1440px;height:900px">
+
+<div style="width: 1440px; height: 900px; box-sizing: border-box; background: #f6f5f9; color: #121018; font-family: Figtree, system-ui, sans-serif; padding: 36px 48px; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); grid-template-rows: auto minmax(0, 1fr) minmax(0, 1fr); gap: 18px">
+  <div style="grid-column: span 4; display: flex; justify-content: space-between; align-items: flex-end">
+    <div style="display: flex; flex-direction: column; gap: 4px">
+      <span style="font-size: 13px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: #5b5869">Sistema de marca · Aurora + Prisma</span>
+      <span style="font-size: 40px; font-weight: 900; letter-spacing: -0.04em">Así escala UrCoach</span>
+    </div>
+    <span style="font-size: 14px; color: #5b5869">Un anillo iridiscente · tres degradados · una tipografía</span>
+  </div>
+
+  <div style="grid-column: span 2; background: #ffffff; border-radius: 28px; padding: 30px; display: flex; flex-direction: column; justify-content: space-between">
+    <span style="font-size: 13px; font-weight: 700; color: #5b5869">Logotipo</span>
+    <div style="display: flex; align-items: center; gap: 18px">
+      <div style="width: 92px; height: 92px; border-radius: 50%; background: conic-gradient(from 200deg, #ff9f87, #ffd28a, #b79cff, #7cc4ff, #c9f0e4, #ff9f87); -webkit-mask: radial-gradient(circle, transparent 47%, #000 49%); mask: radial-gradient(circle, transparent 47%, #000 49%)"></div>
+      <span style="font-size: 96px; letter-spacing: -0.05em; line-height: 1"><span style="font-weight: 900">Ur</span><span style="font-weight: 600">Coach</span></span>
+    </div>
+    <div style="display: flex; gap: 22px; align-items: center">
+      <div style="background: #121018; border-radius: 14px; padding: 12px 18px; display: flex; align-items: center; gap: 10px">
+        <div style="width: 26px; height: 26px; border-radius: 50%; background: conic-gradient(from 200deg, #ff9f87, #ffd28a, #b79cff, #7cc4ff, #ff9f87); -webkit-mask: radial-gradient(circle, transparent 45%, #000 47%); mask: radial-gradient(circle, transparent 45%, #000 47%)"></div>
+        <span style="color: #ffffff; font-size: 20px; letter-spacing: -0.03em"><span style="font-weight: 900">Ur</span><span style="font-weight: 600">Coach</span></span>
+      </div>
+      <span style="font-size: 13.5px; color: #5b5869">«Ur» en 900 y «Coach» en 600 · versión sobre oscuro</span>
+    </div>
+  </div>
+
+  <div style="background: #ffffff; border-radius: 28px; padding: 26px; display: flex; flex-direction: column; justify-content: space-between">
+    <span style="font-size: 13px; font-weight: 700; color: #5b5869">Iconos de la app</span>
+    <div style="display: flex; gap: 14px">
+      <div style="width: 84px; height: 84px; border-radius: 22px; background: #ffffff; box-shadow: 0 10px 24px rgba(60,40,120,0.16); display: flex; align-items: center; justify-content: center"><div style="width: 50px; height: 50px; border-radius: 50%; background: conic-gradient(from 200deg, #ff9f87, #ffd28a, #b79cff, #7cc4ff, #ff9f87); -webkit-mask: radial-gradient(circle, transparent 44%, #000 46%); mask: radial-gradient(circle, transparent 44%, #000 46%)"></div></div>
+      <div style="width: 84px; height: 84px; border-radius: 22px; background: linear-gradient(140deg, #7c3aed, #2563eb); display: flex; align-items: center; justify-content: center"><div style="width: 50px; height: 50px; border-radius: 50%; border: 9px solid #ffffff; box-sizing: border-box"></div></div>
+      <div style="width: 84px; height: 84px; border-radius: 22px; background: linear-gradient(140deg, #ff9f87, #b79cff); display: flex; align-items: center; justify-content: center"><div style="width: 50px; height: 50px; border-radius: 50%; border: 9px solid #ffffff; box-sizing: border-box"></div></div>
+    </div>
+    <span style="font-size: 13px; color: #5b5869">Blanco (principal) · Prisma · Aurora</span>
+  </div>
+
+  <div style="background: #ffffff; border-radius: 28px; padding: 26px; display: flex; flex-direction: column; gap: 12px">
+    <span style="font-size: 13px; font-weight: 700; color: #5b5869">Degradados</span>
+    <div style="height: 46px; border-radius: 14px; background: linear-gradient(90deg, #ff9f87, #ffd28a, #b79cff, #7cc4ff)"></div><span style="font-size: 13px; margin-top: -6px">Aurora · marca y anillo</span>
+    <div style="height: 46px; border-radius: 14px; background: linear-gradient(90deg, #7c3aed, #4f46e5, #2563eb)"></div><span style="font-size: 13px; margin-top: -6px">Prisma · acción y hoy</span>
+    <div style="height: 46px; border-radius: 14px; background: linear-gradient(90deg, #e11d48, #c2410c)"></div><span style="font-size: 13px; margin-top: -6px">Brasa · foco y logros</span>
+  </div>
+
+  <div style="background: #ffffff; border-radius: 28px; padding: 26px; display: flex; flex-direction: column; justify-content: space-between">
+    <span style="font-size: 13px; font-weight: 700; color: #5b5869">Tipografía · Figtree</span>
+    <span style="font-size: 64px; font-weight: 900; letter-spacing: -0.05em; line-height: 1">Aa 12:30</span>
+    <span style="font-size: 14px; line-height: 1.5; color: #3d3a48">Titulares en 900, interfaz en 600, texto en 400. Cifras grandes como protagonistas.</span>
+  </div>
+
+  <div style="border-radius: 28px; background: linear-gradient(140deg, #7c3aed 0%, #4f46e5 50%, #2563eb 100%); color: #ffffff; padding: 26px; display: flex; flex-direction: column; justify-content: space-between; box-shadow: 0 24px 50px rgba(79,70,229,0.3)">
+    <div style="display: flex; justify-content: space-between"><span style="font-size: 13.5px; font-weight: 600">Hoy · jueves 19</span><span style="font-size: 12px; font-weight: 700; background: rgba(255,255,255,0.2); padding: 4px 10px; border-radius: 999px">Energía baja</span></div>
+    <span style="font-size: 46px; font-weight: 900; letter-spacing: -0.03em">Foco 12:30</span>
+    <span style="font-size: 14px; font-weight: 600">Tarjeta del día</span>
+  </div>
+
+  <div style="background: #ffffff; border-radius: 28px; padding: 26px; display: flex; flex-direction: column; justify-content: space-between">
+    <span style="font-size: 13px; font-weight: 700; color: #5b5869">Aviso y botón</span>
+    <div style="background: #f6f5f9; border-radius: 18px; padding: 12px 14px; display: flex; gap: 10px; align-items: flex-start">
+      <div style="width: 30px; height: 30px; flex-shrink: 0; border-radius: 9px; background: #ffffff; display: flex; align-items: center; justify-content: center"><div style="width: 18px; height: 18px; border-radius: 50%; background: conic-gradient(from 200deg, #ff9f87, #ffd28a, #b79cff, #7cc4ff, #ff9f87); -webkit-mask: radial-gradient(circle, transparent 40%, #000 43%); mask: radial-gradient(circle, transparent 40%, #000 43%)"></div></div>
+      <span style="font-size: 13.5px; line-height: 1.4">Último café de hoy: a partir de ahora, mejor sin cafeína.</span>
+    </div>
+    <button style="height: 48px; border: 0; border-radius: 999px; background: #121018; color: #ffffff; font-family: Figtree, sans-serif; font-size: 15px; font-weight: 700">Crear los bloques</button>
+  </div>
+
+  <div style="border-radius: 28px; overflow: hidden; position: relative; background: radial-gradient(70% 70% at 80% 20%, #ffc6b4 0%, rgba(255,198,180,0) 60%), radial-gradient(70% 70% at 20% 90%, #c4e2ff 0%, rgba(196,226,255,0) 60%), #efe8ff; padding: 26px; display: flex; flex-direction: column; justify-content: space-between">
+    <span style="font-size: 13px; font-weight: 700; color: #3d3a48">Post para redes</span>
+    <span style="font-size: 34px; font-weight: 900; letter-spacing: -0.04em; line-height: 1">Lo que mi agenda y mi sueño me dijeron esta semana.</span>
+    <span style="font-size: 14px; font-weight: 700"><span style="font-weight: 900">Ur</span>Coach · semana 3</span>
+  </div>
+</div>
+</div></div></section>
+</main>
+<footer>Exploración interna, 19-11-2026. Nombre de trabajo pendiente de comprobar la marca en EUIPO y OEPM. Las tipografías se cargan de Google Fonts: sin conexión se ven con las fuentes del sistema.</footer>
+<script>
+function fit(){document.querySelectorAll('.frame').forEach(function(f){var s=f.clientWidth/Number(f.dataset.w);f.firstElementChild.style.transform='scale('+s+')';});}
+window.addEventListener('resize',fit);window.addEventListener('load',fit);fit();
+</script>
+</body></html>

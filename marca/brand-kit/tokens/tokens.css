@@ -1,0 +1,19 @@
+:root{
+  --uc-ink:#121018; --uc-paper:#FAF9FC; --uc-mist:#F2F1F7; --uc-indigo:#4F46E5; --uc-night:#0B0A12;
+  --uc-ink-2:#3D3A48; --uc-muted:#5B5869; --uc-line:#E9E7F0;
+  --uc-day:linear-gradient(100deg,#1FB6F2 0%,#4C7CF6 30%,#4F46E5 57%,#7C3AED 86%,#9061F9 100%);
+  --uc-day-dark:linear-gradient(100deg,#5ED3FF 0%,#7C9DFF 30%,#8B8CFB 57%,#A684FA 86%,#C4B5FD 100%);
+  --uc-font-display:"Inter Tight","Inter",system-ui,sans-serif;
+  --uc-font-text:"Inter",system-ui,sans-serif;
+  --uc-font-accent:"Instrument Serif",Georgia,serif;
+  --uc-sueno:#ECE9FE; --uc-sueno-t:#4C3FB8;
+  --uc-luz:#FFF2D6; --uc-luz-t:#8A5300;
+  --uc-medita:#D5F5EF; --uc-medita-t:#0B6B60;
+  --uc-foco:#4F46E5; --uc-foco-t:#FFFFFF;
+  --uc-reunion:#EEF1F5; --uc-reunion-t:#475569;
+  --uc-comida:#FFE8D6; --uc-comida-t:#9A3412;
+  --uc-descanso:#DCF3FD; --uc-descanso-t:#075985;
+  --uc-entreno:#DCFCE7; --uc-entreno-t:#166534;
+  --uc-lectura:#FFE0E6; --uc-lectura-t:#9F1239;
+  --uc-descon:#DBE4FF; --uc-descon-t:#1E3A8A;
+}

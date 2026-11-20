@@ -1,0 +1,138 @@
+# E · Mapa de afirmaciones · Línea 08 (rendimiento profesional y coaching)
+
+**No se comparte con el verificador.** Relaciona cada pregunta de `E-preguntas.md` con lo que dice el informe `08-rendimiento-coaching.md`. Las líneas remiten al informe a 19-11-2026 (605 líneas). Confianza que asigna el propio informe entre corchetes: [V] `verified`, [R] `reported`, [I] `inferred`.
+
+## Afirmaciones
+
+| id | capa | lo que dice el informe (cita breve) | línea | fuente que cita el informe |
+|---|---|---|---|---|
+| E08-01 | P | 27 CEO de grandes empresas, 13 semanas, 24 h; 62,5 h/semana; 72 % del tiempo de trabajo en reuniones, ~37 reuniones/semana; 36 % en asuntos reactivos («el tiempo reactivo ronda un tercio»). Base de `auditar_agenda` y del resumen 1 [V, vía resumen secundario] | 17, 32, 89 | Porter y Nohria, HBR 2018; resumen MGMA y McKinsey |
+| E08-02 | P | 1.114 CEO de 6 países, con diarios; las reuniones superan el 50 % del tiempo en la mediana [V] | 17, 90 | Bandiera et al., JPE 2020; NBER Reporter 2023 |
+| E08-03 | P | Perfiles «líder» (reuniones multifunción, alta dirección) y «gestor» (producción, individuales); líder → +7 % de ventas por desviación típica, efecto gradual tras el nombramiento; ~17 % de empresas con el tipo de CEO equivocado [V] | 33, 90, 104 | Bandiera et al., JPE 2020 |
+| E08-04 | P | 14 días con 4, 6 u 8 h en cama; déficits acumulativos dosis-dependientes; a 6 h, «hasta 2 noches sin dormir» (resumen: «una o dos noches»; tabla: «1-2 noches»); somnolencia subjetiva se estabiliza mientras el rendimiento cae [R; PDF no leído; tabla dice «sólido»] | 18, 35, 113 | Van Dongen et al., Sleep 2003 |
+| E08-05 | P | >700 emprendedores; quien durmió menos o peor eligió peor la mejor idea según panel experto. Base de la regla «no decisiones irreversibles con deuda de sueño» [R] | 18, 36, 114, 126 | Gish et al., JBV 2019 |
+| E08-06 | P | Observadores ven al líder privado de sueño menos carismático; él no se ve peor [R] | 18, 37, 115, 128 | Barnes et al., JAP 2016 |
+| E08-07 | P | Dormir menos → más conducta poco ética, por fatiga cognitiva y menor autocontrol [R] | 18, 38, 116 | Barnes et al., OBHDP 2011 |
+| E08-08 | P | 171 enfermeras; dormir <6 h predijo más conducta desviada y hostilidad al día siguiente [R] | 38, 116 | Christian y Ellis, AMJ 2011 |
+| E08-09 | P | La privación afecta más a la cognición dependiente de la emoción y a la función prefrontal: juicio, riesgo, decisiones complejas. Citada como fuente de la regla del estado «Deuda» [R] | 117, 126 | Killgore, Prog Brain Res 2010 |
+| E08-10 | P | Réplica preregistrada de 36 laboratorios, n = 3.531, d = 0,06, no significativo. Base del mito «depósito de voluntad» [R; tabla: «refutado»] | 19, 39, 120, 379 | Vohs et al., Psych Sci 2021 |
+| E08-11 | P | Favorables caían de ~65 % a casi 0 antes de cada pausa; orden no aleatorio (presos sin abogado al final); Glöckner: el patrón surge si los jueces evitan casos largos antes de la pausa; «tamaño del efecto inverosímil» [R] | 19, 40, 119, 380 | Danziger et al., PNAS 2011; Weinshall-Margel y Shapard 2011; Glöckner, JDM 2016 |
+| E08-12 | P | +26 % de antibióticos innecesarios en la 4.ª hora frente a la 1.ª; mecanismo discutido (cansancio o ceder al paciente). Base de «decisiones importantes en las primeras horas del bloque» [R] | 41, 121 | Linder et al., JAMA IM 2014 |
+| E08-13 | P | Dejar tarea a medias deja residuo que empeora la siguiente; terminarla bajo presión de tiempo facilita desengancharse. Base de la nota «dónde lo dejo» [R] | 42, 136, 154 | Leroy, OBHDP 2009 |
+| E08-14 | P | Interrumpidos trabajan más rápido, con más estrés, frustración y presión, sin más errores. Base de «avisos agrupados» [R] | 43, 137, 155 | Mark, Gudith y Klocke, CHI 2008 |
+| E08-15 | P | Los «23 minutos» vienen de estudios de campo de Mark de mediados de los 2000 y miden el tiempo hasta volver a la tarea, incluido trabajo en otras cosas, no la recuperación de la concentración (mito) [R] | 137, 381 | Mark (sin cita concreta) |
+| E08-16 | P | Atención en pantalla: ~2,5 min en 2004 → ~47 s en estudios recientes; cerca de la mitad son autointerrupciones, más con aburrimiento, cansancio o tareas difíciles [R] | 44, 138, 156 | Mark, *Attention Span* 2023 (entrevista Dropbox) |
+| E08-17 | P | Las réplicas directas preregistradas del «brain drain» fallan; los metaanálisis discrepan; «evidencia mixta» (mito) [R] | 140, 382 | Ward et al. 2017; Ruiz Pardo y Minda 2022; Böttger et al. 2023 |
+| E08-18 | P | Multitarea mediática → peor control cognitivo: d = 0,17, deja de ser significativo al corregir estudios pequeños (mito «la multitarea daña el cerebro») [R] | 139, 390 | Wiradhany y Nieuwenstein 2017 |
+| E08-19 | P | 158 estudios, >53.000 personas; r = 0,26 rendimiento, 0,31 bienestar, 0,43 satisfacción vital, −0,22 angustia; «potenciador del bienestar más que del rendimiento»; formación con efecto pequeño [V] | 20, 45, 141, 157, 386 | Aeon, Faber y Panaccio, PLOS ONE 2021 |
+| E08-20 | P | Muestreo de experiencias de 2 semanas; plan por franjas solo mejora con pocas interrupciones; plan contingente funciona con cualquier nivel. Base del «si pasa X, entonces Y» en el brief [R] | 20, 46, 142, 146, 153 | Parke et al., JAP 2018 |
+| E08-21 | P | 94 pruebas, d = 0,65 [R] | 47, 143 | Gollwitzer y Sheeran, AESP 2006 |
+| E08-22 | P | Actualización 2024: d = 0,36 general, 0,27 en conducta, 0,15-0,35 tras corregir sesgo [R; cifras de un blog, Silicon Canals; tabla: «sólido»] | 47, 143, 527, 602 | Sheeran, Listrom y Gollwitzer, Eur Rev Soc Psych 2024 |
+| E08-23 | P | Revisión de 30 años, 5 líneas (estresor, tecnología de comunicación y rendimiento, voz, poder, cultura); «la preparación es el hallazgo práctico más sólido»; faltan instrumentos validados. Base de `preparar_reunion` [R, «según los resúmenes»] | 49, 164, 179, 464, 532 | Rogelberg, Kreamer y Gray, Annu Rev OPOB 2026, DOI 10.1146/annurev-orgpsych-031925-091223 |
+| E08-24 | P | 76 empresas >1.000 empleados, 1-5 días sin reuniones; 1 día: +35 % productividad, −26 % estrés; 2 días: +71 %, −43 %; 3 días: +73 %, −57 %, óptimo; 5 días: +64 % con menos satisfacción y cooperación; sin línea base, significación ni control [V]. Resumen habla de «72 % más productividad» | 24, 50, 166-172, 186, 383 | Laker et al., MIT SMR 2022 |
+| E08-25 | P | 4 experimentos, 176 personas; caminar aumenta el divergente y se mantiene al sentarse; no mejora el convergente. Base de la «regla de reunión a pie» [R] | 51, 173, 187 | Oppezzo y Schwartz, JEP:LMC 2014 |
+| E08-26 | P | 35 años de evidencia; metas específicas y difíciles > «hazlo lo mejor que puedas»; mecanismos: dirección, esfuerzo, persistencia, estrategia; moderadores: compromiso, feedback, complejidad; en tareas complejas o nuevas, metas de aprendizaje [R; tabla: «sólido»] | 52, 194, 210 | Locke y Latham, Am Psych 2002 |
+| E08-27 | P | 21 estudios, 15.907 participantes, g = 0,336 (0,242 tras trim-and-fill); único moderador significativo: formato (guiado por persona g = 0,465; documento g = 0,277). Base del «cambio clave» del brief y del WOOP conversacional [V] | 20, 53, 200, 207, 462 | Wang, Wang y Gai, Front Psychol 2021 |
+| E08-28 | P | Estudiantes predijeron 33,9 días para la tesis y tardaron 55,5; pensar en experiencias pasadas corrige parte del sesgo. Base del «corrector de planificación» [R] | 54, 197, 214 | Buehler, Griffin y Ross, JPSP 1994 |
+| E08-29 | P | 178 participantes; el pre-mortem redujo el exceso de confianza más que la crítica estándar o los pros y contras. Base de `pre_mortem` y de `preparar_momento_clave` [R] | 55, 198, 215, 467 | Veinott, Klein y Wiggins, ISCRAM 2010 |
+| E08-30 | P | Objetivos casi imposibles atraen más a quien menos puede permitírselos; solo funcionan con holgura de recursos y buen rendimiento reciente (mito «cuanto más ambiciosa, mejor») [R] | 56, 195, 389 | Sitkin et al., AMR 2011 |
+| E08-31 | P | Evidencia revisada por pares mínima: estudio cualitativo en 26 organizaciones tailandesas (Rompho 2024) y estudios de caso en software (2023) (mito OKR) [R] | 56, 196, 216, 384 | Rompho, Benchmarking 2024 |
+| E08-32 | P | Hitos temporales (lunes, principio de mes) aumentan las conductas de mejora. Base de «un solo cambio para el lunes» [R] | 57, 202, 213, 466 | Dai, Milkman y Riis, Mgmt Sci 2014 |
+| E08-33 | P | 91 muestras, 38.124 empleados; r = −0,36 agotamiento, −0,42 fatiga, 0,32 bienestar, 0,32 satisfacción vital, 0,09 rendimiento; exigencias cuantitativas r = −0,28; trabajo fuera de horario r = −0,31; la «inversión laboral intensa» la reduce. Base del ritual de apagado y la métrica de desconexión [V] | 21, 58, 223, 363 | Wendsche y Lohmann-Haislah, Front Psychol 2017 |
+| E08-34 | P | Formular un plan concreto para un objetivo pendiente elimina pensamientos intrusivos e interferencia, aunque el plan no se haya ejecutado. Base del paso «aparca lo pendiente» [R] | 21, 59, 226, 463 | Masicampo y Baumeister, JPSP 2011 |
+| E08-35 | P | Experimento con empleados: planificar al final de la jornada cuándo, dónde y cómo terminar lo pendiente aumentó la desconexión, sobre todo en quienes desconectan mal [R] | 21, 59, 227, 463 | Smit, JOOP 2016 |
+| E08-36 | P | 22 muestras, 2.335 personas; pausas ≤10 min; vigor d = 0,36, fatiga d = 0,35; rendimiento d = 0,16 no significativo; solo efecto en tareas poco exigentes [V; tabla: «sólido»] | 60, 228, 247 | Albulescu et al., PLOS ONE 2022 |
+| E08-37 | P | Vacaciones d = +0,43 en salud y bienestar; se desvanece al volver (d = −0,38). Base de la regla «vuelta de vacaciones» [R] | 61, 229, 248, 471 | de Bloom et al., J Occup Health 2009 |
+| E08-38 | P | Quien más estrés tiene es quien menos se recupera. Base del modo «sostener» [R] | 62, 224, 246, 470 | Sonnentag, RIOB 2018 |
+| E08-39 | P | 62 emprendedores con diarios; 77 % de la variación de creatividad es de un día a otro; dormir bien la noche anterior predice ideas al día siguiente [R] | 63, 234 | Weinberger et al., JBV 2018 |
+| E08-40 | P | «I am excited» frente a calmarse mejoró karaoke, discurso y matemáticas; jueces valoraron mejor los discursos [R] | 64, 256, 278 | Brooks, JEP:G 2014 |
+| E08-41 | P | Réplica directa del estudio del discurso: reprodujo el aumento de emoción autodeclarada, no la mejora del rendimiento según observadores [R] | 64, 256, 566 | Poynter, Pasqualini y Smith, Psychol Lang Commun 2025 |
+| E08-42 | P | 35 estudios, 5.638 personas; d = 0,23 (0,14 corregido); actuación en público d = 0,34; mixtas con visualización d = 0,45; «no son balas de plata». Base de la reevaluación en `preparar_momento_clave` [V] | 65, 257, 465 | Bosshard y Gomez, Sci Rep 2024 |
+| E08-43 | P | 200 personas, sin efecto en hormonas ni conducta [R; enlace a noticia de Healio] | 66, 259 | Ranehill et al., Psych Sci 2015 |
+| E08-44 | P | Metaanálisis preregistrado de 88 estudios, 9.779 personas; sin efecto en testosterona, cortisol ni fisiológicos; solo sentirse más poderoso. Base del texto «nunca diremos» y del mito [R; título en el índice: «Dominance and prestige / postural feedback meta-analysis»] | 66, 261, 281, 378 | Körner et al., Psych Bull 2022 (resumen FORRT) |
+| E08-45 | P | 112 tamaños de efecto; 0,31 en pre-post, g = 0,64 en experimentos, con y sin presión; evidencia de deporte. Base de la rutina personal de 3 pasos / 5 min [R] | 67, 262, 277, 465 | Rupprecht, Tran y Gröpel, IRSEP 2021 |
+| E08-46 | P | 20 estudios; sin diferencias significativas entre enfoques; integrador g = 0,71. Base del «método mixto: GROW + soluciones + MI» [R] | 70, 291 | Wang, Lai, Xu y McDowall, JWAM 2022 |
+| E08-47 | P | Solo RCT: 37 estudios, n = 2.528, g = 0,59, indicios claros de sesgo de publicación. «Justifica el producto» [R; tabla: «sólido»] | 22, 68, 292 | de Haan y Nilsson, AMLE 2023 |
+| E08-48 | P | 27 muestras, 3.563 procesos; r = 0,41 con resultados, r = −0,29 con efectos negativos; no depende de la experiencia del coach ni del nº de sesiones. Base de los principios de diálogo y de la escala de alianza en la validación [R; tabla: «sólido»] | 22, 69, 296, 397, 487 | Graßmann, Schölmerich y Schermuly, Hum Rel 2020 |
+| E08-49 | P | 225 participantes; las preguntas centradas en soluciones aumentaron más orientación a la meta, afecto positivo, autoeficacia y pasos de acción. Base del banco de preguntas [R] | 71, 297 | Grant, J Systemic Ther 2012 |
+| E08-50 | P | 119 estudios, efecto medio pequeño (g ≈ 0,22), útil con ambivalencia. Base de los principios 1 y 7 y de las preguntas de ambivalencia [R] | 298, 401, 407, 431 | Lundahl et al., RSWP 2010 |
+| E08-51 | P | Dos RCT de 10 meses con estudiantes (n analizado = 327); chatbot «Vici» igualó al humano en consecución de metas (ηp² = 0,269 frente a 0,265); siguió mejorando al acabar; uso mayor → más ganancia; éxito por aplicación constante de la teoría de metas; GAS como medida. Base de «seguimiento sin excepción» y de la validación [V] | 22, 72, 303, 397, 414, 489 | Terblanche, Molyn, de Haan y Nilsson, PLOS ONE 2022 |
+| E08-52 | P | Ensayo de tres brazos con 114 directivos: humano > IA; IA no superó al control; alianza mayor con el humano. Está en el resumen 6 y en el mito del coach de IA [R; «fuentes secundarias»; título en el índice como marcador entre corchetes] | 22, 73, 304, 391, 583, 603 | de Haan, Terblanche y Nowack, HRDI 2026, DOI 10.1080/13678868.2026.2633990 |
+| E08-53 | P | 1.205 usuarios con ansiedad o depresión; WAI-SR 3,64 a los 5 días, comparable a terapia; autores vinculados a Wysa [R] | 74, 306 | Beatty et al., Front Digit Health 2022 |
+| E08-54 | P | Primer RCT de chatbot generativo de terapia, n = 210; redujo depresión, ansiedad y TCA frente a lista de espera; alianza comparable a terapia ambulatoria; «ningún agente generativo está listo para operar de forma autónoma». Base de la regla de derivación [R] | 74, 307, 456 | Heinz et al., NEJM AI 2025 |
+| E08-55 | P | Publicado en *Science*, 2026, 391(6792); título «Sycophantic AI decreases prosocial intentions and promotes dependence»; preprint alphaxiv 2510.01395 [R] | 23, 75, 309, 587 | Cheng et al., Science 2026 |
+| E08-56 | P | 11 modelos; validan ~49 % más que las personas, incluso ante engaño o daño; 3 experimentos preregistrados, n = 2.405; una interacción complaciente redujo disposición a asumir responsabilidad y reparar conflictos, aumentó convicción e intención de volver. Base de la «regla antiadulación» [R; tabla: «sólido»] | 23, 75, 309, 408, 481 | Cheng et al., Science 2026 |
+| E08-57 | P | Los LLM expresan estigma y responden mal a delirios o ideación suicida; terapeutas adecuados el 93 %, bots <60 %. Base del protocolo de derivación [R] | 23, 76, 310, 456 | Moore, Grabb et al., FAccT 2025 |
+| E08-58 | P | Recordar de memoria supera a releer y otras condiciones de estudio. Base de `plan_lectura` [R] | 77, 321, 469 | Adesope et al., RER 2017 |
+| E08-59 | P | Lo aprendido con recuperación transfiere, sobre todo a aplicación e inferencia, d = 0,40 [R] | 77, 322, 469 | Pan y Rickard, Psych Bull 2018 |
+| E08-60 | P | Wipro; últimos 15 min del día escribiendo lo aprendido; +22,8 % en la prueba final (tabla: «23 %») frente a 15 min más de práctica; mecanismo: autoeficacia; documento de trabajo, un estudio. Base de la pregunta de aprendizaje en `cierre_dia` [R] | 78, 323, 336, 463 | Di Stefano, Gino, Pisano y Staats, HBS/HEC 2014/2016 |
+| E08-61 | P | Ficción mejora poco la cognición social (g ≈ 0,15); efecto sobre todo frente a no leer nada [R] | 79, 324, 337 | Dodell-Feder y Tamir, JEP:G 2018 |
+| E08-62 | P | 138 estudios aleatorizados, n = 19.951, d = 0,40; mayor si se registra físicamente o se hace público; mayoría de salud. Base de las métricas y la revisión semanal [R; tabla: «sólido»] | 80, 344, 466 | Harkin et al., Psych Bull 2016 |
+| E08-63 | P | 128 muestras; r = 0,22 observada, ρ = 0,34 corregida; benévola d = 0,32; más acuerdo con indicadores no valorativos. Base de «destacado sí/no» como métrica conductual [R] | 81, 345, 359 | Heidemeier y Moser, JAP 2009 |
+| E08-64 | P | ~12.000 entradas de diario de 238 profesionales; avanzar en trabajo con sentido es el evento que más mejora motivación y emociones; los retrocesos pesan más. Base de «¿en qué avanzaste hoy?» [R] | 82, 346, 424, 463 | Amabile y Kramer, 2011 |
+| E08-65 | P | En España: 024 (conducta suicida, gratuita, 24 h) y 112 si hay peligro inmediato. Texto fijo de derivación | 449 | Sin fuente citada |
+| E08-66 | P | «Un resumen leído pasivamente equivale a releer, que es la estrategia que peor retiene, y genera ilusión de dominio» (mito de los resúmenes) [I] | 326, 387 | Sin fuente directa (inferido de la ciencia del aprendizaje) |
+| E08-67 | A | 60.000 horas; 9,7 h/día laborable, 3,9 fin de semana, 2,4 vacaciones; 42 % de reuniones individuales; 61 % cara a cara, 24 % electrónico; 1 % crisis; 6,9 h de sueño; 45 min de ejercicio [V secundario] | 89 | Porter y Nohria, HBR 2018 (vía MGMA) |
+| E08-68 | A | «La cifra del 28 % de tiempo a solas se cita mucho, pero no la he podido confirmar» | 89, 601 | Porter y Nohria, HBR 2018 |
+| E08-69 | A | ~80 % del tiempo planificado [V] | 90 | Bandiera et al., JPE 2020 |
+| E08-70 | A | Una interrupción cada 2 min (≈275/día) en horario central; 40 % mira el correo antes de las 6:00; jornada se alarga más allá de las 20:00 [R] | 92 | Microsoft Work Trend Index 2025 (Axios) |
+| E08-71 | A | Con más tiempo, la gente ajusta su ritmo a la meta implícita; los plazos ajustados funcionan como metas [R, solo abstract] | 144 | Bryan y Locke, OBHP 1967 |
+| E08-72 | A | Primeros estudios de Rogelberg y colegas (2006): frecuencia de reuniones asociada a más fatiga y carga percibida [R] | 165 | Rogelberg et al. 2006 (no está en el índice) |
+| E08-73 | A | Rogelberg estima que solo la mitad del tiempo de reunión se aprovecha [R] | 165 | Rogelberg, MIT SMR 2020 (vía workplaceinsight.net) |
+| E08-74 | A | Reuniones de pie más cortas sin pérdida de calidad en la decisión [R, sin verificar] | 174, 605 | Bluedorn et al. 1999 (no está en el índice) |
+| E08-75 | A | MCII mejoró la gestión del tiempo autodeclarada y la asistencia a clase de madres trabajadoras [R] | 201 | Oettingen et al., EJSP 2015 |
+| E08-76 | A | «+8,5 % de ventas en Sears» aparece solo en blogs de proveedores [R] | 196 | Sin fuente |
+| E08-77 | A | La recuperación se puede entrenar con intervenciones [R] | 224 | Sonnentag, Cheng y Parker, Annu Rev OPOB 2022 |
+| E08-78 | A | Desvanecimiento parcial a las 2 semanas [R] | 229 | Fritz y Sonnentag, JAP 2006 |
+| E08-79 | A | Demandas → agotamiento; recursos → compromiso y amortiguación [R] | 230 | Bakker y Demerouti, JOHP 2017 |
+| E08-80 | A | Revisión de 144 estudios; bienestar de los emprendedores heterogéneo [R] | 232 | Stephan, AMP 2018 |
+| E08-81 | A | Editorial de ETP que pide aplicar intervenciones de recuperación a emprendedores [R] | 233 | Williamson, Gish y Stephan, ETP 2021 |
+| E08-82 | A | Esfuerzo multilaboratorio: efecto «virtualmente nulo» en conducta y hormonas; Carney dejó de creer en el efecto [R] | 260, 261 | Jonas et al. 2017 (no está en el índice) |
+| E08-83 | A | Efectos moderados de la práctica mental, mayores en tareas cognitivas [R «de memoria bibliográfica, pendiente de verificar»] | 263, 604 | Driskell, Copper y Moran 1994 (no está en el índice) |
+| E08-84 | A | Efectos positivos en cinco variables, de g = 0,43 (afrontamiento) a g = 0,74 (autorregulación orientada a metas) [R] | 289 | Theeboom et al., JPP 2014 |
+| E08-85 | A | δ = 0,36 global (habilidades 0,28; afectivo 0,51; resultados individuales 1,24); sin diferencias por formato ni duración [R] | 290 | Jones, Woods y Guillaume, JOOP 2016 |
+| E08-86 | A | RCT con coaching cognitivo-conductual y centrado en soluciones: mejoró metas, resiliencia y bienestar, redujo depresión y estrés [R] | 293 | Grant, Curtayne y Burton, JPP 2009 |
+| E08-87 | A | OpenAI retiró en abril de 2025 una actualización de GPT-4o por exceso de adulación [R] | 309 | OpenAI 2025 (TechCrunch) |
+| E08-88 | A | Ortosomnia: «un riesgo documentado en el sueño» [I] | 351 | Sin fuente |
+| E08-89 | A | En la parte longitudinal, los que dormían 7 h o más acertaban de forma consistente [R] | 114 | Gish et al., JBV 2019 |
+
+## Contradicciones internas, conclusiones que no se siguen y lo que falta
+
+### Contradicciones internas
+1. **Cifra del mito de los días sin reuniones.** El resumen (l. 24) habla de «72 % más productividad», pero el propio estudio da +71 % con 2 días y +73 % con 3 (l. 168-169), y la tabla de mitos dice «71 %» (l. 383). Ninguna fila da 72 %; probable contaminación con el 72 % de reuniones de Porter y Nohria.
+2. **Equivalencia de Van Dongen.** Resumen: «como tras una o dos noches en vela» (l. 18); tabla: «1-2 noches» (l. 35); texto: «hasta 2 noches» (l. 113). No es lo mismo un rango que un máximo.
+3. **Límite de métricas.** «Nunca más de 3 métricas en la vista semanal» (l. 367) frente a la `revision_semanal` «GROW con datos (destacados, foco, % de reuniones, desconexión y energía)» (l. 466), que son 5, y una tabla de métricas con 5 más una opcional (l. 357-364).
+4. **Duración de `cierre_dia`.** El ritual de apagado solo dura «3 minutos» (l. 240), la pregunta de aprendizaje «1 minuto» (l. 336), y el `cierre_dia` completo, con 5 pasos que incluyen ambos, tiene «máximo 3 minutos» (l. 463).
+5. **«Una pregunta cada vez»** (principio 2, l. 402) frente al banco de preguntas y las plantillas, que encadenan dos o más preguntas en un mensaje: l. 153, 208, 245, 428, 430, 431.
+6. **Definición de bloque de foco.** «Minutos de foco: bloques de 25 minutos o más» (l. 360), frente a «horas a solas en bloques ≥ 60 min» (l. 32, 99) y «bloque de 90 minutos libre» (l. 100).
+7. **Etiqueta de solidez de WOOP.** Tabla 5.2: «razonable-sólido» (l. 53); § 7: «Razonable para WOOP» (l. 204).
+8. **Etiquetas `verified` que no cumplen su propia definición.** La leyenda exige haberlo «leído en la fuente o en su resumen oficial» (l. 11). Porter y Nohria va como `verified` a partir de MGMA y McKinsey, con HBR tras muro de pago (l. 89); MGMA no es un resumen oficial.
+9. **Solidez alta con confianza baja.** Van Dongen «sólido» con el PDF sin leer (l. 35, 113); Sheeran 2024 «sólido» con cifras de un blog (l. 47, 527); Cheng 2026 «sólido» como `reported` a partir del preprint (l. 75, 309, 587); de Haan 2026 «razonable» con «fuentes secundarias» (l. 73, 304).
+10. **Referencias cruzadas rotas.** Tabla 8.2 remite los principios de diálogo a «§ 12» (l. 69), pero están en § 14.1. El burnout remite a «§ 12.4» (l. 249), pero la derivación está en § 14.4. § 10 remite el método a «§ 12» (l. 314), pero está en § 14.
+11. **Cómputo de fuentes.** El método dice «14 lecturas directas» y «más de 60 fuentes» (l. 7). El índice tiene 76 entradas, de las que solo 9 son V, y una de ellas es «V (secundaria)». No se explica qué pasó con las otras 5 lecturas.
+12. **Umbral de días para comentar tendencias.** «Las tendencias se comentan a partir de 3 días» (l. 441) frente a «solo cuando haya al menos 3 semanas de datos» para mostrar relaciones (l. 368). Puede ser compatible, pero el texto no distingue los dos casos.
+
+### Conclusiones que no se siguen de sus premisas
+1. **«Desconectar es la palanca de recuperación más sólida»** (l. 21). Wendsche 2017 es correlacional (r), así que no demuestra una palanca causal. Lo mismo vale para Aeon 2021 cuando se usa para decir qué conseguirá el usuario (l. 157).
+2. **«La IA ocupa el papel de la persona que guía el WOOP»** (l. 207). Wang 2021 compara un formato guiado por una persona con uno en papel, no con una IA. Lo marca como `inferred`, pero sostiene el «cambio clave» del resumen (l. 20).
+3. **«La IA rinde en la parte estructurada (metas, seguimiento y constancia)»** (l. 22). Terblanche 2022 trata con estudiantes, medidas autodeclaradas y solo consecución de metas. El ensayo de 2026 que cita después dice que la IA no superó al control, lo que contradice que «rinda» en metas con directivos.
+4. **Contraste de Gollwitzer y Sheeran frente a Sheeran 2024** (l. 47): compara el d global de 2006 (0,65) con el d solo en conducta de 2024 (0,27). Sería más homogéneo comparar los dos globales (0,65 frente a 0,36).
+5. **Mito «Más horas, más resultados»** (l. 385). Se refuta con evidencia de privación de sueño, no de horas trabajadas. El salto de horas trabajadas a menos sueño no está argumentado.
+6. **Cheng 2026: «aumenta la dependencia»** (l. 23, 75). Según el propio texto, lo que aumentó fue la «intención de volver» (l. 309), que es una medida de preferencia, no de dependencia.
+7. **El estado «Deuda» (<6 h o media de 7 días <6,5)** (l. 126) se atribuye a Gish 2019 y Killgore 2010, pero ninguno de los dos, según el propio informe, da esos umbrales. Gish habla de ≥7 h (l. 114).
+8. **«Vuelta de vacaciones: proteger los 3 primeros días para alargar el efecto»** (l. 248, 471). De Bloom documenta que el efecto se desvanece, no que esa protección lo alargue. Va marcado como `inferred`.
+9. **Pre-mortem «no cada semana, porque cansa y pierde efecto»** (l. 215). No cita ninguna evidencia.
+10. **«Lo que sí se sostiene es que el juicio empeora con… la hora y la carga continuada»** (l. 19). Se apoya en Linder 2014, que es observacional y de mecanismo discutido (l. 121), etiquetado como «razonable (observacional)».
+11. **El resumen 1 abre con «El tiempo a solas se pierde por defecto»** (l. 17), pero la cifra de tiempo a solas (28 %) no la pudo confirmar (l. 89). El argumento se apoya en el % de reuniones de CEO de grandes empresas (n = 27), que el propio informe dice que no sirve como norma para un fundador (l. 94).
+12. **«Proteger un bloque de trabajo a solas, no solo sugerirlo»** (l. 17) choca con el principio de autonomía (l. 416) y con «no hay que darle una cifra objetivo universal» (l. 103).
+13. **Rutina previa de 5 o 10 minutos con g = 0,64** (l. 67, 277): la evidencia viene del deporte. La transferencia se reconoce como inferida, pero se convierte en ritual nuevo.
+
+### Lo que falta
+1. **Fuentes no listadas en el índice:** Rogelberg et al. 2006, Weinshall-Margel y Shapard 2011, Jonas et al. 2017, Bluedorn 1999, Driskell 1994, Klein (pre-mortem), McGonigal (*The Upside of Stress*, l. 282), Ward et al. 2017 y la fuente de la línea 024.
+2. **Sin fuente:** el 024 y el 112 (l. 449), la ortosomnia (l. 351), Goodhart (l. 349) y «los CEO leen 50 libros al año» (l. 325).
+3. **Bibliografía incompleta o sospechosa:** de Haan 2026 lleva un título entre corchetes en lugar del título real (l. 583). Körner 2022 tiene un título mal formado (l. 569). Poynter 2025 va sin iniciales (l. 566). Varias referencias enlazan notas de prensa o blogs en vez de la fuente: Ranehill en Healio, Brooks en una nota de APA de 2013, Sheeran en Silicon Canals y Rogelberg 2020 en workplaceinsight.
+4. **La lista «Pendiente de verificar»** (l. 600-605) no incluye la existencia ni los datos de Cheng 2026 en *Science* (volumen 391(6792)), ni Rogelberg 2026, ni Poynter 2025, aunque son `reported`, recientes y portantes.
+5. **Población:** casi ninguna evidencia viene de fundadores o emprendedores de empresas pequeñas, salvo Gish 2019 y Weinberger 2018. Las demás son de CEO de grandes empresas, estudiantes, enfermeras, médicos o deportistas. El informe lo reconoce solo para el uso del tiempo (l. 94).
+6. **No hay evidencia** de que la regla antiadulación o la regla fija de derivación funcionen en un LLM, ni de que un WOOP conducido por IA tenga el efecto del WOOP guiado por una persona.
+7. **Efectos adversos del coaching:** solo se menciona de pasada (r = −0,29 con efectos negativos, l. 296). No se trata el riesgo de dependencia de Ucoach más allá de Cheng.
+8. **Fuentes secundarias:** no se dice con qué fuente secundaria se obtuvo cada dato `reported` de 2025-2026 (de Haan 2026, Cheng 2026, Poynter 2025, Rogelberg 2026).

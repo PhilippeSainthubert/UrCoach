@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ucoach"
+version = "0.2.0"
+description = "Coach de excelencia profesional para fundadores: método con evidencia graduada, dentro de tu IA (servidor MCP local, sin dependencias)."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = []
+
+[project.scripts]
+ucoach = "ucoach.cli:main"
+
+[tool.setuptools]
+packages = ["ucoach", "ucoach.mcp", "ucoach.core", "ucoach.importers"]
+
+[tool.setuptools.package-data]
+ucoach = ["content/*.json", "content/*.md", "content/protocolos/*.md"]

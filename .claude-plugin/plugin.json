@@ -1,0 +1,8 @@
+{
+  "name": "ucoach",
+  "version": "0.2.0",
+  "description": "Coach de excelencia profesional para fundadores que cuida la energía y el sueño: método con evidencia graduada (A-D), rituales diarios y avisos sin nube. Servidor MCP local, sin dependencias.",
+  "author": { "name": "Philippe Saint-Hubert" },
+  "license": "MIT",
+  "keywords": ["coaching", "productividad", "sueño", "energía", "mcp"]
+}

@@ -1,0 +1,1085 @@
+[
+  {
+    "id": "ejercicio-lumbalgia-cronica",
+    "practica": "Ejercicio terapéutico para la lumbalgia crónica",
+    "nivel": "A",
+    "nivel_nota": null,
+    "areas": [
+      "espalda",
+      "movimiento"
+    ],
+    "para_que": "Dolor lumbar",
+    "evidencia": "Reduce unos 15 puntos sobre 100 el dolor frente a no tratar, con certeza moderada; ningún tipo de ejercicio gana con claridad a los demás.",
+    "fuente": "Cochrane, Hayden et al., 2021",
+    "anio_fuente": 2021,
+    "riesgos": "Aumentos leves del dolor al empezar (algún efecto adverso en el 33 % de los grupos de ejercicio frente al 29 % de los controles).",
+    "contraindicaciones": "Señales de alarma que obligan a derivar al médico: pérdida de fuerza, alteraciones de esfínteres, fiebre, pérdida de peso sin explicación, dolor nocturno que no cede o traumatismo.",
+    "pauta": "Lo que más ayuda al dolor lumbar persistente es moverse y hacer ejercicio con regularidad, no el reposo. Elige uno que vayas a mantener (caminar, fuerza, pilates o yoga) y hazlo 2-3 veces por semana. Si en 6 semanas no mejora, o si notas pérdida de fuerza u hormigueo en las piernas, consulta a tu médico o a un fisioterapeuta.",
+    "momento": "cualquiera",
+    "disparador": "El usuario registra dolor lumbar durante más de 2 semanas. Se coloca en el bloque de entreno de planificar_dia.",
+    "revisado_el": "2026-11-19"
+  },
+  {
+    "id": "fuerza-cuello-escapulas",
+    "practica": "Fortalecimiento de cuello, escápulas y brazos",
+    "nivel": "A",
+    "nivel_nota": null,
+    "areas": [
+      "espalda",
+      "movimiento"
+    ],
+    "para_que": "Dolor de cuello de oficina",
+    "evidencia": "Certeza moderada de que el fortalecimiento cervical, escapular y de brazos reduce el dolor de cuello crónico a corto plazo; un metaanálisis de 2024 en oficinistas lo confirma con certeza baja.",
+    "fuente": "Cochrane, Gross et al., 2015; Applied Ergonomics, 2024",
+    "anio_fuente": 2015,
+    "riesgos": "Bajos.",
+    "contraindicaciones": "Derivar si aparece dolor que baja por el brazo, hormigueo o pérdida de fuerza.",
+    "pauta": "3 veces por semana, 10 minutos: remo con goma, retracción de escápulas, rotación externa y extensión de cuello contra resistencia suave, 2-3 series de 10-15 repeticiones. Puedes encajarlo en una pausa o en un día de entreno suave.",
+    "momento": "trabajo",
+    "disparador": "Dolor de cuello registrado, chequeo de ergonomía con puntuación baja o protocolo de espalda y cuello.",
+    "revisado_el": "2026-11-19"
+  },
+  {
+    "id": "estiramientos-solos-puesto",
+    "practica": "Estiramientos solos en el puesto",
+    "nivel": "C",
+    "nivel_nota": null,
+    "areas": [
+      "espalda"
+    ],
+    "para_que": "Dolor de cuello",
+    "evidencia": "Certeza baja de que los estiramientos solos cambien el dolor o la función en el dolor de cuello crónico; sirven como pausa agradable.",
+    "fuente": "Cochrane, Gross et al., 2015",
+    "anio_fuente": 2015,
+    "riesgos": null,
+    "contraindicaciones": null,
+    "pauta": "Sobre estirar en el puesto para el dolor de cuello hay estudios que no encuentran que, por sí solo, cambie el dolor (Gross, 2015). No parece arriesgado: estirar sienta bien y no hace daño. Si quieres probarlo, hagámoslo como un experimento: dos semanas, apuntando cómo notas el cuello, y vemos tus datos. Antes, asegúrate de fortalecer cuello y escápulas, que sí tiene buena evidencia.",
+    "momento": "trabajo",
+    "disparador": "Solo si el usuario pregunta por estiramientos para el cuello.",
+    "revisado_el": "2026-11-19"
+  },
+  {
+    "id": "variar-postura",
+    "practica": "Variar la postura («la mejor postura es la siguiente»)",
+    "nivel": "A",
+    "nivel_nota": null,
+    "areas": [
+      "espalda"
+    ],
+    "para_que": "Comodidad y dolor",
+    "evidencia": "No hay pruebas sólidas de que exista una postura óptima ni de que evitar las posturas «incorrectas» evite el dolor lumbar; cambiar de postura puede aliviar.",
+    "fuente": "Slater et al., JOSPT, 2019",
+    "anio_fuente": 2019,
+    "riesgos": null,
+    "contraindicaciones": null,
+    "pauta": "No hay una postura perfecta. La mejor postura es la siguiente: cambia de posición a menudo, por ejemplo en cada llamada, y si algo te molesta, muévete.",
+    "momento": "trabajo",
+    "disparador": "Chequeo de ergonomía, molestias de espalda o cuello, o protocolo de espalda y cuello.",
+    "revisado_el": "2026-11-19"
+  },
+  {
+    "id": "manipulacion-espinal",
+    "practica": "Manipulación espinal (osteopatía o quiropráctica)",
+    "nivel": "B",
+    "nivel_nota": "Solo dentro de un plan con ejercicio; nunca sola ni como primera opción",
+    "areas": [
+      "espalda"
+    ],
+    "para_que": "Lumbalgia, solo con ejercicio",
+    "evidencia": "Al mes, beneficio pequeño en el dolor frente a placebo y similar a otras terapias conservadoras, con certeza muy baja o baja; NICE NG59 solo la admite dentro de un paquete con ejercicio.",
+    "fuente": "Cochrane, de Zoete et al., 2026; NICE NG59",
+    "anio_fuente": 2026,
+    "riesgos": "Dolor o rigidez pasajeros. La manipulación cervical de alta velocidad tiene un riesgo raro pero grave de disección arterial (asociación sin causalidad demostrada).",
+    "contraindicaciones": "Señales de alarma, osteoporosis, anticoagulación o alteraciones neurológicas.",
+    "pauta": "Si el dolor no mejora con ejercicio en unas 4-6 semanas, un fisioterapeuta colegiado puede combinar el ejercicio con técnicas manuales. La manipulación sola da un alivio pequeño y corto; funciona mejor como complemento del ejercicio.",
+    "momento": "cualquiera",
+    "disparador": "Dolor de espalda que no mejora tras 4-6 semanas de ejercicio.",
+    "revisado_el": "2026-11-19"
+  },
+  {
+    "id": "osteopatia-craneal",
+    "practica": "Osteopatía craneal o craneosacral",
+    "nivel": "D",
+    "nivel_nota": null,
+    "areas": [
+      "espalda"
+    ],
+    "para_que": "Molestias y dolor (lo que se le atribuye)",
+    "evidencia": "Su diagnóstico no es fiable y la evidencia sólida sobre su eficacia es casi inexistente; no hay pruebas de que los huesos del cráneo adulto se muevan de forma palpable.",
+    "fuente": "Guillaud et al., PLOS ONE, 2016",
+    "anio_fuente": 2016,
+    "riesgos": "Directos, bajos. El riesgo indirecto es retrasar una opción eficaz y gastar dinero.",
+    "contraindicaciones": null,
+    "pauta": "No te lo recomiendo: su forma de evaluar no es fiable y casi no hay estudios sólidos que muestren que funcione (Guillaud, 2016). La revisión la impulsaron fisioterapeutas, aunque otras revisiones independientes coinciden. Si lo que buscas es aliviar la espalda o el cuello, el ejercicio regular y fortalecer cuello y escápulas tienen más respaldo, y un fisioterapeuta colegiado puede guiarte.",
+    "momento": "cualquiera",
+    "disparador": "Solo si el usuario pregunta.",
+    "revisado_el": "2026-11-19"
+  },
+  {
+    "id": "osteopatia-visceral",
+    "practica": "Osteopatía visceral",
+    "nivel": "D",
+    "nivel_nota": null,
+    "areas": [
+      "espalda"
+    ],
+    "para_que": "Molestias y dolor (lo que se le atribuye)",
+    "evidencia": "Su diagnóstico no es fiable y el ensayo menos sesgado no encuentra diferencias en su resultado principal.",
+    "fuente": "Guillaud et al., BMC CAM, 2018",
+    "anio_fuente": 2018,
+    "riesgos": "Directos, bajos. El riesgo indirecto es retrasar una opción eficaz y gastar dinero.",
+    "contraindicaciones": null,
+    "pauta": "No te lo recomiendo: su forma de evaluar no es fiable y el ensayo menos sesgado no encontró efecto (Guillaud, 2018). Si lo que buscas es aliviar molestias de espalda, el ejercicio regular tiene más respaldo, y un fisioterapeuta colegiado puede guiarte.",
+    "momento": "cualquiera",
+    "disparador": "Solo si el usuario pregunta.",
+    "revisado_el": "2026-11-19"
+  },
+  {
+    "id": "fajas-correctores-postura",
+    "practica": "Fajas lumbares y correctores de postura",
+    "nivel": "D",
+    "nivel_nota": null,
+    "areas": [
+      "espalda"
+    ],
+    "para_que": "Evitar o aliviar el dolor lumbar",
+    "evidencia": "Certeza moderada de que los soportes lumbares no evitan el dolor lumbar mejor que no hacer nada o que la formación; no hay ensayos de calidad sobre los correctores de postura.",
+    "fuente": "Cochrane, van Duijvenbode et al., 2008",
+    "anio_fuente": 2008,
+    "riesgos": "Dependencia, falsa seguridad y gasto.",
+    "contraindicaciones": null,
+    "pauta": "No te lo recomiendo: las fajas y los correctores no han demostrado evitar el dolor de espalda (van Duijvenbode, 2008). Si lo que buscas es cuidar la espalda, fortalecer y moverte más a menudo tiene más respaldo.",
+    "momento": "cualquiera",
+    "disparador": "Solo si el usuario pregunta.",
+    "revisado_el": "2026-11-19"
+  },
+  {
+    "id": "fitball-como-silla",
+    "practica": "Fitball como silla",
+    "nivel": "D",
+    "nivel_nota": null,
+    "areas": [
+      "espalda"
+    ],
+    "para_que": "Activar el tronco y cuidar la espalda",
+    "evidencia": "En laboratorio aumentó la incomodidad sin un beneficio claro; una revisión de 2022 ve una activación inconsistente y no lo recomienda.",
+    "fuente": "Gregory et al., 2006; Rizzato et al., 2022",
+    "anio_fuente": 2006,
+    "riesgos": "Caídas y más incomodidad.",
+    "contraindicaciones": null,
+    "pauta": "No te lo recomiendo como silla: sentarse en un fitball todo el día no protege la espalda y suele cansar más (Gregory, 2006). Si te gusta, úsalo ratos cortos como una postura más; lo que tiene más respaldo es cambiar de postura a menudo.",
+    "momento": "trabajo",
+    "disparador": "Solo si el usuario pregunta.",
+    "revisado_el": "2026-11-19"
+  },
+  {
+    "id": "silla-de-rodillas",
+    "practica": "Silla de rodillas",
+    "nivel": "C",
+    "nivel_nota": null,
+    "areas": [
+      "espalda"
+    ],
+    "para_que": "Variar la postura",
+    "evidencia": "No hay ensayos de calidad; además obliga a una postura fija.",
+    "fuente": "Sin ensayos de calidad (informe 07)",
+    "anio_fuente": null,
+    "riesgos": null,
+    "contraindicaciones": null,
+    "pauta": "Sobre la silla de rodillas no hay ensayos de calidad, así que no está demostrado que ayude. No parece arriesgada si la usas a ratos: sirve como una postura más, no como la postura definitiva. Si quieres probarla, hagámoslo como un experimento: dos semanas, apuntando cómo notas la espalda, y vemos tus datos. Antes, asegúrate de cambiar de postura a menudo, que sí tiene buena evidencia.",
+    "momento": "trabajo",
+    "disparador": "Solo si el usuario pregunta.",
+    "revisado_el": "2026-11-19"
+  },
+  {
+    "id": "cinta-andar-bajo-mesa",
+    "practica": "Cinta de andar bajo la mesa (walking pad)",
+    "nivel": "B",
+    "nivel_nota": null,
+    "areas": [
+      "movimiento"
+    ],
+    "para_que": "Moverse sin parar de trabajar",
+    "evidencia": "Reduce algo la velocidad al teclear, sin efecto en la atención selectiva; no hay datos de productividad a largo plazo.",
+    "fuente": "Metaanálisis en Work, 2020",
+    "anio_fuente": 2020,
+    "riesgos": "Tropiezos y molestias en pies o rodillas si se abusa.",
+    "contraindicaciones": null,
+    "pauta": "Si tienes cinta, úsala en llamadas y en correo, a ritmo lento. Deja el trabajo profundo y el que exige precisión para cuando estés sentado o de pie.",
+    "momento": "trabajo",
+    "disparador": "El usuario tiene cinta y muchas llamadas o pocos pasos. Nunca en el bloque de foco.",
+    "revisado_el": "2026-11-19"
+  },
+  {
+    "id": "alfombrilla-antifatiga",
+    "practica": "Alfombrilla antifatiga (si se trabaja de pie)",
+    "nivel": "B",
+    "nivel_nota": null,
+    "areas": [
+      "espalda",
+      "movimiento"
+    ],
+    "para_que": "Cansancio de piernas al trabajar de pie",
+    "evidencia": "Evidencia moderada de menos incomodidad y cansancio al trabajar de pie, sobre todo en estudios de laboratorio; unas plantillas pueden funcionar igual o mejor.",
+    "fuente": "Speed et al., Applied Ergonomics, 2018",
+    "anio_fuente": 2018,
+    "riesgos": "Tropiezos con los bordes.",
+    "contraindicaciones": null,
+    "pauta": "Si trabajas de pie más de una hora al día, una alfombrilla acolchada o unas plantillas reducen el cansancio de piernas.",
+    "momento": "trabajo",
+    "disparador": "El chequeo de ergonomía indica que trabaja de pie más de 1 h al día.",
+    "revisado_el": "2026-11-19"
+  },
+  {
+    "id": "gafas-luz-azul-dia",
+    "practica": "Gafas que filtran la luz azul (de día)",
+    "nivel": "D",
+    "nivel_nota": null,
+    "areas": [
+      "luz",
+      "digital"
+    ],
+    "para_que": "Fatiga visual",
+    "evidencia": "Probablemente no reducen la fatiga visual del ordenador a corto plazo; no se sabe si mejoran el sueño.",
+    "fuente": "Cochrane, Singh et al., 2023",
+    "anio_fuente": 2023,
+    "riesgos": "Ninguno físico; el coste extra.",
+    "contraindicaciones": null,
+    "pauta": "No te lo recomiendo: las gafas de luz azul no han demostrado reducir la fatiga visual (Singh, 2023). Si lo que buscas es descansar la vista, lo razonable es parpadear, mirar a lo lejos de vez en cuando y ajustar el brillo y la distancia de la pantalla, aunque ninguna de estas medidas tiene evidencia fuerte.",
+    "momento": "trabajo",
+    "disparador": "Solo si el usuario pregunta.",
+    "revisado_el": "2026-11-19"
+  },
+  {
+    "id": "gafas-ambar-noche",
+    "practica": "Gafas ámbar por la noche",
+    "nivel": "C",
+    "nivel_nota": null,
+    "areas": [
+      "sueno",
+      "luz"
+    ],
+    "para_que": "Dormirse antes",
+    "evidencia": "Un metaanálisis de 3 ensayos cruzados (49 personas) no encuentra efecto significativo en el sueño medido con actigrafía.",
+    "fuente": "Luna-Rangel et al., Front Neurol, 2025",
+    "anio_fuente": 2025,
+    "riesgos": "Conducir de noche con lentes ámbar oscuras reduce la visión.",
+    "contraindicaciones": "No conducir con ellas puestas.",
+    "pauta": "Sobre las gafas ámbar por la noche hay estudios pequeños, y el metaanálisis más reciente no encuentra un efecto claro (Luna-Rangel, 2025), así que no está demostrado. No parece arriesgado si no conduces con ellas puestas. Si quieres probarlo, hagámoslo como un experimento: dos semanas, poniéndotelas unas 2 h antes de acostarte y apuntando a qué hora te duermes, y vemos tus datos. Antes, asegúrate de bajar la luz de casa desde 3 h antes de dormir y apartar las pantallas, que tiene más peso.",
+    "momento": "noche",
+    "disparador": "Solo si el usuario pregunta; más pertinente si es búho o tarda en dormirse.",
+    "revisado_el": "2026-11-19"
+  },
+  {
+    "id": "modo-nocturno",
+    "practica": "Modo nocturno o Night Shift",
+    "nivel": "C",
+    "nivel_nota": null,
+    "areas": [
+      "luz",
+      "digital",
+      "sueno"
+    ],
+    "para_que": "Proteger la melatonina",
+    "evidencia": "Cambiar solo el tono de la pantalla no evitó la supresión de melatonina en un estudio de 12 personas; importa más bajar el brillo y el tiempo de uso.",
+    "fuente": "Nagare et al., LR&T, 2019",
+    "anio_fuente": 2019,
+    "riesgos": "Falsa seguridad de «ya tengo el modo noche».",
+    "contraindicaciones": null,
+    "pauta": "Sobre el modo noche hay un estudio pequeño que apunta a que cambiar solo el tono no basta (Nagare, 2019), así que ayuda poco. No es arriesgado. Si usas pantallas por la noche, lo que más cuenta es bajar el brillo al mínimo cómodo y acortar el rato de pantalla.",
+    "momento": "noche",
+    "disparador": "Solo como complemento si el usuario ya usa pantallas por la noche (protocolo de higiene digital).",
+    "revisado_el": "2026-11-19"
+  },
+  {
+    "id": "grounding",
+    "practica": "Grounding o earthing",
+    "nivel": "D",
+    "nivel_nota": null,
+    "areas": [
+      "sueno",
+      "estres"
+    ],
+    "para_que": "Sueño y bienestar (lo que se le atribuye)",
+    "evidencia": "Estudios piloto pequeños (de 12 a 84 personas) y de calidad baja; tres autores de la revisión más citada tienen acciones en la empresa que patrocina la investigación.",
+    "fuente": "Chevalier et al., 2012",
+    "anio_fuente": 2012,
+    "riesgos": "Las sábanas conectadas a la toma de tierra de un enchufe en mal estado pueden suponer un riesgo eléctrico (inferido).",
+    "contraindicaciones": null,
+    "pauta": "No te lo recomiendo: los estudios son muy pequeños (Chevalier, 2012) y varios de sus autores tienen acciones en la empresa que vende el producto. Si te gusta caminar descalzo por la hierba o la playa, adelante: el paseo y el aire libre tienen más respaldo.",
+    "momento": "cualquiera",
+    "disparador": "Solo si el usuario pregunta.",
+    "revisado_el": "2026-11-19"
+  },
+  {
+    "id": "ducha-fria-final",
+    "practica": "Ducha fría al final de la ducha",
+    "nivel": "B",
+    "nivel_nota": null,
+    "areas": [
+      "energia"
+    ],
+    "para_que": "Energía y ánimo",
+    "evidencia": "En un ensayo con 3.018 trabajadores, 30-90 s de agua fría al final de la ducha redujeron un 29 % la ausencia laboral declarada, pero no los días de enfermedad.",
+    "fuente": "Buijze et al., PLOS ONE, 2016",
+    "anio_fuente": 2016,
+    "riesgos": "El choque por frío sube la frecuencia cardiaca y la tensión.",
+    "contraindicaciones": "Enfermedad cardiovascular, hipertensión no controlada, arritmias o Raynaud; consultarlo durante el embarazo.",
+    "pauta": "Si te apetece, prueba 30 segundos de agua fría al final de la ducha. En un ensayo con 3.000 personas, quienes lo hicieron faltaron menos al trabajo, aunque no enfermaron menos. Con 30 segundos basta; no hace falta más.",
+    "momento": "manana",
+    "disparador": "El usuario busca un arranque matinal.",
+    "revisado_el": "2026-11-19"
+  },
+  {
+    "id": "inmersion-hielo",
+    "practica": "Inmersión en hielo (cold plunge)",
+    "nivel": "C",
+    "nivel_nota": null,
+    "areas": [
+      "recuperacion",
+      "estres"
+    ],
+    "para_que": "Estrés y recuperación",
+    "evidencia": "Menos estrés a las 12 h, pero no en otros momentos; la inflamación sube justo después; casi todos los estudios se hicieron solo con hombres.",
+    "fuente": "Cain et al., PLOS ONE, 2025",
+    "anio_fuente": 2025,
+    "riesgos": "Choque por frío, arritmias, hipotermia y ahogamiento en aguas abiertas.",
+    "contraindicaciones": "Nunca hacerlo solo en el agua ni combinado con hiperventilación.",
+    "pauta": "Sobre los baños de hielo hay estudios que apuntan a algo menos de estrés unas horas después, pero los beneficios siguen sin demostrarse (Cain, 2025). Tiene riesgos: nunca lo hagas solo, en aguas abiertas ni combinado con respiraciones de hiperventilación. Y si hoy has hecho fuerza y quieres ganar músculo, déjalo para otro día. Para recuperarte, la ducha caliente 1-2 h antes de dormir y el mindfulness tienen mejor evidencia.",
+    "momento": "cualquiera",
+    "disparador": "Solo si el usuario pregunta o ya lo practica.",
+    "revisado_el": "2026-11-19"
+  },
+  {
+    "id": "agua-fria-tras-fuerza",
+    "practica": "Agua fría justo después de entrenar fuerza",
+    "nivel": "D",
+    "nivel_nota": "D si el objetivo es ganar músculo",
+    "areas": [
+      "recuperacion",
+      "movimiento"
+    ],
+    "para_que": "Recuperarse tras entrenar fuerza",
+    "evidencia": "Usada con regularidad justo después de entrenar fuerza, el agua fría reduce la ganancia muscular, con un efecto pequeño.",
+    "fuente": "Piñero et al., Eur J Sport Sci, 2024",
+    "anio_fuente": 2024,
+    "riesgos": "Reduce la hipertrofia si se busca ganar músculo.",
+    "contraindicaciones": null,
+    "pauta": "Hoy has hecho fuerza. Si quieres ganar músculo, deja el baño frío para otro día o espera al menos unas horas: usado justo después del entreno, reduce la ganancia (Piñero, 2024).",
+    "momento": "cualquiera",
+    "disparador": "Entreno de fuerza registrado en el día, objetivo de ganar músculo y el usuario practica agua fría.",
+    "revisado_el": "2026-11-19"
+  },
+  {
+    "id": "sauna",
+    "practica": "Sauna",
+    "nivel": "B",
+    "nivel_nota": null,
+    "areas": [
+      "recuperacion",
+      "estres"
+    ],
+    "para_que": "Relajarse; salud cardiovascular",
+    "evidencia": "En una cohorte finlandesa de 2.315 hombres, 4-7 sesiones por semana se asociaron a menos mortalidad cardiovascular; es observacional y no hay ensayos sobre el sueño.",
+    "fuente": "Laukkanen et al., JAMA IM, 2015",
+    "anio_fuente": 2015,
+    "riesgos": "Deshidratación; combinada con alcohol es peligrosa.",
+    "contraindicaciones": "Angina inestable, infarto reciente, estenosis aórtica grave, hipotensión, embarazo y alcohol.",
+    "pauta": "Si te sienta bien, la sauna es un buen ritual de desconexión. Los estudios finlandeses la asocian con mejor salud cardiovascular, aunque no prueban que sea la causa. Evita el alcohol antes y después, y bebe agua.",
+    "momento": "tarde",
+    "disparador": "El usuario tiene acceso a una sauna y se lleva bien con ella; protocolo de recuperación.",
+    "revisado_el": "2026-11-19"
+  },
+  {
+    "id": "respiracion-lenta",
+    "practica": "Respiración lenta o de resonancia; coherencia cardiaca",
+    "nivel": "B",
+    "nivel_nota": null,
+    "areas": [
+      "estres"
+    ],
+    "para_que": "Estrés agudo",
+    "evidencia": "Efecto pequeño o moderado sobre el estrés autopercibido en 12 ensayos (g = -0,35); la coherencia cardiaca es una variante con la misma base.",
+    "fuente": "Fincham et al., Sci Rep, 2023",
+    "anio_fuente": 2023,
+    "riesgos": "Mínimos; algún mareo leve.",
+    "contraindicaciones": null,
+    "pauta": "5 minutos de respiración lenta: inspira 4-5 segundos y espira 5-6, unas 6 respiraciones por minuto. Puede ayudarte a bajar la activación.",
+    "momento": "cualquiera",
+    "disparador": "Check-in de energía 1-2 con ánimo bajo, reunión clave en menos de 30 min o bajón de la tarde.",
+    "revisado_el": "2026-11-19"
+  },
+  {
+    "id": "cyclic-sighing",
+    "practica": "Cyclic sighing (5 min)",
+    "nivel": "B",
+    "nivel_nota": null,
+    "areas": [
+      "estres",
+      "energia"
+    ],
+    "para_que": "Ánimo y activación",
+    "evidencia": "En un ensayo exploratorio con 108 personas, 5 minutos al día mejoraron el afecto positivo más que la meditación; sin cambios en la VFC ni en el sueño. Uno de los autores asesora a WHOOP.",
+    "fuente": "Balban et al., Cell Rep Med, 2023",
+    "anio_fuente": 2023,
+    "riesgos": "Mínimos.",
+    "contraindicaciones": null,
+    "pauta": "Dos inspiraciones por la nariz (la segunda, corta, para llenar del todo) y una espiración larga por la boca. Repítelo de 1 a 5 minutos. Un estudio pequeño sugiere que mejora el ánimo.",
+    "momento": "cualquiera",
+    "disparador": "Antes de un pitch o una conversación difícil; bajón de la tarde.",
+    "revisado_el": "2026-11-19"
+  },
+  {
+    "id": "wim-hof",
+    "practica": "Método Wim Hof (hiperventilación y apnea)",
+    "nivel": "C",
+    "nivel_nota": "D en el agua, en la bañera, al volante o de pie",
+    "areas": [
+      "estres"
+    ],
+    "para_que": "Estrés y energía (lo que se le atribuye)",
+    "evidencia": "Estudios pequeños con una posible señal antiinflamatoria; efectos mixtos en el rendimiento.",
+    "fuente": "Revisión sistemática en PLOS ONE, 2024",
+    "anio_fuente": 2024,
+    "riesgos": "Síncope, ahogamiento y caídas: la hiperventilación con apnea puede hacer perder el conocimiento sin aviso.",
+    "contraindicaciones": "Embarazo, epilepsia o enfermedad cardiovascular. Nunca en el agua, en la bañera, conduciendo ni de pie.",
+    "pauta": "Si ya lo practicas, haz la parte de respiración siempre sentado o tumbado, y nunca dentro del agua ni en la bañera: la hiperventilación con apnea puede hacerte perder el conocimiento sin aviso. Los estudios son pequeños (PLOS ONE, 2024). Para calmarte o activarte, la respiración lenta tiene más respaldo.",
+    "momento": "cualquiera",
+    "disparador": "Solo si el usuario pregunta o ya lo practica; el aviso de seguridad es obligatorio.",
+    "revisado_el": "2026-11-19"
+  },
+  {
+    "id": "mindfulness",
+    "practica": "Meditación mindfulness",
+    "nivel": "A",
+    "nivel_nota": null,
+    "areas": [
+      "estres"
+    ],
+    "para_que": "Estrés y ansiedad",
+    "evidencia": "Mejoras moderadas en ansiedad (0,38) y depresión (0,30) en 47 ensayos con control activo; en el trabajo, efectos moderados en estrés (g = 0,56); no supera al ejercicio ni a otras opciones activas.",
+    "fuente": "Goyal et al., JAMA IM, 2014",
+    "anio_fuente": 2014,
+    "riesgos": "Las prácticas cortas tienen riesgo bajo; la meditación intensiva puede empeorar el malestar en personas con trauma o trastornos psiquiátricos graves (inferido).",
+    "contraindicaciones": null,
+    "pauta": "5-10 minutos de atención a la respiración al empezar o al cerrar el día. En estudios con trabajadores, se notan mejoras moderadas en el estrés. No es magia, pero suma.",
+    "momento": "cualquiera",
+    "disparador": "Estrés alto en los check-ins; protocolo de recuperación.",
+    "revisado_el": "2026-11-19"
+  },
+  {
+    "id": "nsdr-yoga-nidra",
+    "practica": "NSDR o yoga nidra",
+    "nivel": "B",
+    "nivel_nota": null,
+    "areas": [
+      "recuperacion",
+      "sueno"
+    ],
+    "para_que": "Recuperarse cuando no se puede dormir la siesta",
+    "evidencia": "Metaanálisis de 73 estudios con efectos grandes en el estrés, pero de calidad baja y probablemente inflados; el resumen no da resultados de sueño.",
+    "fuente": "Ann NY Acad Sci, 2026",
+    "anio_fuente": 2026,
+    "riesgos": null,
+    "contraindicaciones": null,
+    "pauta": "Si no puedes echarte la siesta, 10-20 minutos de relajación guiada tumbado (yoga nidra o NSDR) es una alternativa. Descansa, aunque recupera menos que dormir.",
+    "momento": "mediodia",
+    "disparador": "Deuda de sueño sin hueco para la siesta, o el usuario no puede dormir de día.",
+    "revisado_el": "2026-11-19"
+  },
+  {
+    "id": "melatonina-jet-lag",
+    "practica": "Melatonina para el jet lag",
+    "nivel": "B",
+    "nivel_nota": null,
+    "areas": [
+      "suplementos",
+      "viajes",
+      "sueno"
+    ],
+    "para_que": "Viajes de 5 husos o más hacia el este",
+    "evidencia": "9 de 10 ensayos favorecen la melatonina tomada a la hora de acostarse en destino; de 0,5 a 5 mg funcionan de forma parecida.",
+    "fuente": "Cochrane, Herxheimer y Petrie, 2002",
+    "anio_fuente": 2002,
+    "riesgos": "Somnolencia al día siguiente; posibles problemas con la epilepsia y la warfarina; calidad de los productos variable.",
+    "contraindicaciones": "Precaución con embarazo, lactancia, anticoagulantes e inmunosupresores. En España, la pauta prudente es un complemento de menos de 2 mg (en 2 mg hay un medicamento autorizado).",
+    "pauta": "No puedo recomendarte suplementos ni dosis personalizadas. Lo que sé: para el jet lag hacia el este de 5 husos o más, la melatonina tiene buena evidencia; la dosis estudiada va de 0,5 a 5 mg, y se suele usar baja (0,5-1 mg) a la hora de acostarte en destino durante unos días. En España, lo prudente es un complemento de menos de 2 mg, porque en 2 mg ya hay un medicamento autorizado. Puede dar somnolencia al día siguiente. Tu farmacéutico o tu médico pueden decirte si te conviene con tu medicación.",
+    "momento": "noche",
+    "disparador": "Protocolo de viajes con un vuelo de 5 husos o más, y solo si el usuario pregunta.",
+    "revisado_el": "2026-11-19"
+  },
+  {
+    "id": "melatonina-dormir",
+    "practica": "Melatonina para dormir de forma habitual",
+    "nivel": "C",
+    "nivel_nota": null,
+    "areas": [
+      "suplementos",
+      "sueno"
+    ],
+    "para_que": "Dormirse antes",
+    "evidencia": "Solo unos 7 minutos menos para dormirse y 8 minutos más de sueño en 19 estudios.",
+    "fuente": "Ferracioli-Oda et al., 2013",
+    "anio_fuente": 2013,
+    "riesgos": "Somnolencia al día siguiente; posibles problemas con la epilepsia y la warfarina; calidad de los productos variable.",
+    "contraindicaciones": "Precaución con embarazo, lactancia, anticoagulantes e inmunosupresores. En España, la pauta prudente es un complemento de menos de 2 mg (en 2 mg hay un medicamento autorizado).",
+    "pauta": "No puedo recomendarte suplementos ni dosis personalizadas. Lo que sé: para dormir de forma habitual, el efecto de la melatonina es pequeño, unos 7 minutos menos para dormirte (Ferracioli-Oda, 2013). Puede dar somnolencia al día siguiente. Si te cuesta dormir de forma habitual, lo que mejor funciona lo ofrece un profesional, como la TCC-I: habla con tu médico.",
+    "momento": "noche",
+    "disparador": "Solo si el usuario pregunta.",
+    "revisado_el": "2026-11-19"
+  },
+  {
+    "id": "magnesio",
+    "practica": "Magnesio (incluidos glicinato y treonato)",
+    "nivel": "C",
+    "nivel_nota": null,
+    "areas": [
+      "suplementos",
+      "sueno"
+    ],
+    "para_que": "Sueño",
+    "evidencia": "3 ensayos pequeños en personas mayores: 17 min menos para dormirse, con certeza baja o muy baja; no hay comparaciones entre sales.",
+    "fuente": "Mah y Pitre, 2021",
+    "anio_fuente": 2021,
+    "riesgos": "Diarrea; interacciona con algunos antibióticos y bisfosfonatos.",
+    "contraindicaciones": "Precaución con insuficiencia renal.",
+    "pauta": "No puedo recomendarte suplementos ni dosis personalizadas. Lo que sé: la evidencia es floja, tres ensayos pequeños en personas mayores (Mah y Pitre, 2021), y las ventajas del glicinato o el treonato son sobre todo marketing. Si tu dieta incluye frutos secos, legumbres y verdura, probablemente no lo necesitas. Puede dar diarrea e interaccionar con algunos fármacos. Tu farmacéutico o tu médico pueden decirte si te conviene, sobre todo si tienes algún problema de riñón.",
+    "momento": "noche",
+    "disparador": "Solo si el usuario pregunta.",
+    "revisado_el": "2026-11-19"
+  },
+  {
+    "id": "l-teanina-cafeina",
+    "practica": "L-teanina con cafeína",
+    "nivel": "C",
+    "nivel_nota": null,
+    "areas": [
+      "suplementos",
+      "foco"
+    ],
+    "para_que": "Atención",
+    "evidencia": "Posible mejora de la atención en las 2 h siguientes, con dosis mayores que las de un té, pocos estudios en el metaanálisis e intervalos amplios.",
+    "fuente": "Proc Nutr Soc, 2024",
+    "anio_fuente": 2024,
+    "riesgos": "Bajos; la cafeína sigue contando para la hora límite del café.",
+    "contraindicaciones": null,
+    "pauta": "No puedo recomendarte suplementos ni dosis personalizadas. Lo que sé: los suplementos de teanina con cafeína tienen una evidencia modesta (Proc Nutr Soc, 2024); el té verde o el matcha te dan las dos cosas de forma natural. Si lo tomas, cuenta para tu hora límite de café. Tu farmacéutico o tu médico pueden decirte si te conviene con tu medicación.",
+    "momento": "manana",
+    "disparador": "Solo si el usuario pregunta.",
+    "revisado_el": "2026-11-19"
+  },
+  {
+    "id": "creatina",
+    "practica": "Creatina (3-5 g al día)",
+    "nivel": "B",
+    "nivel_nota": null,
+    "areas": [
+      "suplementos",
+      "foco"
+    ],
+    "para_que": "Memoria; falta de sueño",
+    "evidencia": "Mejora de la memoria con certeza moderada (DME = 0,31); certeza baja en atención, velocidad de procesamiento y función ejecutiva.",
+    "fuente": "Xu et al., Front Nutr, 2024",
+    "anio_fuente": 2024,
+    "riesgos": "Retención de agua y molestias digestivas; puede subir la creatinina en los análisis sin daño renal, así que conviene avisar al médico.",
+    "contraindicaciones": "Consultar al médico con enfermedad renal o con fármacos nefrotóxicos.",
+    "pauta": "No puedo recomendarte suplementos ni dosis personalizadas. Lo que sé: la creatina monohidrato es el suplemento con mejor relación entre evidencia y seguridad para la memoria, sobre todo si comes poca carne o pescado; la dosis estudiada es de 3-5 g al día. Puede dar retención de agua y cambiar algún valor de los análisis. Tu farmacéutico o tu médico pueden decirte si te conviene, sobre todo si tienes algún problema de riñón.",
+    "momento": "cualquiera",
+    "disparador": "Solo si el usuario se interesa por suplementos para la memoria o la concentración.",
+    "revisado_el": "2026-11-19"
+  },
+  {
+    "id": "creatina-dosis-alta-sin-dormir",
+    "practica": "Dosis única alta de creatina tras una noche sin dormir",
+    "nivel": "C",
+    "nivel_nota": null,
+    "areas": [
+      "suplementos"
+    ],
+    "para_que": "Rendir tras una noche sin dormir",
+    "evidencia": "Un solo ensayo con 15 personas y unos 25 g en dosis única mejoró la memoria y la velocidad de procesamiento durante unas horas.",
+    "fuente": "Gordji-Nejad et al., Sci Rep, 2024",
+    "anio_fuente": 2024,
+    "riesgos": "Dosis muy alta, estudiada en un solo ensayo pequeño.",
+    "contraindicaciones": "Enfermedad renal o fármacos nefrotóxicos.",
+    "pauta": "No puedo recomendarte suplementos ni dosis personalizadas, y esta no la propongo. Lo que sé: hay un solo estudio, con 15 personas y una dosis muy alta (Gordji-Nejad, 2024), así que no está demostrado. Tras una mala noche, una siesta de 10-20 minutos antes de las 15:00 tiene más respaldo. Tu médico puede orientarte, sobre todo si tienes algún problema de riñón.",
+    "momento": "manana",
+    "disparador": "Solo si el usuario pregunta; Ucoach no la propone.",
+    "revisado_el": "2026-11-19"
+  },
+  {
+    "id": "ashwagandha",
+    "practica": "Ashwagandha",
+    "nivel": "D",
+    "nivel_nota": null,
+    "areas": [
+      "suplementos",
+      "estres"
+    ],
+    "para_que": "Estrés",
+    "evidencia": "Menos estrés percibido en ensayos pequeños, pero hay casos de daño hepático y Dinamarca la prohibió en complementos en 2023 al no poder fijar una dosis segura.",
+    "fuente": "Björnsson et al., 2020; DTU, 2020",
+    "anio_fuente": 2020,
+    "riesgos": "Daño hepático, alteraciones tiroideas e interacción con sedantes y con medicación tiroidea.",
+    "contraindicaciones": "Embarazo, enfermedades autoinmunes y problemas de tiroides.",
+    "pauta": "Te aviso porque hay un riesgo: hay casos de daño hepático (Björnsson, 2020), y Dinamarca la prohibió en 2023 porque no pudo fijar una dosis segura. Los estudios no muestran un beneficio que lo compense. Para el estrés, prueba mejor la respiración lenta, el mindfulness o el ejercicio. Si ya la tomas, coméntalo con tu médico.",
+    "momento": "cualquiera",
+    "disparador": "Solo si el usuario pregunta o ya la toma.",
+    "revisado_el": "2026-11-19"
+  },
+  {
+    "id": "omega-3",
+    "practica": "Omega-3 para el sueño o la cognición en personas sanas",
+    "nivel": "C",
+    "nivel_nota": null,
+    "areas": [
+      "suplementos",
+      "sueno",
+      "foco"
+    ],
+    "para_que": "Sueño o cognición en personas sanas",
+    "evidencia": "Resultados inconsistentes: algo más de eficiencia del sueño, sin cambios en la latencia ni en la duración.",
+    "fuente": "Shimizu et al., 2024",
+    "anio_fuente": 2024,
+    "riesgos": "Dosis altas en personas anticoaguladas; molestias digestivas.",
+    "contraindicaciones": null,
+    "pauta": "No puedo recomendarte suplementos ni dosis personalizadas. Lo que sé: para dormir o concentrarte, las cápsulas de omega-3 no han demostrado gran cosa (Shimizu, 2024); mejor pescado azul dos veces por semana. En dosis altas pueden interaccionar con anticoagulantes. Tu farmacéutico o tu médico pueden decirte si te conviene con tu medicación.",
+    "momento": "cualquiera",
+    "disparador": "Solo si el usuario pregunta.",
+    "revisado_el": "2026-11-19"
+  },
+  {
+    "id": "vitamina-d-sin-deficit",
+    "practica": "Vitamina D sin déficit demostrado",
+    "nivel": "C",
+    "nivel_nota": null,
+    "areas": [
+      "suplementos",
+      "energia",
+      "sueno"
+    ],
+    "para_que": "Sueño o energía",
+    "evidencia": "Solo 3 ensayos metaanalizables, con certeza moderada como mucho; el efecto en la cantidad de sueño está sin estudiar.",
+    "fuente": "Abboud, Nutrients, 2022",
+    "anio_fuente": 2022,
+    "riesgos": "Toxicidad con dosis altas mantenidas (hipercalcemia).",
+    "contraindicaciones": null,
+    "pauta": "No puedo recomendarte suplementos ni dosis personalizadas. Lo que sé: tomar vitamina D sin saber si te falta no ha demostrado mejorar el sueño ni la energía (Abboud, 2022), y en dosis altas mantenidas puede ser tóxica. Si trabajas siempre dentro y en invierno apenas ves el sol, pide a tu médico que la mire en tu próximo análisis.",
+    "momento": "cualquiera",
+    "disparador": "Protocolo de invierno o si el usuario pregunta.",
+    "revisado_el": "2026-11-19"
+  },
+  {
+    "id": "mouth-taping",
+    "practica": "Mouth taping (cerrar la boca con cinta para dormir)",
+    "nivel": "D",
+    "nivel_nota": null,
+    "areas": [
+      "sueno"
+    ],
+    "para_que": "Respirar por la nariz al dormir",
+    "evidencia": "Una revisión sistemática de 10 estudios no respalda su uso y avisa de daños graves con obstrucción nasal y de riesgo de asfixia.",
+    "fuente": "Rotenberg et al., PLOS ONE, 2025",
+    "anio_fuente": 2025,
+    "riesgos": "Asfixia, empeorar una apnea no reconocida, irritación de la piel y retrasar la consulta médica.",
+    "contraindicaciones": "Obstrucción nasal o apnea del sueño.",
+    "pauta": "Te aviso porque hay un riesgo: una revisión de 2025 no encontró beneficios y sí riesgo de asfixia si la nariz está obstruida (Rotenberg, 2025). Si roncas o respiras por la boca de noche, merece la pena consultarlo con el médico: puede tener una causa que un profesional sabe resolver.",
+    "momento": "noche",
+    "disparador": "Solo si el usuario pregunta o ya lo practica.",
+    "revisado_el": "2026-11-19"
+  },
+  {
+    "id": "lampara-10000-lux",
+    "practica": "Lámpara de 10.000 lux",
+    "nivel": "C",
+    "nivel_nota": "B con trastorno afectivo estacional y seguimiento profesional; C para el bajón de invierno sin trastorno",
+    "areas": [
+      "luz",
+      "energia"
+    ],
+    "para_que": "Ánimo en invierno",
+    "evidencia": "Más remisión en la depresión no estacional (40,7 % frente a 23,5 %) y efecto leve o moderado en el trastorno estacional; para el bajón de invierno sin trastorno no hay ensayos.",
+    "fuente": "Menegaz de Almeida et al., JAMA Psychiatry, 2025",
+    "anio_fuente": 2025,
+    "riesgos": "Puede desencadenar hipomanía o manía en el trastorno bipolar; si se usa tarde, puede retrasar el sueño.",
+    "contraindicaciones": "Trastorno bipolar, enfermedad de retina, fármacos fotosensibilizantes y migraña. Elegir lámparas con filtro UV.",
+    "pauta": "Si no puedes salir a la luz por la mañana, una lámpara de 10.000 lux unos 30 minutos mientras desayunas o lees el correo puede ayudar. Tiene evidencia cuando la indica un profesional, pero para un simple bajón de invierno no hay estudios. Úsala solo por la mañana, y si tienes algún problema de retina o tomas medicación para el estado de ánimo, consúltalo antes. Si el ánimo bajo dura más de dos semanas, habla con un profesional: puede ser algo más que un bajón.",
+    "momento": "manana",
+    "disparador": "Protocolo de invierno (de noviembre a febrero, energía baja), y solo si el usuario pregunta por la lámpara.",
+    "revisado_el": "2026-11-19"
+  },
+  {
+    "id": "luz-roja",
+    "practica": "Luz roja o fotobiomodulación",
+    "nivel": "C",
+    "nivel_nota": null,
+    "areas": [
+      "foco",
+      "sueno"
+    ],
+    "para_que": "Cognición y sueño",
+    "evidencia": "Señales pequeñas en mayores o con deterioro cognitivo; en adultos sanos, efecto mínimo y heterogéneo; buena parte del discurso viene de vendedores de paneles.",
+    "fuente": "Lasers Med Sci, 2025",
+    "anio_fuente": 2025,
+    "riesgos": "Hace falta protección ocular con dispositivos potentes; el coste.",
+    "contraindicaciones": null,
+    "pauta": "Sobre la luz roja hay señales interesantes en personas mayores, pero en adultos sanos no hay pruebas de que mejore la concentración ni el sueño (Lasers Med Sci, 2025), y buena parte de lo que circula viene de quien vende los paneles. No parece arriesgada si usas protección ocular; si ya tienes un panel, úsalo así, pero no lo compres por eso. Si quieres probarlo, hagámoslo como un experimento: dos semanas, apuntando tu sueño y tu energía, y vemos tus datos. Antes, asegúrate de salir a la luz natural por la mañana, que tiene más respaldo.",
+    "momento": "cualquiera",
+    "disparador": "Solo si el usuario pregunta.",
+    "revisado_el": "2026-11-19"
+  },
+  {
+    "id": "ducha-caliente-noche",
+    "practica": "Ducha o baño caliente 1-2 h antes de dormir",
+    "nivel": "A",
+    "nivel_nota": null,
+    "areas": [
+      "sueno",
+      "recuperacion"
+    ],
+    "para_que": "Dormirse antes",
+    "evidencia": "Una ducha o un baño a 40-42,5 °C, 1-2 h antes de acostarse y durante unos 10 minutos, acorta unos 10 min el tiempo para dormirse y mejora la calidad percibida (metaanálisis de 17 estudios).",
+    "fuente": "Haghayegh et al., 2019",
+    "anio_fuente": 2019,
+    "riesgos": "Mareo por tensión baja en personas mayores o con hipotensión; agua demasiado caliente.",
+    "contraindicaciones": null,
+    "pauta": "Ducha o baño caliente de unos 10 minutos hora y media antes de acostarte. Si la tomas justo antes de meterte en la cama, el efecto se pierde.",
+    "momento": "noche",
+    "disparador": "El usuario registra que tarda en dormirse; protocolos de recuperación, viajes y víspera de un momento clave. La hora sale de la hora de dormir del perfil.",
+    "revisado_el": "2026-11-19"
+  },
+  {
+    "id": "calcetines-para-dormir",
+    "practica": "Calcetines para dormir",
+    "nivel": "C",
+    "nivel_nota": null,
+    "areas": [
+      "sueno"
+    ],
+    "para_que": "Dormirse antes",
+    "evidencia": "Calentar los pies tiene base fisiológica, pero solo hay estudios muy pequeños.",
+    "fuente": "Sin fuente localizada (inferido en el informe 07)",
+    "anio_fuente": null,
+    "riesgos": null,
+    "contraindicaciones": null,
+    "pauta": "Sobre dormir con calcetines hay estudios muy pequeños, así que no está demostrado. No parece arriesgado si se te quedan los pies fríos: unos calcetines finos pueden ayudarte a dormirte. Si quieres probarlo, hagámoslo como un experimento: dos semanas, apuntando cuánto tardas en dormirte, y vemos tus datos. Antes, asegúrate de la ducha caliente 1-2 h antes de dormir, que sí tiene buena evidencia.",
+    "momento": "noche",
+    "disparador": "El usuario dice que se le quedan los pies fríos.",
+    "revisado_el": "2026-11-19"
+  },
+  {
+    "id": "paseos-naturaleza",
+    "practica": "Paseos en la naturaleza (unas 2 h por semana)",
+    "nivel": "B",
+    "nivel_nota": null,
+    "areas": [
+      "movimiento",
+      "luz",
+      "estres"
+    ],
+    "para_que": "Bienestar; luz y movimiento",
+    "evidencia": "120 minutos o más por semana en la naturaleza se asocian a más salud y bienestar en un estudio transversal de 19.806 personas.",
+    "fuente": "White et al., Sci Rep, 2019",
+    "anio_fuente": 2019,
+    "riesgos": null,
+    "contraindicaciones": null,
+    "pauta": "Esta semana, apunta a unas 2 horas al aire libre con verde (parque, montaña o playa). Puedes repartirlas: un paseo largo el fin de semana y algunos cortos entre semana.",
+    "momento": "cualquiera",
+    "disparador": "Revisión semanal; protocolos de invierno y de recuperación.",
+    "revisado_el": "2026-11-19"
+  },
+  {
+    "id": "banos-de-bosque",
+    "practica": "Baños de bosque como terapia",
+    "nivel": "B",
+    "nivel_nota": null,
+    "areas": [
+      "estres"
+    ],
+    "para_que": "Estrés",
+    "evidencia": "Baja el cortisol frente a la ciudad, con efectos inconsistentes en la tensión y posible efecto placebo; muchos estudios son cortos y sin ciego.",
+    "fuente": "Metaanálisis de 2017 y 2019",
+    "anio_fuente": 2019,
+    "riesgos": null,
+    "contraindicaciones": null,
+    "pauta": "Si te apetece algo más estructurado que un paseo, un baño de bosque (caminar despacio y atento entre árboles) es una buena forma de sumar tus horas al aire libre.",
+    "momento": "cualquiera",
+    "disparador": "El usuario busca una forma estructurada de cumplir los paseos en la naturaleza.",
+    "revisado_el": "2026-11-19"
+  },
+  {
+    "id": "tapones-oidos",
+    "practica": "Tapones para los oídos en entornos ruidosos",
+    "nivel": "B",
+    "nivel_nota": null,
+    "areas": [
+      "sueno",
+      "viajes"
+    ],
+    "para_que": "Proteger el sueño",
+    "evidencia": "En un ensayo de laboratorio con 25 personas, los tapones redujeron los microdespertares por ruido más que el ruido rosa.",
+    "fuente": "Basner et al., Sleep Health, 2026",
+    "anio_fuente": 2026,
+    "riesgos": "Cerumen y otitis externa si no se limpian; no oír alarmas.",
+    "contraindicaciones": "Valorarlo si se vive solo o con niños pequeños.",
+    "pauta": "Si duermes con ruido (calle, hotel o pareja que ronca), los tapones de espuma pueden ayudarte; en un estudio funcionaron mejor que una máquina de ruido.",
+    "momento": "noche",
+    "disparador": "El usuario dice que duerme con ruido; protocolos de viajes, recuperación y víspera de un momento clave.",
+    "revisado_el": "2026-11-19"
+  },
+  {
+    "id": "ruido-rosa-blanco",
+    "practica": "Ruido rosa o blanco para dormir",
+    "nivel": "C",
+    "nivel_nota": null,
+    "areas": [
+      "sueno"
+    ],
+    "para_que": "Tapar el ruido al dormir",
+    "evidencia": "No hay evidencia sólida a favor de la estimulación auditiva; en el ensayo de 2026, los tapones funcionaron mejor que el ruido rosa.",
+    "fuente": "Capezuti et al., 2022; Basner et al., 2026",
+    "anio_fuente": 2022,
+    "riesgos": "Volumen excesivo; posible pérdida de sueño REM (no verificada).",
+    "contraindicaciones": "No recomendable para bebés ni niños pequeños.",
+    "pauta": "Sobre el ruido rosa o blanco hay estudios con resultados débiles (Capezuti, 2022), así que no está demostrado. No parece arriesgado si lo mantienes bajo. Si quieres probarlo, hagámoslo como un experimento: dos semanas, apuntando cómo duermes, y vemos tus datos. Pero si lo que quieres es tapar el ruido, los tapones de espuma funcionan mejor.",
+    "momento": "noche",
+    "disparador": "Solo si el usuario pregunta.",
+    "revisado_el": "2026-11-19"
+  },
+  {
+    "id": "hidratacion",
+    "practica": "Hidratación (agua a la vista, beber según la sed)",
+    "nivel": "B",
+    "nivel_nota": null,
+    "areas": [
+      "energia",
+      "foco"
+    ],
+    "para_que": "Atención",
+    "evidencia": "La deshidratación empeora la atención (ES = -0,52), más con pérdidas de más del 2 % del peso corporal; que beber según la sed la proteja en la oficina es una inferencia.",
+    "fuente": "Wittbrodt y Millard-Stafford, 2018",
+    "anio_fuente": 2018,
+    "riesgos": "Beber demasiada agua en ejercicios muy largos (hiponatremia).",
+    "contraindicaciones": null,
+    "pauta": "Ten agua a la vista y bebe cuando tengas sed. La deshidratación de más del 2 % del peso afecta a la atención.",
+    "momento": "trabajo",
+    "disparador": "El usuario registra muy poca agua y además viaja, entrena o hace calor; bajón de la tarde.",
+    "revisado_el": "2026-11-19"
+  },
+  {
+    "id": "electrolitos-oficina",
+    "practica": "Bebidas de electrolitos en la oficina",
+    "nivel": "D",
+    "nivel_nota": null,
+    "areas": [
+      "alimentacion"
+    ],
+    "para_que": "Hidratarse en la oficina",
+    "evidencia": "Sin beneficio si no hay sudoración intensa, calor o ejercicio largo; en la oficina añaden azúcar o sodio (inferido).",
+    "fuente": "Sin fuente específica (inferido en el informe 07)",
+    "anio_fuente": null,
+    "riesgos": "Azúcar o sodio añadidos sin beneficio.",
+    "contraindicaciones": null,
+    "pauta": "No te lo recomiendo: si no sudas mucho, no hace calor ni haces ejercicio largo, las bebidas de electrolitos no aportan nada y suman azúcar o sodio (es una inferencia, sin un ensayo directo). Si lo que buscas es estar bien hidratado, ten agua a la vista y bebe cuando tengas sed.",
+    "momento": "trabajo",
+    "disparador": "Solo si el usuario pregunta.",
+    "revisado_el": "2026-11-19"
+  },
+  {
+    "id": "escala-de-grises",
+    "practica": "Pantalla del móvil en escala de grises",
+    "nivel": "B",
+    "nivel_nota": null,
+    "areas": [
+      "digital"
+    ],
+    "para_que": "Menos tiempo de pantalla",
+    "evidencia": "En experimentos de 1-2 semanas reduce el tiempo de uso del móvil; combinada con otras medidas, redujo el uso problemático.",
+    "fuente": "Olson et al., 2022",
+    "anio_fuente": 2022,
+    "riesgos": null,
+    "contraindicaciones": null,
+    "pauta": "Prueba una semana con la pantalla del móvil en escala de grises (en iPhone, en Accesibilidad; en Android, en Bienestar digital). Las apps pierden atractivo.",
+    "momento": "cualquiera",
+    "disparador": "El usuario quiere usar menos el móvil; protocolo de higiene digital.",
+    "revisado_el": "2026-11-19"
+  },
+  {
+    "id": "bloqueadores-de-apps",
+    "practica": "Bloqueadores de apps y «empujoncitos»",
+    "nivel": "B",
+    "nivel_nota": null,
+    "areas": [
+      "digital",
+      "foco"
+    ],
+    "para_que": "Foco",
+    "evidencia": "Los paquetes de medidas (quitar notificaciones, sacar apps de la pantalla de inicio, escala de grises y límites) reducen el uso problemático y el tiempo de pantalla.",
+    "fuente": "Olson et al., 2022",
+    "anio_fuente": 2022,
+    "riesgos": null,
+    "contraindicaciones": null,
+    "pauta": "Activa un modo de concentración o un bloqueador de apps durante el bloque de foco.",
+    "momento": "trabajo",
+    "disparador": "Bloque de foco; protocolo de higiene digital.",
+    "revisado_el": "2026-11-19"
+  },
+  {
+    "id": "movil-fuera-de-la-vista",
+    "practica": "Móvil fuera de la vista durante el foco y fuera del dormitorio",
+    "nivel": "B",
+    "nivel_nota": null,
+    "areas": [
+      "digital",
+      "foco",
+      "sueno"
+    ],
+    "para_que": "Foco y sueño",
+    "evidencia": "El efecto de la mera presencia del móvil es pequeño (g = -0,14) y discutido; el argumento más sólido son las interrupciones y la tentación de mirarlo.",
+    "fuente": "Böttger et al., 2023",
+    "anio_fuente": 2023,
+    "riesgos": null,
+    "contraindicaciones": null,
+    "pauta": "Durante el bloque de foco, deja el móvil en otra habitación o en un cajón. No por magia: así no te interrumpe ni te tienta. Y por la noche, que cargue fuera del dormitorio.",
+    "momento": "trabajo",
+    "disparador": "Bloque de foco; protocolo de higiene digital; víspera de un momento clave.",
+    "revisado_el": "2026-11-19"
+  },
+  {
+    "id": "vfc-tendencia",
+    "practica": "VFC como tendencia de recuperación",
+    "nivel": "B",
+    "nivel_nota": null,
+    "areas": [
+      "wearables",
+      "recuperacion"
+    ],
+    "para_que": "Ajustar la intensidad del entreno",
+    "evidencia": "Entrenar según la VFC mejora los índices vagales, pero apenas el rendimiento frente a un plan fijo; la VFC varía mucho de un día a otro.",
+    "fuente": "Manresa-Rocamora et al., 2021",
+    "anio_fuente": 2021,
+    "riesgos": "Ortosomnia y agobio por los números; decisiones basadas en un solo día.",
+    "contraindicaciones": null,
+    "pauta": "Tu VFC lleva varios días por debajo de tu media y además has dormido poco: puede ser buen día para un entreno suave. Un dato aislado no cuenta.",
+    "momento": "manana",
+    "disparador": "Media de VFC de 7 días por debajo de la línea base personal (30-60 días) durante 3 o más días, junto con sueño corto o energía baja.",
+    "revisado_el": "2026-11-19"
+  },
+  {
+    "id": "fases-sueno-wearable",
+    "practica": "Fases de sueño del wearable",
+    "nivel": "C",
+    "nivel_nota": null,
+    "areas": [
+      "wearables",
+      "sueno"
+    ],
+    "para_que": "Saber cuánto sueño profundo o REM se tiene",
+    "evidencia": "La precisión por fases va del 50 % al 86 % según el dispositivo y el Apple Watch infraestimó el sueño profundo en unos 43 min; el estudio lo financió Oura.",
+    "fuente": "Robbins et al., Sensors, 2024",
+    "anio_fuente": 2024,
+    "riesgos": "Ortosomnia: obsesionarse con la puntuación del sueño empeora el sueño.",
+    "contraindicaciones": null,
+    "pauta": "Los relojes y anillos estiman las fases con un margen de error grande (Robbins, 2024; lo financió un fabricante). Fíate más de cuántas horas duermes, de lo regular que es tu horario y de cómo te levantas.",
+    "momento": "manana",
+    "disparador": "Solo si el usuario pregunta por su sueño profundo o REM. El motor nunca decide con las fases.",
+    "revisado_el": "2026-11-19"
+  },
+  {
+    "id": "musica-de-fondo",
+    "practica": "Música de fondo para concentrarse",
+    "nivel": "B",
+    "nivel_nota": "B sin letra; D con letra para leer o escribir",
+    "areas": [
+      "foco"
+    ],
+    "para_que": "Foco",
+    "evidencia": "Efecto global nulo sobre la cognición; la música con letra empeora la lectura más que la instrumental.",
+    "fuente": "Kämpfe et al., 2011; Vasilev et al., 2018",
+    "anio_fuente": 2011,
+    "riesgos": "Volumen alto con auriculares.",
+    "contraindicaciones": null,
+    "pauta": "Para leer o escribir, mejor silencio o música sin letra. Para tareas mecánicas, la música que te guste puede ayudarte a sostener el ritmo.",
+    "momento": "trabajo",
+    "disparador": "Bloque de foco o preparación de un momento clave.",
+    "revisado_el": "2026-11-19"
+  },
+  {
+    "id": "ritmos-binaurales",
+    "practica": "Ritmos binaurales",
+    "nivel": "C",
+    "nivel_nota": null,
+    "areas": [
+      "foco"
+    ],
+    "para_que": "Foco",
+    "evidencia": "Hay metaanálisis con efectos medianos, pero la revisión de 2023 encuentra resultados contradictorios sobre su mecanismo y es probable el sesgo de publicación.",
+    "fuente": "Ingendoh et al., PLOS ONE, 2023",
+    "anio_fuente": 2023,
+    "riesgos": "No deben usarse conduciendo.",
+    "contraindicaciones": null,
+    "pauta": "Sobre los ritmos binaurales hay estudios contradictorios (Ingendoh, 2023), así que no está demostrado. No parece arriesgado si no los usas conduciendo. Si te ayudan a aislarte, úsalos, pero no por el supuesto efecto sobre las ondas cerebrales. Si quieres probarlo, hagámoslo como un experimento: dos semanas, apuntando tus minutos de foco, y vemos tus datos. Antes, asegúrate de dejar el móvil fuera de la vista durante el bloque, que tiene más respaldo.",
+    "momento": "trabajo",
+    "disparador": "Solo si el usuario pregunta.",
+    "revisado_el": "2026-11-19"
+  },
+  {
+    "id": "ayuno-claridad-mental",
+    "practica": "Ayuno intermitente «para la claridad mental»",
+    "nivel": "C",
+    "nivel_nota": null,
+    "areas": [
+      "alimentacion",
+      "foco"
+    ],
+    "para_que": "Claridad mental",
+    "evidencia": "Los ayunos cortos no empeoran la cognición, pero tampoco la mejoran (g = 0,02).",
+    "fuente": "Bamberg y Moreau, Psychol Bull, 2025",
+    "anio_fuente": 2025,
+    "riesgos": "Puede chocar con comer proteína en cada comida y con los horarios regulares de comida.",
+    "contraindicaciones": "Antecedentes de trastornos de la conducta alimentaria, diabetes tratada con fármacos, embarazo o lactancia.",
+    "pauta": "Si te sienta bien saltarte el desayuno, no hay pruebas de que te reste rendimiento en ayunos cortos, pero tampoco de que te dé más claridad (Bamberg y Moreau, 2025). Si lo haces, evita los ayunos largos antes de una reunión importante por la tarde. Si tomas medicación para la diabetes o has tenido problemas con la comida, háblalo antes con un profesional.",
+    "momento": "manana",
+    "disparador": "Solo si el usuario pregunta o ya lo practica.",
+    "revisado_el": "2026-11-19"
+  },
+  {
+    "id": "nootropicos",
+    "practica": "Nootrópicos con receta (modafinilo) o sin regular",
+    "nivel": "D",
+    "nivel_nota": null,
+    "areas": [
+      "suplementos",
+      "foco"
+    ],
+    "para_que": "Rendir más",
+    "evidencia": "El modafinilo mejora algunas tareas complejas en personas sanas, pero es un medicamento con receta con la indicación limitada por la EMA; los nootrópicos sin regular no tienen evidencia de calidad ni control del producto.",
+    "fuente": "Battleday y Brem, 2015",
+    "anio_fuente": 2015,
+    "riesgos": "Insomnio, cefalea, reacciones cutáneas graves raras, interacciones (por ejemplo, con anticonceptivos), dependencia psicológica e ilegalidad de la compra en línea.",
+    "contraindicaciones": null,
+    "pauta": "No es algo en lo que pueda ayudarte: el modafinilo es un medicamento con receta, y los nootrópicos sin regular no tienen estudios de calidad ni control del producto. Si sientes que necesitas una ayuda química para rendir, merece la pena revisar con un médico cómo duermes y cómo estás.",
+    "momento": "cualquiera",
+    "disparador": "Solo si el usuario pregunta.",
+    "revisado_el": "2026-11-19"
+  },
+  {
+    "id": "tapping-eft",
+    "practica": "Tapping o EFT",
+    "nivel": "C",
+    "nivel_nota": null,
+    "areas": [
+      "estres"
+    ],
+    "para_que": "Calmarse en momentos de nervios",
+    "evidencia": "Metaanálisis a favor, pero con pocos estudios, de baja calidad y con un intervalo que roza el cero; la premisa de los meridianos no tiene base fisiológica.",
+    "fuente": "Clond, 2016; Church et al., 2018; Ernst, 2018",
+    "anio_fuente": 2016,
+    "riesgos": "Retrasar una ayuda eficaz si los nervios duran.",
+    "contraindicaciones": null,
+    "pauta": "Hay estudios a favor del tapping, pero son pocos y de baja calidad, así que no está demostrado (Clond, 2016). Si te ayuda a calmarte, no parece arriesgado. Si quieres probarlo, hagámoslo como un experimento: dos semanas, apuntando cómo te notas, y vemos tus datos. Para el momento, la respiración lenta tiene más respaldo, y si los nervios te duran semanas, habla con un profesional.",
+    "momento": "cualquiera",
+    "disparador": "Solo si el usuario pregunta.",
+    "revisado_el": "2026-11-19"
+  }
+]

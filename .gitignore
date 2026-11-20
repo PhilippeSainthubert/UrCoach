@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+.venv/
+# Datos personales: nunca al repositorio
+.ucoach/
+*.db
+*.db-wal
+*.db-shm
+export.xml
+research/qa/pf-*.json
